@@ -34,18 +34,20 @@ const nlp = (input, prefix = "") => new Proxy(input.tempData.nlpResponse, nlpExt
 const calc = async ({ input }) => {
   var _a, _b, _c;
   const nameFromMeta = (_c = (_b = (_a = input == null ? void 0 : input.metadata) == null ? void 0 : _a.public) == null ? void 0 : _b.agent_full_name) == null ? void 0 : _c.toLocaleLowerCase();
-  const { greetEval, confirmCustomerEval: customerName, agentIntroduceSlotValues, agentIntroduceEval: agentName } = nlp(input);
-  const ok = greetEval && agentName && customerName;
+  const { greetEval, agentIntroduceSlotValues, agentIntroduceEval: agentName, companyNameEval: companyName,  workPositionEval: workPosition} = nlp(input);
+  const ok = greetEval && companyName;
   return {
     ok,
     result: ok ? 'Yes' : 'No',
     note: buildNote(
       !greetEval,
-      "Không chào hỏi",
+      "Không chào KH",
       !agentName,
       "Không giới thiệu tên nhân viên",
-      !customerName,
-      "Không xác nhận KH"
+      !workPosition,
+      "Không nói vị trí làm việc",
+      !companyName,
+      "Không nói tên công ty"
     ),
     details: `nameFromMeta: ${nameFromMeta}, nameEntities: ${agentIntroduceSlotValues.agent_name.join(",")}`
   };

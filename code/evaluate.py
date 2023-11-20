@@ -53,5 +53,5 @@ with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json
 
 end = time.time()
 
-print("Hoàn thành!")
-print(f"Thời gian chạy: {end - start} s")
+print("Done!")
+print(f"Run time: {end - start} s")

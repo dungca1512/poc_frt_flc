@@ -8,7 +8,7 @@ if project == "frt_poc":
 else:
     bot_name = "FLC-GreetByeThank_output"
 
-file_path = "/home/dungca/Desktop/poc_frt_flc/data_bot/"
+file_path = "E:\\poc_frt_flc\\data_bot\\"
 
 with open(file_path + bot_name + ".json", "r", encoding="utf-8") as f:
     data = json.load(f)

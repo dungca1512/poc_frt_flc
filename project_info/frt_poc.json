@@ -153,9 +153,7 @@
             "task": "query",
             "agent": {
                 "FRT-GreetByeThank": {
-                    "intents": {
-                        "ask_support": "required"
-                    },
+                    "intents": {},
                     "entities": {
                         "ask_support": "required"
                     },

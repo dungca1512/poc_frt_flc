@@ -148,6 +148,30 @@
             "default_decision": "no",
             "description": "[available] agent says thank to customer at the end of call",
             "version": "DEV"
+        },
+        "askSupport": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "ask_support": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                -5,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent asks if the customer needs any further assistance at the end of the call",
+            "version": "DEV"
         }
     },
     "criteria_wrapper": {}

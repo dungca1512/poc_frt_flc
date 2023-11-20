@@ -58,6 +58,11 @@
             "values": []
         },
         {
+            "entity": "ask_support",
+            "type": "freetext",
+            "values": []
+        },
+        {
             "entity": "company_name",
             "type": "freetext",
             "values": []
@@ -162,6 +167,19 @@
             ]
         },
         {
+            "text": "nếu có phát sinh gì cần hỗ trợ thêm mời anh liên hệ lại tổng đài chăm sóc khách hàng miễn phí thêm ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 30,
+                    "entity": "ask_support",
+                    "start": 20,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "em cám ơn xin chào",
             "intent": "goodbye",
             "entities": [
@@ -182,9 +200,49 @@
             ]
         },
         {
+            "text": "không biết là ngoài thông tin đó thì anh cần hỗ trợ thông tin nào nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 51,
+                    "entity": "ask_support",
+                    "start": 41,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "cháu chào cô nhé",
             "intent": "ciao",
             "entities": []
+        },
+        {
+            "text": "dạ vâng dạ rồi em cám ơn chị quyên ạ dạ ngoài thông tin này ra em có thể hỗ trợ gì thêm cho mình không chị uyên",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 111,
+                    "entity": "customer_name",
+                    "start": 107,
+                    "subentities": [],
+                    "value": "uyên"
+                },
+                {
+                    "end": 34,
+                    "entity": "customer_name",
+                    "start": 29,
+                    "subentities": [],
+                    "value": "quyên"
+                },
+                {
+                    "end": 79,
+                    "entity": "ask_support",
+                    "start": 66,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
+                }
+            ]
         },
         {
             "text": "dạ em chào anh huy ạ em đâu có chấp nhận được thông tin anh cần kiểm tra thông tin bảo hành ạ",
@@ -213,6 +271,26 @@
             ]
         },
         {
+            "text": "vâng chị quyên cho em hỏi thăm thêm là ngoài thông tin này ra thì em có thể hỗ trợ gì thêm cho mình nữa không chị",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 82,
+                    "entity": "ask_support",
+                    "start": 69,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
+                },
+                {
+                    "end": 14,
+                    "entity": "customer_name",
+                    "start": 9,
+                    "subentities": [],
+                    "value": "quyên"
+                }
+            ]
+        },
+        {
             "text": "dạ tổng đài viên xin nghe em chào chị thủy ạ",
             "intent": "greet",
             "entities": [
@@ -229,6 +307,19 @@
                     "start": 38,
                     "subentities": [],
                     "value": "thủy"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng không biết là ngoài thông tin đó thì chị cần hỗ trợ thông tin nào nữa phải không anh",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 59,
+                    "entity": "ask_support",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
                 }
             ]
         },
@@ -273,6 +364,19 @@
                     "start": 17,
                     "subentities": [],
                     "value": "xin nghe"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng ạ vậy khi cần hỗ trợ mời anh liên hệ lại tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 28,
+                    "entity": "ask_support",
+                    "start": 18,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
                 }
             ]
         },
@@ -342,6 +446,19 @@
             "entities": []
         },
         {
+            "text": "không biết ngoài thông tin này thì em cần hỗ trợ cho anh về thông tin nào nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 48,
+                    "entity": "ask_support",
+                    "start": 38,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ em cám ơn chị rất nhiều ạ",
             "intent": "goodbye",
             "entities": [
@@ -384,6 +501,58 @@
                     "start": 10,
                     "subentities": [],
                     "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ em có thể hỗ trợ gì nữa cho chị nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 19,
+                    "entity": "ask_support",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "khi cần hỗ trợ mời chị liên hệ lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 14,
+                    "entity": "ask_support",
+                    "start": 4,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng ạ thì không biết là thông tin đó thì anh cần hỗ trợ thông tin gì không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 59,
+                    "entity": "ask_support",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng ạ không biết ngoài thông tin này thì em có thể hỗ trợ cho anh về thông tin nào nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 61,
+                    "entity": "ask_support",
+                    "start": 48,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
                 }
             ]
         },
@@ -488,6 +657,19 @@
             ]
         },
         {
+            "text": "em có thể hỗ trợ thêm thông tin gì cho chị nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 16,
+                    "entity": "ask_support",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "em xin phép cúp máy ạ",
             "intent": "goodbye",
             "entities": [
@@ -517,6 +699,32 @@
                     "start": 38,
                     "subentities": [],
                     "value": "cúp máy"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng ạ thì không biết là thông tin đó thì anh cần hỗ trợ thông tin nào khác không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 59,
+                    "entity": "ask_support",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "à dạ vâng ạ vậy khi cần hỗ trợ mời anh liên hệ lại tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 30,
+                    "entity": "ask_support",
+                    "start": 20,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
                 }
             ]
         },
@@ -562,6 +770,19 @@
                     "start": 15,
                     "subentities": [],
                     "value": "tuấn"
+                }
+            ]
+        },
+        {
+            "text": "dạ em có thể hỗ trợ gì cho chị nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 19,
+                    "entity": "ask_support",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
                 }
             ]
         },
@@ -618,6 +839,19 @@
             "entities": []
         },
         {
+            "text": "vâng dạ nếu cần hỗ trợ anh liên hệ lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 22,
+                    "entity": "ask_support",
+                    "start": 12,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ em đang trao đổi với chị trang đúng không ạ",
             "intent": "greet",
             "entities": [
@@ -651,6 +885,32 @@
             ]
         },
         {
+            "text": "dạ khi cần hỗ trợ thông tin anh vui lòng liên hệ tổng đài miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "ask_support",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "cần hỗ trợ mời anh liên hệ lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "ask_support",
+                    "start": 0,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ em đang trao đổi với anh duy đúng không ạ",
             "intent": "greet",
             "entities": [
@@ -680,6 +940,32 @@
                     "start": 59,
                     "subentities": [],
                     "value": "hiếu"
+                }
+            ]
+        },
+        {
+            "text": "không biết là ngoài thông tin đó thì chị cần hỗ trợ thông tin nào nữa phải không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 51,
+                    "entity": "ask_support",
+                    "start": 41,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "em có thể hỗ trợ thêm thông tin gì cho anh nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 16,
+                    "entity": "ask_support",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
                 }
             ]
         },
@@ -718,9 +1004,35 @@
             ]
         },
         {
+            "text": "dạ nếu cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "ask_support",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ tổng đài viên",
             "intent": "greet",
             "entities": []
+        },
+        {
+            "text": "dạ vâng vậy khi cần hỗ trợ mời anh liên hệ tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 26,
+                    "entity": "ask_support",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
         },
         {
             "text": "em chào chị chúc chị một ngày vui vẻ",
@@ -796,6 +1108,19 @@
             ]
         },
         {
+            "text": "dạ vâng dạ vậy khi cần hỗ trợ mời anh liên hệ lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 29,
+                    "entity": "ask_support",
+                    "start": 19,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ tổng đài viên bùi duy xin nghe em có thể hỗ trợ gì được cho anh chị ạ",
             "intent": "greet",
             "entities": [
@@ -826,6 +1151,32 @@
             "entities": []
         },
         {
+            "text": "dạ vâng ạ không biết ngoài thông tin đó chị cần hỗ trợ thông tin nào nữa không anh",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 54,
+                    "entity": "ask_support",
+                    "start": 44,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
+            "text": "cần hỗ trợ gì thêm vui lòng gọi lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "ask_support",
+                    "start": 0,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ tổng đài viên mượn vĩnh xin nghe em có thể hỗ trợ gì được cho anh chị ạ",
             "intent": "greet",
             "entities": [
@@ -842,6 +1193,19 @@
                     "start": 22,
                     "subentities": [],
                     "value": "vĩnh"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng vậy khi cần hỗ trợ mời chị liên hệ lên tổng đài chăm sóc khách hàng miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 26,
+                    "entity": "ask_support",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
                 }
             ]
         },
@@ -929,6 +1293,26 @@
                     "start": 11,
                     "subentities": [],
                     "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào anh em nhiên em có thể hỗ trợ cho anh ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "ciao",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 23,
+                    "entity": "agent_name",
+                    "start": 18,
+                    "subentities": [],
+                    "value": "nhiên"
                 }
             ]
         },
@@ -1117,6 +1501,19 @@
                     "start": 66,
                     "subentities": [],
                     "value": "hưng"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng dạ không biết ngoài thông tin đó ra em có thể hỗ trợ thêm cho anh thêm thông tin gì nữa không ạ",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 60,
+                    "entity": "ask_support",
+                    "start": 47,
+                    "subentities": [],
+                    "value": "có thể hỗ trợ"
                 }
             ]
         },

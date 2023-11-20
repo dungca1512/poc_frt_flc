@@ -15,6 +15,6 @@ url = f"{endpoint}/app_codes/nlu/{bot_name}"
 payload = {}
 headers = {}
 
-response = requests.request(method="GET", url=url, headers=headers, data=payload).text
+response = requests.request(method="GET", url=url, headers=headers, data=payload)
 
-print(response)
+print(response.text)

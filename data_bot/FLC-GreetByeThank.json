@@ -90,6 +90,11 @@
                 "description": "customer_name"
             },
             {
+                "label": "ask_support",
+                "type": 3,
+                "description": "th\u1ef1c th\u1ec3 x\u00e1c nh\u1eadn agent c\u00f3 h\u1ecfi KH c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec kh\u00f4ng"
+            },
+            {
                 "label": "greet",
                 "type": 3,
                 "description": "greet"
@@ -130,11 +135,33 @@
                 "label": "greet",
                 "description": "xin ch\u00e0o",
                 "intent_type": 1
+            },
+            {
+                "label": "ask_support",
+                "description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng",
+                "intent_type": 1
             }
         ],
         "keywords": [],
         "qna_answers": [],
         "samples": [
+            {
+                "content": "d\u1ea1 v\u00e2ng v\u1eady khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi ch\u1ecb li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 26,
+                        "label": "ask_support",
+                        "start": 16,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
             {
                 "content": "d\u1ea1 nh\u00e0 xu\u1ed1ng fpt \u0111\u00f3ng cho xin nghe \u1ea1",
                 "sample_type": 0,
@@ -159,6 +186,39 @@
                 "intent": "greet",
                 "intent_type": 1,
                 "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng d\u1ea1 r\u1ed3i em c\u00e1m \u01a1n ch\u1ecb quy\u00ean \u1ea1 d\u1ea1 ngo\u00e0i th\u00f4ng tin n\u00e0y ra em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 g\u00ec th\u00eam cho m\u00ecnh kh\u00f4ng ch\u1ecb uy\u00ean",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 79,
+                        "label": "ask_support",
+                        "start": 66,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    },
+                    {
+                        "end": 111,
+                        "label": "customer_name",
+                        "start": 107,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "uy\u00ean"
+                    },
+                    {
+                        "end": 34,
+                        "label": "customer_name",
+                        "start": 29,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "quy\u00ean"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 nh\u00e0 thu\u1ed1c fpt l\u00e2m cho xin nghe \u1ea1",
@@ -268,6 +328,23 @@
                 "intent": "greet",
                 "intent_type": 1,
                 "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng \u1ea1 kh\u00f4ng bi\u1ebft ngo\u00e0i th\u00f4ng tin \u0111\u00f3 ch\u1ecb c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o n\u1eefa kh\u00f4ng anh",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 54,
+                        "label": "ask_support",
+                        "start": 44,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 em ch\u00e0o ch\u1ecb mai anh d\u1ea1 em ki\u1ec3m tra th\u1ea5y s\u1ed1 \u0111i\u1ec7n tho\u1ea1i ch\u1ecb li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i b\u00ean em c\u00f3 ph\u1ea3i ch\u1ecb \u0111ang nh\u1eafc \u0111\u1ebfn \u0111\u01a1n h\u00e0ng m\u00e0 ng\u00e0y h\u00f4m h\u00f4m nay em ki\u1ec3m tra th\u1ea5y 2 h\u00f4m nay c\u00f3 2 \u0111\u01a1n 1 \u0111\u01a1n l\u00e0 130500 \u0111\u1ed3ng",
@@ -402,12 +479,63 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "d\u1ea1 v\u00e2ng kh\u00f4ng bi\u1ebft l\u00e0 ngo\u00e0i th\u00f4ng tin \u0111\u00f3 th\u00ec ch\u1ecb c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o n\u1eefa ph\u1ea3i kh\u00f4ng anh",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 59,
+                        "label": "ask_support",
+                        "start": 49,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "ch\u00e0o",
                 "sample_type": 0,
                 "entities": [],
                 "intent": "ciao",
                 "intent_type": 1,
                 "intent_description": "ciao"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng d\u1ea1 kh\u00f4ng bi\u1ebft ngo\u00e0i th\u00f4ng tin \u0111\u00f3 ra em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 th\u00eam cho anh th\u00eam th\u00f4ng tin g\u00ec n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 60,
+                        "label": "ask_support",
+                        "start": 47,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "kh\u00f4ng bi\u1ebft l\u00e0 ngo\u00e0i th\u00f4ng tin \u0111\u00f3 th\u00ec ch\u1ecb c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o n\u1eefa ph\u1ea3i kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 51,
+                        "label": "ask_support",
+                        "start": 41,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "xin l\u1ed7i em kh\u00f4ng nghe r\u00f5 th\u00f4ng tin t\u1eeb anh ch\u1ec9 c\u00f4ng ty s\u1ebd li\u00ean l\u1ea1c l\u1ea1i v\u1edbi anh ch\u1ec9 sau ch\u00fac ch\u1ecb m\u1ed9t ng\u00e0y t\u1ed1t l\u00e0nh",
@@ -474,6 +602,23 @@
                 "intent": "ciao",
                 "intent_type": 1,
                 "intent_description": "ciao"
+            },
+            {
+                "content": "\u00e0 d\u1ea1 v\u00e2ng \u1ea1 v\u1eady khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi anh li\u00ean h\u1ec7 l\u1ea1i t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 30,
+                        "label": "ask_support",
+                        "start": 20,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "r\u1ea5t vui \u0111\u01b0\u1ee3c g\u1eb7p ch\u1ecb",
@@ -576,6 +721,40 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "v\u00e2ng d\u1ea1 n\u1ebfu c\u1ea7n h\u1ed7 tr\u1ee3 anh li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 22,
+                        "label": "ask_support",
+                        "start": 12,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng \u1ea1 kh\u00f4ng bi\u1ebft ngo\u00e0i th\u00f4ng tin n\u00e0y th\u00ec em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 cho anh v\u1ec1 th\u00f4ng tin n\u00e0o n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 61,
+                        "label": "ask_support",
+                        "start": 48,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "xin l\u1ed7i h\u1ecfi l\u00e0 hi\u1ec7n t\u1ea1i em \u0111ang \u0111\u01b0\u1ee3c trao \u0111\u1ed5i th\u00f4ng tin v\u1edbi ch\u1ecb th\u00f9y ph\u1ea3i kh\u00f4ng \u1ea1",
                 "sample_type": 0,
                 "entities": [
@@ -591,6 +770,65 @@
                 "intent": "greet",
                 "intent_type": 1,
                 "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "v\u00e2ng ch\u1ecb quy\u00ean cho em h\u1ecfi th\u0103m th\u00eam l\u00e0 ngo\u00e0i th\u00f4ng tin n\u00e0y ra th\u00ec em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 g\u00ec th\u00eam cho m\u00ecnh n\u1eefa kh\u00f4ng ch\u1ecb",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 14,
+                        "label": "customer_name",
+                        "start": 9,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "quy\u00ean"
+                    },
+                    {
+                        "end": 82,
+                        "label": "ask_support",
+                        "start": 69,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi anh li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 10,
+                        "label": "ask_support",
+                        "start": 0,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "d\u1ea1 em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 g\u00ec n\u1eefa cho ch\u1ecb n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 19,
+                        "label": "ask_support",
+                        "start": 6,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 ch\u1ecb vui l\u00f2ng cho em h\u1ecfi l\u00e0 em \u0111ang trao \u0111\u1ed5i v\u1edbi ch\u1ecb dung ph\u1ea3i kh\u00f4ng \u1ea1",
@@ -709,6 +947,40 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "d\u1ea1 v\u00e2ng d\u1ea1 v\u1eady khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi anh li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 29,
+                        "label": "ask_support",
+                        "start": 19,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "kh\u00f4ng bi\u1ebft ngo\u00e0i th\u00f4ng tin n\u00e0y th\u00ec em c\u1ea7n h\u1ed7 tr\u1ee3 cho anh v\u1ec1 th\u00f4ng tin n\u00e0o n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 48,
+                        "label": "ask_support",
+                        "start": 38,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "d\u1ea1 v\u00e2ng r\u1ed3i em xin c\u00e1m \u01a1n anh r\u1ea5t nhi\u1ec1u d\u1ea1 v\u00e2ng",
                 "sample_type": 0,
                 "entities": [
@@ -766,6 +1038,23 @@
                 "intent": "",
                 "intent_type": 0,
                 "intent_description": ""
+            },
+            {
+                "content": "em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 th\u00eam th\u00f4ng tin g\u00ec cho anh n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 16,
+                        "label": "ask_support",
+                        "start": 3,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 em c\u00e1m \u01a1n ch\u00e0o anh \u1ea1",
@@ -827,6 +1116,23 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "d\u1ea1 v\u00e2ng v\u1eady khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi anh li\u00ean h\u1ec7 t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 26,
+                        "label": "ask_support",
+                        "start": 16,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "d\u1ea1 em c\u00e1m \u01a1n em ch\u00e0o ch\u1ecb li\u00ean \u1ea1",
                 "sample_type": 0,
                 "entities": [
@@ -858,6 +1164,57 @@
                 "intent": "goodbye",
                 "intent_type": 1,
                 "intent_description": "goodbye"
+            },
+            {
+                "content": "kh\u00f4ng bi\u1ebft l\u00e0 ngo\u00e0i th\u00f4ng tin \u0111\u00f3 th\u00ec anh c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 51,
+                        "label": "ask_support",
+                        "start": 41,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "n\u1ebfu c\u00f3 ph\u00e1t sinh g\u00ec c\u1ea7n h\u1ed7 tr\u1ee3 th\u00eam m\u1eddi anh li\u00ean h\u1ec7 l\u1ea1i t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed th\u00eam \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 30,
+                        "label": "ask_support",
+                        "start": 20,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng \u1ea1 v\u1eady khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi anh li\u00ean h\u1ec7 l\u1ea1i t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 28,
+                        "label": "ask_support",
+                        "start": 18,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 d\u1ea1 fpt l\u00e2m cho xin nghe \u1ea1",
@@ -1036,6 +1393,40 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "khi c\u1ea7n h\u1ed7 tr\u1ee3 m\u1eddi ch\u1ecb li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 14,
+                        "label": "ask_support",
+                        "start": 4,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "d\u1ea1 khi c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin anh vui l\u00f2ng li\u00ean h\u1ec7 t\u1ed5ng \u0111\u00e0i mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 17,
+                        "label": "ask_support",
+                        "start": 7,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "d\u1ea1 nh\u00e0 thu\u1ed1c long ch\u00e2u nghe \u1ea1",
                 "sample_type": 0,
                 "entities": [
@@ -1051,6 +1442,23 @@
                 "intent": "greet",
                 "intent_type": 1,
                 "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "d\u1ea1 n\u1ebfu c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin ch\u1ecb vui l\u00f2ng li\u00ean h\u1ec7 t\u1ed5ng \u0111\u00e0i mi\u1ec5n ph\u00ed b\u00ean em \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 17,
+                        "label": "ask_support",
+                        "start": 7,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "nh\u00e0 nh\u00e0 thu\u1ed1c fpt long cho xin nghe \u1ea1",
@@ -1093,6 +1501,64 @@
                 "intent": "goodbye",
                 "intent_type": 1,
                 "intent_description": "goodbye"
+            },
+            {
+                "content": "em ch\u00e0o ch\u1ecb th\u00f9y hi\u1ec7n t\u1ea1i ch\u1ecb th\u00f9y \u0111ang c\u00f3 m\u1eb7t to\u00e0n mu\u1ed1n cho nh\u00e0 thu\u1ed1c long cho b\u00ean em thu\u00ea th\u00ec c\u00f3 th\u1ec3 cho em xin \u0111\u1ecba ch\u1ec9 th\u00f4ng tin chi ti\u1ebft \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 34,
+                        "label": "customer_name",
+                        "start": 30,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "th\u00f9y"
+                    },
+                    {
+                        "end": 7,
+                        "label": "ciao",
+                        "start": 3,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "ch\u00e0o"
+                    },
+                    {
+                        "end": 16,
+                        "label": "customer_name",
+                        "start": 12,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "th\u00f9y"
+                    },
+                    {
+                        "end": 79,
+                        "label": "company_name",
+                        "start": 71,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "long cho"
+                    }
+                ],
+                "intent": "greet",
+                "intent_type": 1,
+                "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam vui l\u00f2ng g\u1ecdi l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 10,
+                        "label": "ask_support",
+                        "start": 0,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "d\u1ea1 em ch\u00e0o anh \u1ea1 em ki\u1ec3m tra theo s\u1ed1 \u0111i\u1ec7n tho\u1ea1i anh li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i b\u00ean em th\u00ec c\u00f3 ph\u1ea3i l\u00e0 anh \u0111ang nh\u1eafc \u0111\u1ebfn \u0111\u01a1n h\u00e0ng ng\u00e0y h\u00f4m qua anh mua s\u1ed1 ti\u1ec1n 74500 \u0111\u1ed3ng \u0111\u00fang kh\u00f4ng anh \u1ea1",
@@ -1179,6 +1645,40 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 th\u00eam th\u00f4ng tin g\u00ec cho ch\u1ecb n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 16,
+                        "label": "ask_support",
+                        "start": 3,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
+                "content": "d\u1ea1 em c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 g\u00ec cho ch\u1ecb n\u1eefa kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 19,
+                        "label": "ask_support",
+                        "start": 6,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "em xin ch\u00e0o",
                 "sample_type": 0,
                 "entities": [],
@@ -1245,6 +1745,23 @@
                 "intent_description": "goodbye"
             },
             {
+                "content": "d\u1ea1 v\u00e2ng \u1ea1 th\u00ec kh\u00f4ng bi\u1ebft l\u00e0 th\u00f4ng tin \u0111\u00f3 th\u00ec anh c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin g\u00ec kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 59,
+                        "label": "ask_support",
+                        "start": 49,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
+            },
+            {
                 "content": "d\u1ea1 khi c\u1ea7n h\u1ed7 tr\u1ee3 em m\u1eddi ch\u1ecb t\u00e2m vui l\u00f2ng li\u00ean h\u1ec7 t\u1ed5ng \u0111\u00e0i mi\u1ec5n ph\u00ed b\u00ean em 18006928 em c\u1ea3m \u01a1n em ch\u00e0o ch\u1ecb tr\u00e2m \u1ea1",
                 "sample_type": 0,
                 "entities": [
@@ -1300,6 +1817,23 @@
                 "intent": "ciao",
                 "intent_type": 1,
                 "intent_description": "ciao"
+            },
+            {
+                "content": "d\u1ea1 v\u00e2ng \u1ea1 th\u00ec kh\u00f4ng bi\u1ebft l\u00e0 th\u00f4ng tin \u0111\u00f3 th\u00ec anh c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o kh\u00e1c kh\u00f4ng \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 59,
+                        "label": "ask_support",
+                        "start": 49,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "alo",
