@@ -1,0 +1,154 @@
+{
+    "project_id": "flc_poc",
+    "project_name": "flc_poc",
+    "project_version": "231027_071924",
+    "project_info": {
+        "agentIntroduce": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "agent_name": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                null,
+                5
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent introduces his/her name to customer",
+            "version": "DEV"
+        },
+        "companyName": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "company_name": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                null,
+                5
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent tells customer the company's name",
+            "version": "DEV"
+        },
+        "confirmCustomer": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "customer_name": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": [],
+            "start_turn": 0,
+            "zone": [
+                null,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent confirms customer's name for information assurance",
+            "version": "DEV"
+        },
+        "greet": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "ciao": "required",
+                        "greet": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                null,
+                5
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent greets customer in the beginning of the call",
+            "version": "DEV"
+        },
+        "goodbye": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "bye": "required",
+                        "ciao": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 2,
+            "zone": [
+                -2,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent says goodbye to customer at the end of the call",
+            "version": "DEV"
+        },
+        "thank": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "thank": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                -3,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent says thank to customer at the end of call",
+            "version": "DEV"
+        }
+    },
+    "criteria_wrapper": {}
+}

@@ -1,0 +1,17 @@
+GET cqe-staging_oc_log/_search
+{
+  "query": {
+    "regexp": {
+      "jobId": ".*().*"
+    }
+  },
+  "sort": [
+    {
+      "createdAt": {
+        "order": "desc"
+      }
+    }
+  ],
+  "from": 0,
+  "size": 100
+}

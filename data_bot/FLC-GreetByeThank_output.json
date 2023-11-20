@@ -1,0 +1,1085 @@
+{
+    "api_key": "",
+    "app_code": "FLC-GreetByeThank",
+    "callback": {
+        "error": "",
+        "success": ""
+    },
+    "dictionary": [
+        {
+            "alternatives": [],
+            "phrase": ""
+        }
+    ],
+    "domain": "",
+    "engine": "nlu",
+    "language": "vi",
+    "no_accent": false,
+    "sub_language": "",
+    "entities": [
+        {
+            "entity": "$datetime",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "work_position",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "$email",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "$number",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "$quantifier",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "company_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "agent_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "$address",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "customer_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "greet",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "hotline",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "bye",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "thank",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "ciao",
+            "type": "freetext",
+            "values": []
+        }
+    ],
+    "samples": [
+        {
+            "text": "dạ nhà xuống fpt đóng cho xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 25,
+                    "entity": "company_name",
+                    "start": 17,
+                    "subentities": [],
+                    "value": "đóng cho"
+                },
+                {
+                    "end": 34,
+                    "entity": "ciao",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "xin nghe"
+                }
+            ]
+        },
+        {
+            "text": "dạ nhà thuốc fpt lâm cho xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 33,
+                    "entity": "ciao",
+                    "start": 25,
+                    "subentities": [],
+                    "value": "xin nghe"
+                },
+                {
+                    "end": 24,
+                    "entity": "company_name",
+                    "start": 13,
+                    "subentities": [],
+                    "value": "fpt lâm cho"
+                }
+            ]
+        },
+        {
+            "text": "nhà nhà thuốc fpt long châu xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 36,
+                    "entity": "ciao",
+                    "start": 28,
+                    "subentities": [],
+                    "value": "xin nghe"
+                },
+                {
+                    "end": 17,
+                    "entity": "company_name",
+                    "start": 4,
+                    "subentities": [],
+                    "value": "nhà thuốc fpt"
+                }
+            ]
+        },
+        {
+            "text": "em xin phép cúp máy ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 19,
+                    "entity": "bye",
+                    "start": 12,
+                    "subentities": [],
+                    "value": "cúp máy"
+                }
+            ]
+        },
+        {
+            "text": "em chào chị chúc chị một ngày vui vẻ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 7,
+                    "entity": "ciao",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "em là thu nhà thuốc fpt long châu xin nghe ạ em có thể hỗ trợ gì cho anh ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 9,
+                    "entity": "agent_name",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "thu"
+                },
+                {
+                    "end": 23,
+                    "entity": "company_name",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "nhà thuốc fpt"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào chị mai anh dạ em kiểm tra thấy số điện thoại chị liên hệ lên tổng đài bên em có phải chị đang nhắc đến đơn hàng mà ngày hôm hôm nay em kiểm tra thấy 2 hôm nay có 2 đơn 1 đơn là 130500 đồng",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 22,
+                    "entity": "customer_name",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "mai anh"
+                },
+                {
+                    "end": 81,
+                    "entity": "hotline",
+                    "start": 73,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 10,
+                    "entity": "ciao",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng dạ vậy khi cần hỗ trợ em mời chị ánh gọi lại tổng đài miễn phí bên em 18006928 em cám ơn em chào chị ánh ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 96,
+                    "entity": "thank",
+                    "start": 90,
+                    "subentities": [],
+                    "value": "cám ơn"
+                },
+                {
+                    "end": 104,
+                    "entity": "ciao",
+                    "start": 100,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 61,
+                    "entity": "hotline",
+                    "start": 53,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 86,
+                    "entity": "hotline",
+                    "start": 78,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 112,
+                    "entity": "customer_name",
+                    "start": 109,
+                    "subentities": [],
+                    "value": "ánh"
+                }
+            ]
+        },
+        {
+            "text": "dạ khi cần hỗ trợ thêm thông tin liên hệ tổng đài 18006928 em cảm ơn anh em chào anh ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 49,
+                    "entity": "hotline",
+                    "start": 41,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 58,
+                    "entity": "hotline",
+                    "start": 50,
+                    "subentities": [],
+                    "value": "18006928"
+                }
+            ]
+        },
+        {
+            "text": "dạ được rồi em cảm ơn anh nhiều ạ anh cúp máy nhá để em chuyển khảo sát ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 45,
+                    "entity": "bye",
+                    "start": 38,
+                    "subentities": [],
+                    "value": "cúp máy"
+                },
+                {
+                    "end": 21,
+                    "entity": "thank",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "chào",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "xin lỗi em không nghe rõ thông tin từ anh chỉ công ty sẽ liên lạc lại với anh chỉ sau chúc chị một ngày tốt lành",
+            "intent": "",
+            "entities": []
+        },
+        {
+            "text": "xin chào em thư nhà thuốc fpt long châu xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 29,
+                    "entity": "company_name",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "nhà thuốc fpt"
+                },
+                {
+                    "end": 15,
+                    "entity": "agent_name",
+                    "start": 12,
+                    "subentities": [],
+                    "value": "thư"
+                }
+            ]
+        },
+        {
+            "text": "dạ em có bỏ số để khảo sát thêm chất lượng dạ em cảm ơn em chào chị ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 55,
+                    "entity": "thank",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                },
+                {
+                    "end": 63,
+                    "entity": "ciao",
+                    "start": 59,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "chào chị nha",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "rất vui được gặp chị",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "ạ dạ vậy khi cần hỗ trợ chị trang vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cảm ơn em chào chị ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 84,
+                    "entity": "hotline",
+                    "start": 76,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 59,
+                    "entity": "hotline",
+                    "start": 51,
+                    "subentities": [],
+                    "value": "tổng đài"
+                }
+            ]
+        },
+        {
+            "text": "dạ em cám ơn em chào chị ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 20,
+                    "entity": "ciao",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 12,
+                    "entity": "thank",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ cho em xin hỏi là em đang trao đổi thông tin với anh thưởng phải không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 62,
+                    "entity": "customer_name",
+                    "start": 56,
+                    "subentities": [],
+                    "value": "thưởng"
+                }
+            ]
+        },
+        {
+            "text": "em cám ơn chào chị ạ dạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 14,
+                    "entity": "ciao",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 9,
+                    "entity": "thank",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "xin lỗi hỏi là hiện tại em đang được trao đổi thông tin với chị thùy phải không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 68,
+                    "entity": "customer_name",
+                    "start": 64,
+                    "subentities": [],
+                    "value": "thùy"
+                }
+            ]
+        },
+        {
+            "text": "dạ chị vui lòng cho em hỏi là em đang trao đổi với chị dung phải không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 59,
+                    "entity": "customer_name",
+                    "start": 55,
+                    "subentities": [],
+                    "value": "dung"
+                }
+            ]
+        },
+        {
+            "text": "dạ em có thể giúp gì thêm cho chị nữa không ạ",
+            "intent": "",
+            "entities": []
+        },
+        {
+            "text": "dạ vâng rồi em cảm ơn rất nhiều em mến chào anh",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 2,
+                    "entity": "greet",
+                    "start": 0,
+                    "subentities": [],
+                    "value": "dạ"
+                },
+                {
+                    "end": 43,
+                    "entity": "ciao",
+                    "start": 39,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 7,
+                    "entity": "greet",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "vâng"
+                },
+                {
+                    "end": 21,
+                    "entity": "thank",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ em cảm ơn rất nhiều ạ chào anh",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 12,
+                    "entity": "thank",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                },
+                {
+                    "end": 29,
+                    "entity": "ciao",
+                    "start": 25,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "em cám ơn xin chào",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 18,
+                    "entity": "ciao",
+                    "start": 14,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 9,
+                    "entity": "thank",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng rồi em xin cám ơn anh rất nhiều dạ vâng",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 25,
+                    "entity": "thank",
+                    "start": 19,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi em cảm ơn chị",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 16,
+                    "entity": "thank",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi cần hỗ trợ thêm vấn đề nào khác chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 dạ em chào chị ánh ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 93,
+                    "entity": "hotline",
+                    "start": 85,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 68,
+                    "entity": "hotline",
+                    "start": 60,
+                    "subentities": [],
+                    "value": "tổng đài"
+                }
+            ]
+        },
+        {
+            "text": "dạ em cám ơn chào anh ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 12,
+                    "entity": "thank",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "cám ơn"
+                },
+                {
+                    "end": 17,
+                    "entity": "ciao",
+                    "start": 13,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "chúc anh chị một ngày tốt lành em xin chào",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 42,
+                    "entity": "ciao",
+                    "start": 38,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ em cám ơn chị rất nhiều ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 12,
+                    "entity": "thank",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ em cám ơn em chào chị liên ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 12,
+                    "entity": "thank",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "cám ơn"
+                },
+                {
+                    "end": 20,
+                    "entity": "ciao",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 29,
+                    "entity": "customer_name",
+                    "start": 25,
+                    "subentities": [],
+                    "value": "liên"
+                }
+            ]
+        },
+        {
+            "text": "dạ dạ fpt lâm cho xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "company_name",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "fpt lâm cho"
+                },
+                {
+                    "end": 26,
+                    "entity": "ciao",
+                    "start": 18,
+                    "subentities": [],
+                    "value": "xin nghe"
+                }
+            ]
+        },
+        {
+            "text": "dạ cho em xin hỏi là hiện tại em đang được trao đổi thông tin với chị kiều phải không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 74,
+                    "entity": "customer_name",
+                    "start": 70,
+                    "subentities": [],
+                    "value": "kiều"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi em chào chị em cảm ơn",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 14,
+                    "entity": "ciao",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 28,
+                    "entity": "thank",
+                    "start": 22,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "anh gọi hotline để được hỗ trợ em xin chào",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 42,
+                    "entity": "ciao",
+                    "start": 38,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "rồi chào em",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "ngày mai nha nha công ty cần hỗ trợ thông tin này chị liên hệ tổng đài 18006928 em cảm ơn chị em chào chị ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 70,
+                    "entity": "hotline",
+                    "start": 62,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 79,
+                    "entity": "hotline",
+                    "start": 71,
+                    "subentities": [],
+                    "value": "18006928"
+                }
+            ]
+        },
+        {
+            "text": "công ty sẽ liên lạc lại với chị sau chúc chị một ngày tốt lành em xin chào",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 74,
+                    "entity": "ciao",
+                    "start": 70,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi em cảm ơn anh và hẹn gặp anh ạ em cảm ơn anh ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 16,
+                    "entity": "thank",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                },
+                {
+                    "end": 47,
+                    "entity": "thank",
+                    "start": 41,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi xin chào anh",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 15,
+                    "entity": "thank",
+                    "start": 11,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ nhà thuốc long châu nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 22,
+                    "entity": "company_name",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "nhà thuốc long châu"
+                }
+            ]
+        },
+        {
+            "text": "nhà nhà thuốc fpt long cho xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 35,
+                    "entity": "ciao",
+                    "start": 27,
+                    "subentities": [],
+                    "value": "xin nghe"
+                },
+                {
+                    "end": 26,
+                    "entity": "company_name",
+                    "start": 14,
+                    "subentities": [],
+                    "value": "fpt long cho"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng em cảm ơn chị rất nhiều ạ để máy",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "thank",
+                    "start": 11,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào anh ạ em kiểm tra theo số điện thoại anh liên hệ lên tổng đài bên em thì có phải là anh đang nhắc đến đơn hàng ngày hôm qua anh mua số tiền 74500 đồng đúng không anh ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "ciao",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ dạ rồi dạ em cảm ơn anh ạ em chào anh ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 22,
+                    "entity": "thank",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                },
+                {
+                    "end": 36,
+                    "entity": "ciao",
+                    "start": 32,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ nhà thuốc fpt long châu xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 35,
+                    "entity": "ciao",
+                    "start": 27,
+                    "subentities": [],
+                    "value": "xin nghe"
+                }
+            ]
+        },
+        {
+            "text": "dạ rồi em cảm ơn nhiều ạ chào chị",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 29,
+                    "entity": "ciao",
+                    "start": 25,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 16,
+                    "entity": "thank",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "em xin chào",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "cháu chào cô nhé",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "dạ dạ em cám ơn chào anh ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 20,
+                    "entity": "ciao",
+                    "start": 16,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 15,
+                    "entity": "thank",
+                    "start": 9,
+                    "subentities": [],
+                    "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "chào nha cảm ơn nhiều",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 4,
+                    "entity": "ciao",
+                    "start": 0,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 15,
+                    "entity": "thank",
+                    "start": 9,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ khi cần hỗ trợ em mời chị tâm vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cảm ơn em chào chị trâm ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 110,
+                    "entity": "customer_name",
+                    "start": 106,
+                    "subentities": [],
+                    "value": "trâm"
+                },
+                {
+                    "end": 93,
+                    "entity": "thank",
+                    "start": 87,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                },
+                {
+                    "end": 83,
+                    "entity": "hotline",
+                    "start": 75,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 58,
+                    "entity": "hotline",
+                    "start": 50,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 101,
+                    "entity": "ciao",
+                    "start": 97,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "alo chào chị",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "alo",
+            "intent": "greet",
+            "entities": []
+        },
+        {
+            "text": "vâng hẹn gặp chị lần sau em chào chị",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 32,
+                    "entity": "ciao",
+                    "start": 28,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "em xin phép cúp máy chào chị ạ",
+            "intent": "goodbye",
+            "entities": [
+                {
+                    "end": 19,
+                    "entity": "bye",
+                    "start": 12,
+                    "subentities": [],
+                    "value": "cúp máy"
+                },
+                {
+                    "end": 24,
+                    "entity": "ciao",
+                    "start": 20,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "chào cô ạ",
+            "intent": "ciao",
+            "entities": []
+        },
+        {
+            "text": "dạ cho em xin hỏi là hiện tại em đang trao đổi thông tin với chị mai anh phải không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 72,
+                    "entity": "customer_name",
+                    "start": 65,
+                    "subentities": [],
+                    "value": "mai anh"
+                }
+            ]
+        },
+        {
+            "text": "không dạ khi cần hỗ trợ thêm thông tin liên hệ tổng đài 18006928 em cảm ơn em chào anh ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 64,
+                    "entity": "hotline",
+                    "start": 56,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 55,
+                    "entity": "hotline",
+                    "start": 47,
+                    "subentities": [],
+                    "value": "tổng đài"
+                }
+            ]
+        }
+    ]
+}
