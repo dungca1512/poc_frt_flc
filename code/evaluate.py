@@ -8,7 +8,10 @@ project = input("Nhập tên project: ")
 
 start = time.time()
 
-with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
+# with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
+#     data = json.load(f)
+
+with open(f"../data/call_transcript.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 project_info_poc = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
@@ -18,7 +21,8 @@ project_info = {}
 for criteria in criteria_names:
     project_info.update({criteria: project_info_poc[criteria]})
     
-criteria_frt = [i for i in project_info_poc]
+# criteria_frt = [i for i in project_info_poc]
+criteria_frt = ["companyName"]
 project_info_frt = {}
 for cri in criteria_frt:
     project_info_frt.update({cri: project_info_poc[cri]})
@@ -48,7 +52,10 @@ for call in data:
     response.append(result)
     time.sleep(0.4)
     
-with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json_file:
+# with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json_file:
+#     json.dump(response, json_file, ensure_ascii=False, indent=4)
+
+with open(f'../response/call_transcript_evaluate.json', 'w', encoding='utf-8') as json_file:
     json.dump(response, json_file, ensure_ascii=False, indent=4)
 
 end = time.time()

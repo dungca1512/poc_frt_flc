@@ -1,0 +1,78 @@
+[
+    {
+        "fileName": "0376724540.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.002310037612915039,
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 25,
+                            "value": "fpt làm cho",
+                            "real_value": "fpt làm cho",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 25,
+                            "value": "fpt làm cho",
+                            "real_value": "fpt làm cho",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 0,
+                        "value": "fpt làm cho"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    }
+]
