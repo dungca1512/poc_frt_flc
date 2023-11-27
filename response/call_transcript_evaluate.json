@@ -1,78 +1,8 @@
 [
     {
-        "fileName": "0376724540.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002310037612915039,
-        "companyName": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 14,
-                            "end": 25,
-                            "value": "fpt làm cho",
-                            "real_value": "fpt làm cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 14,
-                            "end": 25,
-                            "value": "fpt làm cho",
-                            "real_value": "fpt làm cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "company_name": [
-                    {
-                        "index": 0,
-                        "value": "fpt làm cho"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FLC-GreetByeThank-23-11-22_14-05-03 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d5c0ba2c0>: Failed to establish a new connection: [Errno 111] Connection refused')) (E902017be-1e49-4dc9-a62d-edbabf5aba42)\\n {'content': ['nhà nhà thuốc fpt làm cho xin nghe ạ', '', 'dạ cho em xin hỏi là hiện tại em đang được trao đổi thông tin với chị kiều phải không ạ', '', 'chị tiền vui lòng giữ máy giúp em trong giây lát để em kiểm tra lại thông tin nè chị giữ máy giúp em ạ dạ', '', 'dạ em cám ơn chị kiều đã chờ máy ạ dạ em kiểm tra thấy trước đó ngày hôm qua chị có liên hệ lên tổng đài bên em thông tin hỏi về đơn hàng của chị thì bên em liên hệ đến chị ngày hôm nay tuy nhiên chưa được cho nên bên em có gửi sms là gửi lời xin lỗi đến chị rất là nhiều và mong chị an tâm về vấn đề mà chị phản ánh thì bên em đã ghi nhận và đang trong quá trình kiểm tra mong chị thông cảm cho bên em xin thêm thời gian xử lý và sẽ phản hồi đến chị ngay khi có thông tin mong chị an tâm hả', '', 'dạ mong chị thông cảm cho bên em kiểm tra lại trường hợp về phía bên đối tác giao hàng nhanh quá dạ phía bên đối tác giao hàng a momo ạ để bên em kiểm tra lại ạ và bên em sẽ chủ động liên hệ đến chị ngay khi có thông tin ạ mong chị kiều cho em xin thêm thời gian để bên em kiểm tra lại trường hợp này với phía đối tác ạ', '', 'dạ bên em sẽ chủ động liên hệ đến chị nghe có thông tin mong chị an tâm ạ rồi vấn đề này thì em đã ghi nhận rồi ạ và đang trong quá trình kiểm tra ạ', '', 'dạ nếu cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ', '', 'cám ơn chào chị ạ dạ'], 'language': 'vi', 'app_code': 'FLC-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FLC-GreetByeThank, E222877f7-14b0-416b-b40a-3faf135a96cb) (E222877f7-14b0-416b-b40a-3faf135a96cb)"
+        }
     }
 ]
