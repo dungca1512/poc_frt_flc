@@ -141,7 +141,7 @@
             "decision": null,
             "start_turn": 0,
             "zone": [
-                -3,
+                -5,
                 null
             ],
             "merge_turn": false,
