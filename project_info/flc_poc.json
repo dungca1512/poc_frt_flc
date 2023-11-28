@@ -1,7 +1,7 @@
 {
     "project_id": "flc_poc",
     "project_name": "flc_poc",
-    "project_version": "231027_071924",
+    "project_version": "231128_052935",
     "project_info": {
         "agentIntroduce": {
             "task": "query",
@@ -25,6 +25,30 @@
             "merge_turn": false,
             "default_decision": "no",
             "description": "[available] agent introduces his/her name to customer",
+            "version": "DEV"
+        },
+        "askSupport": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "ask_support": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                -5,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent asks if the customer needs any further assistance at the end of the call",
             "version": "DEV"
         },
         "companyName": {
@@ -75,31 +99,6 @@
             "description": "[available] agent confirms customer's name for information assurance",
             "version": "DEV"
         },
-        "greet": {
-            "task": "query",
-            "agent": {
-                "FLC-GreetByeThank": {
-                    "intents": {},
-                    "entities": {
-                        "ciao": "required",
-                        "greet": "required"
-                    },
-                    "threshold": 0.5,
-                    "version": "latest"
-                }
-            },
-            "customer": {},
-            "decision": null,
-            "start_turn": 0,
-            "zone": [
-                null,
-                5
-            ],
-            "merge_turn": false,
-            "default_decision": "no",
-            "description": "[available] agent greets customer in the beginning of the call",
-            "version": "DEV"
-        },
         "goodbye": {
             "task": "query",
             "agent": {
@@ -125,6 +124,31 @@
             "description": "[available] agent says goodbye to customer at the end of the call",
             "version": "DEV"
         },
+        "greet": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {},
+                    "entities": {
+                        "ciao": "required",
+                        "greet": "required"
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                null,
+                5
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent greets customer in the beginning of the call",
+            "version": "DEV"
+        },
         "thank": {
             "task": "query",
             "agent": {
@@ -147,30 +171,6 @@
             "merge_turn": false,
             "default_decision": "no",
             "description": "[available] agent says thank to customer at the end of call",
-            "version": "DEV"
-        },
-        "askSupport": {
-            "task": "query",
-            "agent": {
-                "FLC-GreetByeThank": {
-                    "intents": {},
-                    "entities": {
-                        "ask_support": "required"
-                    },
-                    "threshold": 0.5,
-                    "version": "latest"
-                }
-            },
-            "customer": {},
-            "decision": null,
-            "start_turn": 0,
-            "zone": [
-                -5,
-                null
-            ],
-            "merge_turn": false,
-            "default_decision": "no",
-            "description": "[available] agent asks if the customer needs any further assistance at the end of the call",
             "version": "DEV"
         }
     },
