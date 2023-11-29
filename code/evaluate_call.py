@@ -8,9 +8,6 @@ project = input("Enter project: ")
 
 start = time.time()
 
-# with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
-#     data = json.load(f)
-
 with open(f"../data/call_transcript.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
@@ -21,8 +18,8 @@ project_info = {}
 for criteria in criteria_names:
     project_info.update({criteria: project_info_poc[criteria]})
     
-# criteria_frt = [i for i in project_info_poc]
-criteria_frt = ["companyName"]
+criteria_frt = [i for i in project_info_poc]
+# criteria_frt = ["askSupport"]
 project_info_frt = {}
 for cri in criteria_frt:
     project_info_frt.update({cri: project_info_poc[cri]})
@@ -51,9 +48,6 @@ for call in data:
     result = requests.request(method="POST", url=url, headers=headers, data=payload).json()
     response.append(result)
     time.sleep(0.4)
-    
-# with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json_file:
-#     json.dump(response, json_file, ensure_ascii=False, indent=4)
 
 with open(f'../response/call_transcript_evaluate.json', 'w', encoding='utf-8') as json_file:
     json.dump(response, json_file, ensure_ascii=False, indent=4)

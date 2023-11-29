@@ -330,6 +330,31 @@
                 "intent_description": "xin ch\u00e0o"
             },
             {
+                "content": "nh\u00e0 nh\u00e0 thu\u1ed1c fpt l\u00e0m cho xin nghe \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 25,
+                        "label": "company_name",
+                        "start": 14,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "fpt l\u00e0m cho"
+                    },
+                    {
+                        "end": 34,
+                        "label": "ciao",
+                        "start": 26,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "xin nghe"
+                    }
+                ],
+                "intent": "greet",
+                "intent_type": 1,
+                "intent_description": "xin ch\u00e0o"
+            },
+            {
                 "content": "d\u1ea1 v\u00e2ng \u1ea1 kh\u00f4ng bi\u1ebft ngo\u00e0i th\u00f4ng tin \u0111\u00f3 ch\u1ecb c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin n\u00e0o n\u1eefa kh\u00f4ng anh",
                 "sample_type": 0,
                 "entities": [
@@ -621,6 +646,39 @@
                 "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
+                "content": "d\u1ea1 fpt v\u00e2n xin nghe \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 6,
+                        "label": "company_name",
+                        "start": 3,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "fpt"
+                    },
+                    {
+                        "end": 19,
+                        "label": "ciao",
+                        "start": 11,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "xin nghe"
+                    },
+                    {
+                        "end": 10,
+                        "label": "agent_name",
+                        "start": 7,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "v\u00e2n"
+                    }
+                ],
+                "intent": "greet",
+                "intent_type": 1,
+                "intent_description": "xin ch\u00e0o"
+            },
+            {
                 "content": "r\u1ea5t vui \u0111\u01b0\u1ee3c g\u1eb7p ch\u1ecb",
                 "sample_type": 0,
                 "entities": [],
@@ -719,6 +777,23 @@
                 "intent": "goodbye",
                 "intent_type": 1,
                 "intent_description": "goodbye"
+            },
+            {
+                "content": "d\u1ea1 em g\u1eedi l\u1eddi xin l\u1ed7i \u0111\u1ebfn ch\u1ecb r\u1ea5t l\u00e0 nhi\u1ec1u \u1ea1 khi c\u1ea7n h\u1ed7 tr\u1ee3 th\u00f4ng tin ch\u1ecb vui l\u00f2ng li\u00ean h\u1ec7 t\u1ed5ng \u0111\u00e0i mi\u1ec5n ph\u00ed b\u00ean em",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 59,
+                        "label": "ask_support",
+                        "start": 49,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "c\u1ea7n h\u1ed7 tr\u1ee3"
+                    }
+                ],
+                "intent": "ask_support",
+                "intent_type": 1,
+                "intent_description": "nh\u1eefng c\u00e2u agent h\u1ecfi KH c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 g\u00ec th\u00eam kh\u00f4ng"
             },
             {
                 "content": "v\u00e2ng d\u1ea1 n\u1ebfu c\u1ea7n h\u1ed7 tr\u1ee3 anh li\u00ean h\u1ec7 l\u00ean t\u1ed5ng \u0111\u00e0i ch\u0103m s\u00f3c kh\u00e1ch h\u00e0ng mi\u1ec5n ph\u00ed b\u00ean em",
@@ -1332,6 +1407,31 @@
                 "intent": "",
                 "intent_type": 0,
                 "intent_description": ""
+            },
+            {
+                "content": "d\u1ea1 nh\u00e0 thu\u1ed1c fpt long cho nghe \u1ea1",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 30,
+                        "label": "ciao",
+                        "start": 26,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "nghe"
+                    },
+                    {
+                        "end": 25,
+                        "label": "company_name",
+                        "start": 13,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "fpt long cho"
+                    }
+                ],
+                "intent": "greet",
+                "intent_type": 1,
+                "intent_description": "xin ch\u00e0o"
             },
             {
                 "content": "c\u00f4ng ty s\u1ebd li\u00ean l\u1ea1c l\u1ea1i v\u1edbi ch\u1ecb sau ch\u00fac ch\u1ecb m\u1ed9t ng\u00e0y t\u1ed1t l\u00e0nh em xin ch\u00e0o",

@@ -241,6 +241,26 @@
             ]
         },
         {
+            "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 25,
+                    "entity": "company_name",
+                    "start": 14,
+                    "subentities": [],
+                    "value": "fpt làm cho"
+                },
+                {
+                    "end": 34,
+                    "entity": "ciao",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "xin nghe"
+                }
+            ]
+        },
+        {
             "text": "dạ vâng ạ không biết ngoài thông tin đó chị cần hỗ trợ thông tin nào nữa không anh",
             "intent": "ask_support",
             "entities": [
@@ -469,6 +489,33 @@
             ]
         },
         {
+            "text": "dạ fpt vân xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 6,
+                    "entity": "company_name",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "fpt"
+                },
+                {
+                    "end": 19,
+                    "entity": "ciao",
+                    "start": 11,
+                    "subentities": [],
+                    "value": "xin nghe"
+                },
+                {
+                    "end": 10,
+                    "entity": "agent_name",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "vân"
+                }
+            ]
+        },
+        {
             "text": "rất vui được gặp chị",
             "intent": "ciao",
             "entities": []
@@ -543,6 +590,19 @@
                     "start": 3,
                     "subentities": [],
                     "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ em gửi lời xin lỗi đến chị rất là nhiều ạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 59,
+                    "entity": "ask_support",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
                 }
             ]
         },
@@ -1021,6 +1081,26 @@
                     "start": 71,
                     "subentities": [],
                     "value": "18006928"
+                }
+            ]
+        },
+        {
+            "text": "dạ nhà thuốc fpt long cho nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 30,
+                    "entity": "ciao",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "nghe"
+                },
+                {
+                    "end": 25,
+                    "entity": "company_name",
+                    "start": 13,
+                    "subentities": [],
+                    "value": "fpt long cho"
                 }
             ]
         },

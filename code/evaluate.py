@@ -19,6 +19,7 @@ for criteria in criteria_names:
     project_info.update({criteria: project_info_poc[criteria]})
     
 criteria_frt = [i for i in project_info_poc]
+# criteria_frt = ['askSupport']
 project_info_frt = {}
 for cri in criteria_frt:
     project_info_frt.update({cri: project_info_poc[cri]})

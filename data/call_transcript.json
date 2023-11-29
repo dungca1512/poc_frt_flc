@@ -1,371 +1,534 @@
 [
   {
-  "id": "nM9xkWrfbYpD5CfQjHpLZA",
-  "agentEmail": "TuyenVTN",
-  "batchName": "Batch test 21Nov2023 v2",
-  "name": "0376724540.wav",
-  "size": 3275246,
-  "status": "Ready",
-  "processingStatus": "Ready",
-  "duration_ms": 102300,
-  "recordingTime": "2023-04-10T08:15:27Z",
-  "keywords": [
-    {
-      "id": "i2iSHROErTEA3u0dvXVJsw",
-      "status": "Match"
-    },
-    {
-      "id": "rMXcSuFUVfh4_fGWOJ9N-Q",
-      "status": "Match"
-    },
-    {
-      "id": "tBxCFC2oksiH1xxQvPVDvQ",
-      "status": "NotMatch"
-    },
-    {
-      "id": "vTg6S4iveysPMu13GdtL2Q",
-      "status": "NotMatch"
-    }
-  ],
-  "content": [
-    {
-      "channel": 2,
-      "confidence": 77.66817178991106,
-      "end": 2.02,
-      "start": 0.27,
-      "text": "nhà nhà thuốc fpt làm cho xin nghe ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 86.91192378218358,
-      "end": 6.2299999999999995,
-      "start": 3.0300000000000002,
-      "text": "em chào chị em thấy mình không liên hệ được với em á nên em gọi lại nữa",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 98.75258377620153,
-      "end": 10.639999999999999,
-      "start": 6.7,
-      "text": "dạ cho em xin hỏi là hiện tại em đang được trao đổi thông tin với chị kiều phải không ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 100,
-      "end": 12.069999999999999,
-      "start": 11.28,
-      "text": "dạ đúng rồi ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 93.567338794669,
-      "end": 16.810000000000002,
-      "start": 12.040000000000001,
-      "text": "chị tiền vui lòng giữ máy giúp em trong giây lát để em kiểm tra lại thông tin nè chị giữ máy giúp em ạ dạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 99.88447427749634,
-      "end": 17.070000000000004,
-      "start": 16.67,
-      "text": "dạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 97.62378702370117,
-      "end": 49.230000000000004,
-      "start": 26.6,
-      "text": "dạ em cám ơn chị kiều đã chờ máy ạ dạ em kiểm tra thấy trước đó ngày hôm qua chị có liên hệ lên tổng đài bên em thông tin hỏi về đơn hàng của chị thì bên em liên hệ đến chị ngày hôm nay tuy nhiên chưa được cho nên bên em có gửi sms là gửi lời xin lỗi đến chị rất là nhiều và mong chị an tâm về vấn đề mà chị phản ánh thì bên em đã ghi nhận và đang trong quá trình kiểm tra mong chị thông cảm cho bên em xin thêm thời gian xử lý và sẽ phản hồi đến chị ngay khi có thông tin mong chị an tâm hả",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 92.70957986513774,
-      "end": 53.370000000000005,
-      "start": 50.63,
-      "text": "là tới ngày là tới bây giờ vẫn chưa có thông tin đúng không chị",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 96.69262358011353,
-      "end": 68.39999999999999,
-      "start": 53.49,
-      "text": "dạ mong chị thông cảm cho bên em kiểm tra lại trường hợp về phía bên đối tác giao hàng nhanh quá dạ phía bên đối tác giao hàng a momo ạ để bên em kiểm tra lại ạ và bên em sẽ chủ động liên hệ đến chị ngay khi có thông tin ạ mong chị kiều cho em xin thêm thời gian để bên em kiểm tra lại trường hợp này với phía đối tác ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 88.8672435169854,
-      "end": 80.39999999999999,
-      "start": 69.47,
-      "text": "cái này có mất khoản nhiều thời gian không chị tại vì em cũng đang còn cái cái sớm mà em kiểu như giờ tự nhiên bị cái này cũng ngại á em chỉ có thể mai thôi chứ em không xếp tại cửa hàng được",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 92.68088625562183,
-      "end": 88.36999999999999,
-      "start": 80.92,
-      "text": "dạ bên em sẽ chủ động liên hệ đến chị nghe có thông tin mong chị an tâm ạ rồi vấn đề này thì em đã ghi nhận rồi ạ và đang trong quá trình kiểm tra ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 89.64956733915541,
-      "end": 92.27,
-      "start": 90.07000000000001,
-      "text": "dạ vâng chị dạ em cảm ơn chị nha",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 98.13393244036924,
-      "end": 98.41999999999999,
-      "start": 92.23,
-      "text": "dạ nếu cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 1,
-      "confidence": 63.056713839372,
-      "end": 99.21,
-      "start": 97.98,
-      "text": "dạ dạ dạ có chị",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    },
-    {
-      "channel": 2,
-      "confidence": 95.63010831673941,
-      "end": 99.91999999999999,
-      "start": 98.6,
-      "text": "cám ơn chào chị ạ dạ",
-      "negative": false,
-      "origText": null,
-      "updatedAt": null,
-      "updatedBy": null
-    }
-  ],
-  "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%20%5BPOC-test1%5D_Enhance_FLC%20Long%20Ch%C3%A2u/n2fGH0RI9QZQNQwNvqdB6w/Batch%20test%2021Nov2023%20v2/0376724540.wav/nM9xkWrfbYpD5CfQjHpLZA?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20231121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231121T082328Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a417c5aa7b8cecb33ce7d460b0d7db528c7d02194a9290758fe85244f35079c5",
-  "agentChannel": 2,
-  "createdAt": "2023-11-21T08:13:58.882Z",
-  "overlapDetails": [],
-  "silenceDetails": [],
-  "aiEval": {
-    "callEndAbnormal": false,
-    "callStartAbnormal": false,
-    "negativeKeywordIds": [
-      "i2iSHROErTEA3u0dvXVJsw",
-      "rMXcSuFUVfh4_fGWOJ9N-Q"
-    ],
-    "positiveKeywordIds": [],
-    "silentAbnormal": false,
-    "overlapAbnormal": true,
-    "agentSpeedAbnormal": false,
-    "sentimentNegative": false,
-    "sentimentImpolite": false,
-    "sentimentUncooperative": false,
-    "negativeKeywords": [
+    "id": "kQe0E67QwcWoXwctETJHMg",
+    "agentEmail": "HaoDTN4",
+    "batchName": "Batch 35 call test round2",
+    "name": "0911486219.wav",
+    "size": 3511086,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 109700,
+    "recordingTime": "2023-04-10T08:15:27Z",
+    "keywords": [
       {
         "id": "i2iSHROErTEA3u0dvXVJsw",
-        "name": "Ngập ngừng"
+        "status": "NotMatch"
       },
       {
         "id": "rMXcSuFUVfh4_fGWOJ9N-Q",
-        "name": "Thiếu chuyên nghiệp"
+        "status": "Match"
+      },
+      {
+        "id": "tBxCFC2oksiH1xxQvPVDvQ",
+        "status": "NotMatch"
+      },
+      {
+        "id": "vTg6S4iveysPMu13GdtL2Q",
+        "status": "NotMatch"
       }
     ],
-    "positiveKeywords": []
-  },
-  "sa1": [
-    {
-      "start": 12.040000000000001,
-      "end": 16.810000000000002,
-      "index": 4
-    }
-  ],
-  "sa2": [],
-  "autoscore": {
-    "content": {
-      "sections": [
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 76.94655855496725,
+        "end": 2.41,
+        "start": 0.66,
+        "text": "dạ nhà thuốc fpt lâm cho xin nghe ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 83.49453884622325,
+        "end": 8.969999999999999,
+        "start": 3.05,
+        "text": "dạ em mới mua thuốc bên nhà thuốc long cho á nhưng mà nhà thuốc giao lộn cho thuốc rồi ấy ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.50847482681272,
+        "end": 16.020000000000003,
+        "start": 9.92,
+        "text": "dạ 1 lần nữa em cũng gửi lời xin lỗi đến chị vì sự thiếu sót này cho em xin hỏi là em đang được trao đổi thông tin với chị ngọc phải không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.73446774482727,
+        "end": 17.79,
+        "start": 16.88,
+        "text": "dạ đúng rồi ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.02165099298742,
+        "end": 30.4,
+        "start": 17.799999999999997,
+        "text": "dạ chị ngọc vui lòng có thể chia sẻ thêm thông tin giúp em là em kiểm tra thấy đơn hàng ngày hôm nay chị có mua số tiền là 21000 đồng 1 hộp mail trôi thì cho em hỏi là bên em đã giao cho chị sạc nhầm sản phẩm nào vậy ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.92471887916328,
+        "end": 33.62,
+        "start": 29.799999999999997,
+        "text": "cũng là cho nhưng mà không phải cái cho đó chị cái này no",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 76.46521329879761,
+        "end": 36.14,
+        "start": 35.44,
+        "text": "khác á chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.52458464714789,
+        "end": 44.4,
+        "start": 37.55,
+        "text": "em thấy trên hệ thống nhà thuốc long cho bên em là ban đầu chị đào làm cho vay ai vay ai vay sơ nam hà 1 ngày 21",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.2713017567421,
+        "end": 49.5,
+        "start": 45.04,
+        "text": "dạ còn cái này tới 28 à 1 vỉ 28 lận á chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.06718420982361,
+        "end": 55.04,
+        "start": 50.11,
+        "text": "dạ chị nhận là 1 vỉ là 28 viên chứ không phải là 21000 nha chị đặng đúng không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.95058178901672,
+        "end": 55.89000000000001,
+        "start": 55.13,
+        "text": "dạ đúng rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.71557908362531,
+        "end": 63.65,
+        "start": 56.050000000000004,
+        "text": "dạ 1 lần nữa em cũng gửi lời xin lỗi đến chị ạ chị có thể chụp giúp em thông tin hình ảnh sản phẩm chị nhận được gửi qua giúp em được không gữi qua zalo cá nhân cho em tên ngọc được không chị ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 83.96716266870499,
+        "end": 65.14999999999999,
+        "start": 64.22,
+        "text": "dạ dạ được ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 90.80390632152557,
+        "end": 67.17,
+        "start": 65.36,
+        "text": "dạ alo chị có phải tên là thúy nguyên không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 100,
+        "end": 68.24,
+        "start": 67.48,
+        "text": "dạ đúng rồi chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.07244868420842,
+        "end": 77.61,
+        "start": 68.33000000000001,
+        "text": "em tên ngọc em có gửi tin nhắn đến chị qua zalo chị chụp giúp em hình ảnh mà chị nhận được gửi qua giúp em sau khi kết thúc cuộc gọi này em cũng sẽ liên hệ trực tiếp với shop để shop kiểm tra lại về vấn đề này ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.8845636844635,
+        "end": 74.06,
+        "start": 73.60000000000001,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.07244868420842,
+        "end": 80.37,
+        "start": 77.78,
+        "text": "và bên em sẽ chủ động liên hệ đến chị nghe có thông tin nè",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 92.11046099662781,
+        "end": 78.5,
+        "start": 78.23,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 92.83498704433441,
+        "end": 82.80999999999999,
+        "start": 81,
+        "text": "dạ vậy là em có được đổi thuốc không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.8765733138375,
+        "end": 91.32999999999998,
+        "start": 83.00999999999999,
+        "text": "trường hợp nhà thuốc long cho bên em sẽ kiểm tra lại về vấn đề này ạ nhà thuốc long cho bên em sai phạm thì bên em sẽ chủ động liên hệ đến chị để gia giao lại đúng sản phẩm này chị đã đặt ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 96.92412614822388,
+        "end": 92.67,
+        "start": 91.88000000000001,
+        "text": "dạ rồi ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.36162318966605,
+        "end": 96.30999999999999,
+        "start": 92.55,
+        "text": "chị chụp giúp em thông tin hình ảnh sản phẩm chị nhận được hưởng qua zalo cá nhân em tên ngọc ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 96.92578554153442,
+        "end": 97.89,
+        "start": 96.80000000000001,
+        "text": "dạ rồi dạ rồi ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 99.49385084603963,
+        "end": 104.61999999999999,
+        "start": 97.92,
+        "text": "dạ em gửi lời xin lỗi đến chị rất là nhiều ạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 100,
+        "end": 105.94,
+        "start": 105.18,
+        "text": "dạ dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.65291213989258,
+        "end": 107.5,
+        "start": 106.05000000000001,
+        "text": "dạ dạ em cám ơn chào chị ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 69.64792311191559,
+        "end": 107.56,
+        "start": 107.23,
+        "text": "cám ơn",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.65291213989258,
+        "end": 108.21000000000001,
+        "start": 107.88000000000001,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%20%5BPOC-test1%5D_Enhance_FLC%20Long%20Ch%C3%A2u/n2fGH0RI9QZQNQwNvqdB6w/Batch%2035%20call%20test%20round2/0911486219.wav/kQe0E67QwcWoXwctETJHMg?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20231128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231128T062421Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=36a861a69f71a8406ffdeb7bd96df45f2eba467420588c4d1a56197b19338842",
+    "agentChannel": 2,
+    "createdAt": "2023-11-28T03:21:19.775Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [
+        "rMXcSuFUVfh4_fGWOJ9N-Q"
+      ],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": true,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [
         {
-          "title": "Lời chào mở đầu + kết thúc",
-          "description": "",
-          "questions": [
-            {
-              "title": "Lời chào mở đầu cần chào và giới thiệu tên công ty",
-              "description": "Lời chào mở đầu cần chào và giới thiệu tên công ty",
-              "answer": {
-                "result": "No",
-                "note": "Không giới thiệu tên công ty",
-                "details": "nameFromMeta: undefined, nameEntities: "
-              }
-            },
-            {
-              "title": "Lời chào kết thúc cần cảm ơn và chào tạm biệt khách hàng",
-              "description": "Lời chào kết thúc cần cảm ơn và chào tạm biệt khách hàng",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            }
-          ]
-        },
-        {
-          "title": "Ngôn từ, dùng từ chuyên nghiệp",
-          "description": "",
-          "questions": [
-            {
-              "title": "Dùng các từ không chuyên nghiệp",
-              "description": "Dùng các từ không chuyên nghiệp",
-              "answer": {
-                "result": "Yes",
-                "note": "Chưa vi phạm điều kiện keyword Thiếu chuyên nghiệp",
-                "details": null
-              }
-            }
-          ]
-        },
-        {
-          "title": "Chất giọng, phát âm",
-          "description": "",
-          "questions": [
-            {
-              "title": "Nói quá nhanh/ chậm",
-              "description": "Nói quá nhanh/ chậm",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            },
-            {
-              "title": "Khi trao đổi phát âm thêm các từ: \"ơ, ờ, a, ừm\"",
-              "description": "Khi trao đổi phát âm thêm các từ: \"ơ, ờ, a, ừm\"",
-              "answer": {
-                "result": "Yes",
-                "note": "Chưa vi phạm điều kiện keyword Ngập ngừng",
-                "details": null
-              }
-            }
-          ]
-        },
-        {
-          "title": "Thái độ giao tiếp, hỗ trợ",
-          "description": "",
-          "questions": [
-            {
-              "title": "Gằn và lên giọng (phát hiện lên giọng, cao giọng)",
-              "description": "Gằn và lên giọng (phát hiện lên giọng, cao giọng)",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            },
-            {
-              "title": "Nói song song với KH, không nhường lời, chen ngang",
-              "description": "Nói song song với KH, không nhường lời, chen ngang",
-              "answer": {
-                "result": "No",
-                "note": "Chen ngang khi KH đang nói #more dạ nếu cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                "details": null
-              }
-            },
-            {
-              "title": "Đôi co, thách thức, chất vấn KH",
-              "description": "Đôi co, thách thức, chất vấn KH",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            },
-            {
-              "title": " KH có biểu hiện phàn nàn qua Từ ngữ",
-              "description": "KH có biểu hiện phàn nàn qua Từ ngữ",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            }
-          ]
-        },
-        {
-          "title": "Thực hiện đúng quy trình, quy định",
-          "description": "",
-          "questions": [
-            {
-              "title": "Hold máy quá thời gian qui định (60s)",
-              "description": "Có hold máy đúng quy định không",
-              "answer": {
-                "result": "Yes",
-                "note": "",
-                "details": null
-              }
-            }
-          ]
+          "id": "rMXcSuFUVfh4_fGWOJ9N-Q",
+          "name": "Thiếu chuyên nghiệp"
         }
-      ]
-    }
-  },
-  "scaledScore": 75.60975609756098,
-  "absIntensityAbnormals": [],
-  "relIntensityAbnormals": [
-    6
-  ],
-  "lastestScores": [],
-  "manualScores": [],
-  "metadata": "{\"keywordIds\":[\"i2iSHROErTEA3u0dvXVJsw\",\"rMXcSuFUVfh4_fGWOJ9N-Q\",\"tBxCFC2oksiH1xxQvPVDvQ\",\"vTg6S4iveysPMu13GdtL2Q\"]}"
-}
+      ],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 56.050000000000004,
+        "end": 63.65,
+        "index": 11
+      },
+      {
+        "start": 65.36,
+        "end": 67.17,
+        "index": 13
+      },
+      {
+        "start": 83.00999999999999,
+        "end": 91.32999999999998,
+        "index": 20
+      }
+    ],
+    "sa2": [
+      {
+        "start": 107.23,
+        "end": 107.56,
+        "index": 27
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào và giới thiệu tên công ty",
+                "description": "Lời chào mở đầu cần chào và giới thiệu tên công ty",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              },
+              {
+                "title": "Lời chào kết thúc cần cảm ơn và chào tạm biệt khách hàng",
+                "description": "Lời chào kết thúc cần cảm ơn và chào tạm biệt khách hàng",
+                "answer": {
+                  "result": "No",
+                  "note": "Không hỏi KH có cần hỗ trợ gì thêm không",
+                  "details": null
+                }
+              }
+            ]
+          },
+          {
+            "title": "Ngôn từ, dùng từ chuyên nghiệp",
+            "description": "",
+            "questions": [
+              {
+                "title": "Dùng các từ không chuyên nghiệp",
+                "description": "Dùng các từ không chuyên nghiệp",
+                "answer": {
+                  "result": "Yes",
+                  "note": "Chưa vi phạm điều kiện keyword Thiếu chuyên nghiệp",
+                  "details": null
+                }
+              }
+            ]
+          },
+          {
+            "title": "Chất giọng, phát âm",
+            "description": "",
+            "questions": [
+              {
+                "title": "Nói quá nhanh/ chậm",
+                "description": "Nói quá nhanh/ chậm",
+                "answer": {
+                  "result": "No",
+                  "note": "Nói quá nhanh, quá chậm, hoặc nói lầm bầm lướt từ #more Quá nhanh: dạ 1 lần nữa em cũng gửi lời xin lỗi đến chị ạ chị có thể chụp giúp em thông tin hình ảnh sản phẩm chị nhận được gửi qua giúp em được không gữi qua zalo cá nhân cho em tên ngọc được không chị ạ, trường hợp nhà thuốc long cho bên em sẽ kiểm tra lại về vấn đề này ạ nhà thuốc long cho bên em sai phạm thì bên em sẽ chủ động liên hệ đến chị để gia giao lại đúng sản phẩm này chị đã đặt ạ, dạ alo chị có phải tên là thúy nguyên không ạ",
+                  "details": null
+                }
+              },
+              {
+                "title": "Khi trao đổi phát âm thêm các từ: \"ơ, ờ, a, ừm\"",
+                "description": "Khi trao đổi phát âm thêm các từ: \"ơ, ờ, a, ừm\"",
+                "answer": {
+                  "result": "Yes",
+                  "note": "Chưa vi phạm điều kiện keyword Ngập ngừng",
+                  "details": null
+                }
+              }
+            ]
+          },
+          {
+            "title": "Thái độ giao tiếp, hỗ trợ",
+            "description": "",
+            "questions": [
+              {
+                "title": "Gằn và lên giọng (phát hiện lên giọng, cao giọng)",
+                "description": "Gằn và lên giọng (phát hiện lên giọng, cao giọng)",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": null
+                }
+              },
+              {
+                "title": "Nói song song với KH, không nhường lời, chen ngang",
+                "description": "Nói song song với KH, không nhường lời, chen ngang",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": null
+                }
+              },
+              {
+                "title": "Đôi co, thách thức, chất vấn KH",
+                "description": "Đôi co, thách thức, chất vấn KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": null
+                }
+              },
+              {
+                "title": " KH có biểu hiện phàn nàn qua Từ ngữ",
+                "description": "KH có biểu hiện phàn nàn qua Từ ngữ",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": null
+                }
+              }
+            ]
+          },
+          {
+            "title": "Thực hiện đúng quy trình, quy định",
+            "description": "",
+            "questions": [
+              {
+                "title": "Hold máy quá thời gian qui định (60s)",
+                "description": "Có hold máy đúng quy định không",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 75.60975609756098,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[\"i2iSHROErTEA3u0dvXVJsw\",\"rMXcSuFUVfh4_fGWOJ9N-Q\",\"tBxCFC2oksiH1xxQvPVDvQ\",\"vTg6S4iveysPMu13GdtL2Q\"]}"
+  }
 ]
