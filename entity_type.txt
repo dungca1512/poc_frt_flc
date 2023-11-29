@@ -1,0 +1,4 @@
+0: system entity
+1: both
+2: keyword
+3: freetext

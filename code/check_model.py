@@ -1,7 +1,7 @@
 import requests
 import json
 
-project = input("Nhập tên project: ")
+project = input("Enter project: ")
 
 if project == "frt_poc":
     bot_name = "FRT-GreetByeThank"

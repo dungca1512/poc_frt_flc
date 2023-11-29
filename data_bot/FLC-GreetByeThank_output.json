@@ -44,7 +44,7 @@
         },
         {
             "entity": "company_name",
-            "type": "freetext",
+            "type": "keyword",
             "values": []
         },
         {
@@ -171,6 +171,26 @@
                     "start": 13,
                     "subentities": [],
                     "value": "fpt lâm cho"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "ciao",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 68,
+                    "entity": "company_name",
+                    "start": 60,
+                    "subentities": [],
+                    "value": "long cho"
                 }
             ]
         },

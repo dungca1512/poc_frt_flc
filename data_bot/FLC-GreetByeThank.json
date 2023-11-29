@@ -71,7 +71,7 @@
             },
             {
                 "label": "company_name",
-                "type": 3,
+                "type": 2,
                 "description": "company_name"
             },
             {
@@ -239,6 +239,31 @@
                         "sub_entities": [],
                         "type": 3,
                         "value": "fpt l\u00e2m cho"
+                    }
+                ],
+                "intent": "greet",
+                "intent_type": 1,
+                "intent_description": "xin ch\u00e0o"
+            },
+            {
+                "content": "d\u1ea1 em ch\u00e0o ch\u1ecb \u1ea1 hi\u1ec7n t\u1ea1i ch\u1ecb \u0111ang c\u00f3 nhu c\u1ea7u cho nh\u00e0 thu\u1ed1c long cho thu\u00ea m\u1eb7t b\u1eb1ng h\u1ea3 ch\u1ecb cho em xin l\u1ea1i",
+                "sample_type": 0,
+                "entities": [
+                    {
+                        "end": 10,
+                        "label": "ciao",
+                        "start": 6,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "ch\u00e0o"
+                    },
+                    {
+                        "end": 68,
+                        "label": "company_name",
+                        "start": 60,
+                        "sub_entities": [],
+                        "type": 3,
+                        "value": "long cho"
                     }
                 ],
                 "intent": "greet",
