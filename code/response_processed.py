@@ -1,6 +1,6 @@
 import json
 
-state = input("Nhập môi trường: ")
+state = input("Enter enviroment: ")
 
 with open(f'../json/response/evaluate_m3_{state}.json', 'r', encoding='utf-8') as f:
     data = json.load(f)

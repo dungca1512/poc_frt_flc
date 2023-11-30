@@ -1,1500 +1,26 @@
 [
     {
-        "fileName": "0988533800.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0022225379943847656,
-        "agentIntroduce": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "askSupport": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "companyName": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt đóng cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 15,
-                            "value": "đóng cho",
-                            "real_value": "đóng cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt đóng cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 15,
-                            "value": "đóng cho",
-                            "real_value": "đóng cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "company_name": [
-                    {
-                        "index": 0,
-                        "value": "đóng cho"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "confirmCustomer": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ khánh cần hỗ trợ gì vậy chị",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 8,
-                            "value": "khánh",
-                            "real_value": "khánh",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 13,
-                    "channel": 2,
-                    "text": "dạ dạ em đang được trao đổi với anh thành phải không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 36,
-                            "end": 41,
-                            "value": "thành",
-                            "real_value": "thành",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ anh đang liên hệ lên tổng đài chung của nhà fpt long cho ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 51,
-                            "end": 55,
-                            "value": "long",
-                            "real_value": "long",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ khánh cần hỗ trợ gì vậy chị",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 8,
-                            "value": "khánh",
-                            "real_value": "khánh",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 13,
-                    "channel": 2,
-                    "text": "dạ dạ em đang được trao đổi với anh thành phải không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 36,
-                            "end": 41,
-                            "value": "thành",
-                            "real_value": "thành",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ anh đang liên hệ lên tổng đài chung của nhà fpt long cho ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 51,
-                            "end": 55,
-                            "value": "long",
-                            "real_value": "long",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "customer_name": [
-                    {
-                        "index": 4,
-                        "value": "khánh"
-                    },
-                    {
-                        "index": 13,
-                        "value": "thành"
-                    },
-                    {
-                        "index": 17,
-                        "value": "long"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "goodbye": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "greet": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt đóng cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 16,
-                            "end": 24,
-                            "value": "xin nghe",
-                            "real_value": "xin nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
-            "confidence_channel": {
-                "2": 0.5,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt đóng cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 16,
-                            "end": 24,
-                            "value": "xin nghe",
-                            "real_value": "xin nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "slots": {
-                "ciao": [
-                    {
-                        "index": 0,
-                        "value": "xin nghe"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "thank": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FLC-GreetByeThank-23-11-29_10-39-23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f61fc193760>: Failed to establish a new connection: [Errno 111] Connection refused')) (E6f0e46e4-8d0a-4411-bc3d-9b9bfa19728f)\\n {'content': ['dạ fpt đóng cho xin nghe ạ', '', 'dạ khi nào vậy chị', '', 'dạ khánh cần hỗ trợ gì vậy chị', '', 'chị cho em hỏi đơn hàng ngày nào chị', '', 'tránh nha 59', '', 'chị chị gọi cho khách hàng phải không ạ', 'dạ alo ạ', '', 'dạ dạ em đang được trao đổi với anh thành phải không ạ', '', 'dạ em có thể hỗ trợ cho anh ạ', '', 'dạ anh đang liên hệ lên tổng đài chung của nhà fpt long cho ạ', '', 'dạ em kiểm tra thấy là vào ngày hôm nay anh có đặt đơn hàng tổng tiền là 348000 phải không ạ', '', 'dạ vâng em thấy là đơn hàng này đã hủy sau đó thì anh có đặt đơn hàng tổng tiền là 174000', '', 'dạ là anh không có hủy đó ngày nào phải không ạ dạ anh vui lòng', '', 'dạ anh vui lòng cho em hỏi thêm thì em thấy là sau đó có phát sinh ngày tổng tiền là 174000 còn 1 bên tôi liên thì anh vui lòng cho em hỏi thiện đang nghe nè anh có đạt không ạ', '', 'dạ anh vui lòng', '', 'dạ anh vui lòng cho em hỏi là khi đến cửa hàng các bạn báo với anh như thế nào vậy ạ', '', 'dạ các bạn báo có 1 hợp và nhưng thông báo 1 hợp đó cho anh luôn hay như thế nào ạ', '', 'dạ các bạn có báo lý do vì sao không anh ạ', '', 'dạ vậy trường hợp này thì em cũng rất xin lỗi anh về vấn đề phát sinh này ạ em sẽ ghi nhận thông tin của anh và ngay sau khi kết thúc cuộc gọi em sẽ chuyển thông tin đến cửa hàng nhờ các bạn', '', 'dạ cũng rất xin lỗi anh vay vốn nha', '', 'dạ cũng rất xin lỗi anh về vấn đề phát sinh này ạ em sẽ ghi nhận thông tin của anh và ngay sau khi kết thúc cuộc gọi em sẽ chuyển thông tin đến cửa hàng nhờ các bạn kiểm tra ngân hàng và khi thông tin thì bên em sẽ có nhân viên chủ động liên hệ phản hồi đến anh ạ', '', 'dạ em rất xin lỗi về vấn đề phát sinh này ạ em đã ghi nhận đầy đủ thông tin của anh và ngay sau khi kết thúc cuộc gọi em sẽ chuyển thông tin đến cửa hàng nhờ các bạn kiểm tra và ngay khi có thông tin thì bên em sẽ có nhân viên chủ động liên hệ phản hồi đến anh ngay ạ mong anh an tâm và chờ thêm giúp bên em ạ', '', 'dạ', '', 'dạ vâng', '', 'dạ vâng ngay sau khi kết thúc cuộc gọi em sẽ chuyển ngay thông tin đến cửa hàng gặp bạn an tâm ạ', 'dạ em'], 'language': 'vi', 'app_code': 'FLC-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FLC-GreetByeThank, E073dcb24-37d4-4050-a01a-ab87bbad8ca4) (E073dcb24-37d4-4050-a01a-ab87bbad8ca4)"
+        }
     },
     {
-        "fileName": "0985980495.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0023267269134521484,
-        "agentIntroduce": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "askSupport": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 43,
-                    "channel": 2,
-                    "text": "dạ ngoài thông tin này ra em có thể hỗ trợ gì thêm cho chị nữa không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 29,
-                            "end": 42,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 45,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 20,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 43,
-                    "channel": 2,
-                    "text": "dạ ngoài thông tin này ra em có thể hỗ trợ gì thêm cho chị nữa không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 29,
-                            "end": 42,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 45,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 20,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 43,
-                        "value": "có thể hỗ trợ"
-                    },
-                    {
-                        "index": 45,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "companyName": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 10,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 6,
-                    "channel": 2,
-                    "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 64,
-                            "value": "long",
-                            "real_value": "long",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 10,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 6,
-                    "channel": 2,
-                    "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 64,
-                            "value": "long",
-                            "real_value": "long",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "company_name": [
-                    {
-                        "index": 0,
-                        "value": "fpt lâm"
-                    },
-                    {
-                        "index": 6,
-                        "value": "long"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "confirmCustomer": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ hiện tại là em đang được trao đổi với chị giang đúng không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 45,
-                            "end": 50,
-                            "value": "giang",
-                            "real_value": "giang",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 25,
-                            "end": 30,
-                            "value": "trang",
-                            "real_value": "trang",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ hiện tại là em đang được trao đổi với chị giang đúng không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 45,
-                            "end": 50,
-                            "value": "giang",
-                            "real_value": "giang",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 25,
-                            "end": 30,
-                            "value": "trang",
-                            "real_value": "trang",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "customer_name": [
-                    {
-                        "index": 4,
-                        "value": "giang"
-                    },
-                    {
-                        "index": 49,
-                        "value": "trang"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "goodbye": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 16,
-                            "end": 20,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
-            "confidence_channel": {
-                "2": 0.5,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 16,
-                            "end": 20,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "slots": {
-                "ciao": [
-                    {
-                        "index": 49,
-                        "value": "chào"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "greet": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 11,
-                            "end": 15,
-                            "value": "nghe",
-                            "real_value": "nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
-                    "index": 6,
-                    "channel": 2,
-                    "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 6,
-                            "end": 10,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
-            "confidence_channel": {
-                "2": 0.5,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 11,
-                            "end": 15,
-                            "value": "nghe",
-                            "real_value": "nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
-                    "index": 6,
-                    "channel": 2,
-                    "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 6,
-                            "end": 10,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "slots": {
-                "ciao": [
-                    {
-                        "index": 0,
-                        "value": "nghe"
-                    },
-                    {
-                        "index": 6,
-                        "value": "chào"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "thank": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 6,
-                            "end": 12,
-                            "value": "cám ơn",
-                            "real_value": "cám ơn",
-                            "entity": "thank",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 49,
-                    "channel": 2,
-                    "text": "dạ em cám ơn em chào chị trang ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 6,
-                            "end": 12,
-                            "value": "cám ơn",
-                            "real_value": "cám ơn",
-                            "entity": "thank",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "thank": [
-                    {
-                        "index": 49,
-                        "value": "cám ơn"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FLC-GreetByeThank-23-11-29_10-39-23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0dd811c7f0>: Failed to establish a new connection: [Errno 111] Connection refused')) (E44da37a5-a51a-4eae-9639-3d179f4a94aa)\\n {'content': ['dạ fpt lâm nghe ạ', '', 'dạ alo ạ em có thể hỗ trợ thông tin gì cho chị ạ', '', 'dạ hiện tại là em đang được trao đổi với chị giang đúng không ạ', '', 'dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại', '', 'dạ chị cho em xin địa chỉ và diện tích mặt bằng hả', '', '', 'dạ là', '', 'dạ chị cho em xin giải thích để em chuyển bộ phận pháp điểm mặt bằng bên em hả', '', 'dạ nghe 8 mét', '', 'dạ chị cho em hỏi thăm là chị có nhớ chính xác là dài bao nhiêu mét không chị ạ', '', 'dạ là dài hơn 200000 mét hay sao vậy chị dạ', '', 'dạ chị cho em xin lại vậy', '', 'diện tích của mặt bằng hả địa chỉ mặc toàn em xin lỗi chị ạ', '', 'địa chỉ mặt bằng chị xuân sơn lâm cho bên em thuế gì ạ', '', 'dạ chị cần cho nhà thuốc long cho bên em vay mặt bằng ạ', '', 'dạ huyền trí phong', '', 'dạ', '', 'dạ dạ', '', 'dạ hương trạch bố trạch quảng bình nè', '', 'dạ về thông tin của chị', '', 'là em đã có ghi nhận lại đầy đủ rồi em không chị an tâm ạ em sẽ chuyển đến bộ phận hết trễ mặt bằng bên em nếu có nhu cầu bên em sẽ liên hệ lại chị ạ', '', 'dạ về thông tin của chị sang là em đã có ghi nhận lại đầy đủ rồi em mong chị ráng tâm ạ', '', 'dạ ngoài thông tin này ra em có thể hỗ trợ gì thêm cho chị nữa không ạ', '', 'dạ dạ khi cần hỗ trợ thêm thông tin', '', 'chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ', '', 'dạ em cám ơn em chào chị trang ạ', ''], 'language': 'vi', 'app_code': 'FLC-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FLC-GreetByeThank, E75e3a50d-f56b-473d-9dea-3a022798a21d) (E75e3a50d-f56b-473d-9dea-3a022798a21d)"
+        }
     },
     {
-        "fileName": "0979418241.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0025746822357177734,
-        "agentIntroduce": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "askSupport": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ em sẽ ghi nhận thông tin của khả năng bên an tâm ạ dạ em có thể hỗ trợ gì cho anh nữa không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 73,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 21,
-                    "channel": 2,
-                    "text": "vâng khi cần hỗ trợ gì",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 9,
-                            "end": 19,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ em sẽ ghi nhận thông tin của khả năng bên an tâm ạ dạ em có thể hỗ trợ gì cho anh nữa không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 73,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 21,
-                    "channel": 2,
-                    "text": "vâng khi cần hỗ trợ gì",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 9,
-                            "end": 19,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 17,
-                        "value": "có thể hỗ trợ"
-                    },
-                    {
-                        "index": 21,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "companyName": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 14,
-                            "value": "fpt lâm cho",
-                            "real_value": "fpt lâm cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 14,
-                            "value": "fpt lâm cho",
-                            "real_value": "fpt lâm cho",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "company_name": [
-                    {
-                        "index": 0,
-                        "value": "fpt lâm cho"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "confirmCustomer": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ anh vui lòng cho em hỏi là em đang được trao đổi với anh phong phải không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 65,
-                            "value": "phong",
-                            "real_value": "phong",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 14,
-                    "channel": 2,
-                    "text": "và em cũng cám ơn anh phong đã dành thời gian góp ý tại nhà thuốc không cho bên em có thể cải thiện chất lượng dịch vụ trong thời gian tới ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 22,
-                            "end": 27,
-                            "value": "phong",
-                            "real_value": "phong",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 4,
-                    "channel": 2,
-                    "text": "dạ anh vui lòng cho em hỏi là em đang được trao đổi với anh phong phải không ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 65,
-                            "value": "phong",
-                            "real_value": "phong",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 14,
-                    "channel": 2,
-                    "text": "và em cũng cám ơn anh phong đã dành thời gian góp ý tại nhà thuốc không cho bên em có thể cải thiện chất lượng dịch vụ trong thời gian tới ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 22,
-                            "end": 27,
-                            "value": "phong",
-                            "real_value": "phong",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "customer_name": [
-                    {
-                        "index": 4,
-                        "value": "phong"
-                    },
-                    {
-                        "index": 14,
-                        "value": "phong"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "goodbye": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "greet": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 15,
-                            "end": 23,
-                            "value": "xin nghe",
-                            "real_value": "xin nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
-                    "index": 2,
-                    "channel": 2,
-                    "text": "dạ chào bên em vẫn hoạt động bình thường ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 7,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
-            "confidence_channel": {
-                "2": 0.5,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 15,
-                            "end": 23,
-                            "value": "xin nghe",
-                            "real_value": "xin nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
-                    "index": 2,
-                    "channel": 2,
-                    "text": "dạ chào bên em vẫn hoạt động bình thường ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 7,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "slots": {
-                "ciao": [
-                    {
-                        "index": 0,
-                        "value": "xin nghe"
-                    },
-                    {
-                        "index": 2,
-                        "value": "chào"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "thank": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FLC-GreetByeThank-23-11-29_10-39-23 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcf646420e0>: Failed to establish a new connection: [Errno 111] Connection refused')) (Ef70665cf-05f6-4bd4-bab6-48e562c3b431)\\n {'content': ['dạ fpt lâm cho xin nghe ạ', '', 'dạ chào bên em vẫn hoạt động bình thường ạ', '', 'dạ anh vui lòng cho em hỏi là em đang được trao đổi với anh phong phải không ạ', '', 'dạ vậy trong hôm nay cũng rất xin lỗi anh về sự phản hồi chậm trễ này ạ dạ gọi để hỗ trợ nha em xin phép ghi - cuộc gọi của anh đến bộ phận tư vấn bán hàng để các bạn hỗ trợ anh luôn được không anh', '', 'dạ vậy trường hợp này thì em cũng rất xin lỗi anh về vấn đề phát sinh này ạ anh vui lòng cho em hỏi là hôm nay anh đã nhắn tin quá không cho bằng số điện thoại nào vậy ạ', '', 'dạ rồi ạ', '', 'dạ vậy trường hợp này thì em cũng rất xin lỗi anh về vấn đề phát sinh này ạ em xin ghi nhận thông tin của anh và ngay sau khi kết thúc cuộc gọi em sẽ chuyển thông tin đến bộ phận phụ trách kiểm tra và xử lý trường hợp này', '', 'và em cũng cám ơn anh phong đã dành thời gian góp ý tại nhà thuốc không cho bên em có thể cải thiện chất lượng dịch vụ trong thời gian tới ạ', '', '', 'dạ em sẽ ghi nhận thông tin của khả năng bên an tâm ạ dạ em có thể hỗ trợ gì cho anh nữa không ạ', '', 'dạ', '', 'vâng khi cần hỗ trợ gì'], 'language': 'vi', 'app_code': 'FLC-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FLC-GreetByeThank, E643a8211-6360-46f7-a9d8-9652f0c2ee6d) (E643a8211-6360-46f7-a9d8-9652f0c2ee6d)"
+        }
     },
     {
         "fileName": "0976267870.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027527809143066406,
+        "time_load_info": 0.002193450927734375,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1548,9 +74,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 16,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 25,
+                            "value": "fpt đóng sao",
+                            "real_value": "fpt đóng sao",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -1577,9 +103,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 16,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 25,
+                            "value": "fpt đóng sao",
+                            "real_value": "fpt đóng sao",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -1595,7 +121,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt"
+                        "value": "fpt đóng sao"
                     }
                 ]
             },
@@ -2026,7 +552,7 @@
     {
         "fileName": "0974223295.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024635791778564453,
+        "time_load_info": 0.0023076534271240234,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -2286,6 +812,36 @@
             },
             "decision_position": [
                 {
+                    "index": 16,
+                    "channel": 2,
+                    "text": "dạ em kiểm tra thì thấy là hôm nay anh coi đến chi nhánh nào sớm 4 lai thành mua đơn hàng tổng tiền là 96000 trong đó đi anh có mua sản phẩm nội dung anh rêu dạ tuy nhiên là anh đang có yêu cầu là đổi sang sản bảo mật sinh dương phải không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 70,
+                            "value": "lai",
+                            "real_value": "lai",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
+                            "start": 154,
+                            "end": 157,
+                            "value": "rêu",
+                            "real_value": "rêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
                     "index": 22,
                     "channel": 2,
                     "text": "dạ dạ vậy khi cần hỗ trợ gì thêm anh hùng vui lòng liên hệ tổng đài miễn phí bên em 18006928 nha em cám ơn chào anh ạ",
@@ -2308,12 +864,42 @@
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
+                {
+                    "index": 16,
+                    "channel": 2,
+                    "text": "dạ em kiểm tra thì thấy là hôm nay anh coi đến chi nhánh nào sớm 4 lai thành mua đơn hàng tổng tiền là 96000 trong đó đi anh có mua sản phẩm nội dung anh rêu dạ tuy nhiên là anh đang có yêu cầu là đổi sang sản bảo mật sinh dương phải không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 70,
+                            "value": "lai",
+                            "real_value": "lai",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
+                            "start": 154,
+                            "end": 157,
+                            "value": "rêu",
+                            "real_value": "rêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
                 {
                     "index": 22,
                     "channel": 2,
@@ -2338,6 +924,14 @@
             ],
             "slots": {
                 "customer_name": [
+                    {
+                        "index": 16,
+                        "value": "lai"
+                    },
+                    {
+                        "index": 16,
+                        "value": "rêu"
+                    },
                     {
                         "index": 22,
                         "value": "hùng"
@@ -2558,7 +1152,7 @@
     {
         "fileName": "0973895906.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002524852752685547,
+        "time_load_info": 0.002742767333984375,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2630,71 +1224,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 35,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 20,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 35,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 20,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 35,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -3003,7 +1546,7 @@
     {
         "fileName": "0969166565.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002288341522216797,
+        "time_load_info": 0.002529144287109375,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -3166,27 +1709,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 8,
-                    "channel": 2,
-                    "text": "dạ em cám ơn anh trường giang phải không ạ dạ em cám ơn anh đã giữ máy ạ dạ anh vui lòng cho em hỏi là tháng này cưng báo thời gian nhận lenovo thời gian nào vậy anh ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 17,
-                            "end": 23,
-                            "value": "trường",
-                            "real_value": "trường",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -3216,27 +1738,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 8,
-                    "channel": 2,
-                    "text": "dạ em cám ơn anh trường giang phải không ạ dạ em cám ơn anh đã giữ máy ạ dạ anh vui lòng cho em hỏi là tháng này cưng báo thời gian nhận lenovo thời gian nào vậy anh ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 17,
-                            "end": 23,
-                            "value": "trường",
-                            "real_value": "trường",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -3244,10 +1745,6 @@
                     {
                         "index": 0,
                         "value": "fpt lâm"
-                    },
-                    {
-                        "index": 8,
-                        "value": "trường"
                     }
                 ]
             },
@@ -3387,7 +1884,7 @@
     {
         "fileName": "0963315505.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002847433090209961,
+        "time_load_info": 0.0022051334381103516,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -3478,20 +1975,71 @@
             "task": "query"
         },
         "companyName": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ fpt 5 xin nghe",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 6,
+                            "value": "fpt",
+                            "real_value": "fpt",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ fpt 5 xin nghe",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 6,
+                            "value": "fpt",
+                            "real_value": "fpt",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 0,
+                        "value": "fpt"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -3776,7 +2324,7 @@
     {
         "fileName": "0962729718.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002452373504638672,
+        "time_load_info": 0.0025262832641601562,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4160,7 +2708,7 @@
     {
         "fileName": "0962637810.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002305746078491211,
+        "time_load_info": 0.00222015380859375,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4195,9 +2743,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -4224,9 +2772,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -4242,7 +2790,7 @@
                 "ask_support": [
                     {
                         "index": 20,
-                        "value": "cần hỗ trợ"
+                        "value": "cần"
                     }
                 ]
             },
@@ -4277,6 +2825,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ hiện tại là chị đang liên hệ đến tổng đài chung của nhà thuốc fpt lâm cho phòng chăm sóc khách hàng ạ vậy em có thể hỗ trợ thông tin gì cho chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 65,
+                            "end": 72,
+                            "value": "fpt lâm",
+                            "real_value": "fpt lâm",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -4306,6 +2875,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ hiện tại là chị đang liên hệ đến tổng đài chung của nhà thuốc fpt lâm cho phòng chăm sóc khách hàng ạ vậy em có thể hỗ trợ thông tin gì cho chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 65,
+                            "end": 72,
+                            "value": "fpt lâm",
+                            "real_value": "fpt lâm",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -4313,6 +2903,10 @@
                     {
                         "index": 0,
                         "value": "fpt lâm cho"
+                    },
+                    {
+                        "index": 2,
+                        "value": "fpt lâm"
                     }
                 ]
             },
@@ -4327,27 +2921,6 @@
                 "1": "no"
             },
             "decision_position": [
-                {
-                    "index": 2,
-                    "channel": 2,
-                    "text": "dạ hiện tại là chị đang liên hệ đến tổng đài chung của nhà thuốc fpt lâm cho phòng chăm sóc khách hàng ạ vậy em có thể hỗ trợ thông tin gì cho chị ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 69,
-                            "end": 72,
-                            "value": "lâm",
-                            "real_value": "lâm",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
                 {
                     "index": 6,
                     "channel": 2,
@@ -4461,27 +3034,6 @@
                 "1": 0.0
             },
             "position": [
-                {
-                    "index": 2,
-                    "channel": 2,
-                    "text": "dạ hiện tại là chị đang liên hệ đến tổng đài chung của nhà thuốc fpt lâm cho phòng chăm sóc khách hàng ạ vậy em có thể hỗ trợ thông tin gì cho chị ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 69,
-                            "end": 72,
-                            "value": "lâm",
-                            "real_value": "lâm",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
                 {
                     "index": 6,
                     "channel": 2,
@@ -4590,10 +3142,6 @@
             ],
             "slots": {
                 "customer_name": [
-                    {
-                        "index": 2,
-                        "value": "lâm"
-                    },
                     {
                         "index": 6,
                         "value": "thanh"
@@ -4814,6 +3362,27 @@
             },
             "decision_position": [
                 {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "đồng thời em cũng sẽ chuyển thông tin của chị đến dược sĩ chuyên môn bên em kiểm tra và liên hệ tư vấn đến chị ạ cám ơn chị an tâm ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 113,
+                            "end": 116,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 22,
                     "channel": 2,
                     "text": "dạ em cám ơn em chào chị ạ",
@@ -4843,6 +3412,27 @@
             },
             "position": [
                 {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "đồng thời em cũng sẽ chuyển thông tin của chị đến dược sĩ chuyên môn bên em kiểm tra và liên hệ tư vấn đến chị ạ cám ơn chị an tâm ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 113,
+                            "end": 116,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 22,
                     "channel": 2,
                     "text": "dạ em cám ơn em chào chị ạ",
@@ -4867,6 +3457,10 @@
             "slots": {
                 "thank": [
                     {
+                        "index": 18,
+                        "value": "cám"
+                    },
+                    {
                         "index": 22,
                         "value": "cám ơn"
                     }
@@ -4881,7 +3475,7 @@
     {
         "fileName": "0944070272.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023651123046875,
+        "time_load_info": 0.002292633056640625,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4935,9 +3529,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 20,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
+                            "end": 25,
+                            "value": "fpt lâm nghe",
+                            "real_value": "fpt lâm nghe",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -4964,9 +3558,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 20,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
+                            "end": 25,
+                            "value": "fpt lâm nghe",
+                            "real_value": "fpt lâm nghe",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -4982,7 +3576,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt lâm"
+                        "value": "fpt lâm nghe"
                     }
                 ]
             },
@@ -5133,27 +3727,6 @@
             },
             "decision_position": [
                 {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ nhà thuốc fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 21,
-                            "end": 25,
-                            "value": "nghe",
-                            "real_value": "nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
                     "index": 4,
                     "channel": 2,
                     "text": "dạ em chào chị ạ chị vui lòng giữ máy giúp em trong giây lát em xin phép kiểm tra lại thông tin trước đó hả",
@@ -5183,27 +3756,6 @@
             },
             "position": [
                 {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ nhà thuốc fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 21,
-                            "end": 25,
-                            "value": "nghe",
-                            "real_value": "nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
                     "index": 4,
                     "channel": 2,
                     "text": "dạ em chào chị ạ chị vui lòng giữ máy giúp em trong giây lát em xin phép kiểm tra lại thông tin trước đó hả",
@@ -5228,10 +3780,6 @@
             "slots": {
                 "ciao": [
                     {
-                        "index": 0,
-                        "value": "nghe"
-                    },
-                    {
                         "index": 4,
                         "value": "chào"
                     }
@@ -5242,20 +3790,71 @@
             "task": "query"
         },
         "thank": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ em cám ơn chị đã giữ máy ạ kiểm tra em thấy là ngày 7 tháng 11 chị có mua đơn hàng tổng tiền là 330000 đồng vào ngày hôm nay chị nhận được tin nhắn là phiếu mua hàng 30000 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 6,
+                            "end": 9,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ em cám ơn chị đã giữ máy ạ kiểm tra em thấy là ngày 7 tháng 11 chị có mua đơn hàng tổng tiền là 330000 đồng vào ngày hôm nay chị nhận được tin nhắn là phiếu mua hàng 30000 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 6,
+                            "end": 9,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 5,
+                        "value": "cám"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -5265,7 +3864,7 @@
     {
         "fileName": "0936306386.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002302885055541992,
+        "time_load_info": 0.00278472900390625,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5722,7 +4321,7 @@
     {
         "fileName": "0936062085.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002514362335205078,
+        "time_load_info": 0.0022802352905273438,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5923,36 +4522,6 @@
             },
             "decision_position": [
                 {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "chào xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 0,
-                            "end": 4,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
-                            "start": 5,
-                            "end": 8,
-                            "value": "xin",
-                            "real_value": "xin",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
                     "index": 2,
                     "channel": 2,
                     "text": "alo dạ em chào chị",
@@ -5975,42 +4544,12 @@
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 0.5,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.5,
                 "1": 0.0
             },
             "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "chào xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 0,
-                            "end": 4,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
-                            "start": 5,
-                            "end": 8,
-                            "value": "xin",
-                            "real_value": "xin",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
                 {
                     "index": 2,
                     "channel": 2,
@@ -6035,14 +4574,6 @@
             ],
             "slots": {
                 "ciao": [
-                    {
-                        "index": 0,
-                        "value": "chào"
-                    },
-                    {
-                        "index": 0,
-                        "value": "xin"
-                    },
                     {
                         "index": 2,
                         "value": "chào"
@@ -6077,7 +4608,7 @@
     {
         "fileName": "0918852277.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027713775634765625,
+        "time_load_info": 0.0022847652435302734,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6459,7 +4990,7 @@
     {
         "fileName": "0918030442.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023314952850341797,
+        "time_load_info": 0.0023109912872314453,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6698,7 +5229,7 @@
     {
         "fileName": "0916731457.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002117156982421875,
+        "time_load_info": 0.0021224021911621094,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -7206,7 +5737,7 @@
     {
         "fileName": "0913381439.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002566099166870117,
+        "time_load_info": 0.0028765201568603516,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -7227,71 +5758,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 46,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 46,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 46,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -7414,6 +5894,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 29,
+                    "channel": 2,
+                    "text": "dạ tuy nhiên chị đến shop vỡ thì bạn nhân viên lại báo là sản phẩm này của chị đã thất tiêu nhưng chị trước đó chị chia sẻ là khi mua lại bạn nhân viên đã tháo tại shop đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 87,
+                            "end": 91,
+                            "value": "tiêu",
+                            "real_value": "tiêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -7464,6 +5965,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 29,
+                    "channel": 2,
+                    "text": "dạ tuy nhiên chị đến shop vỡ thì bạn nhân viên lại báo là sản phẩm này của chị đã thất tiêu nhưng chị trước đó chị chia sẻ là khi mua lại bạn nhân viên đã tháo tại shop đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 87,
+                            "end": 91,
+                            "value": "tiêu",
+                            "real_value": "tiêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -7475,6 +5997,10 @@
                     {
                         "index": 11,
                         "value": "lâm"
+                    },
+                    {
+                        "index": 29,
+                        "value": "tiêu"
                     }
                 ]
             },
@@ -7630,6 +6156,27 @@
             },
             "decision_position": [
                 {
+                    "index": 41,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị thông cảm người nhà đóng trước giúp em ạ bên em sẽ kiểm tra và liên hệ lại phản hồi đến chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 6,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 45,
                     "channel": 2,
                     "text": "dạ em cám ơn thông tin của chị ạ",
@@ -7680,6 +6227,27 @@
             },
             "position": [
                 {
+                    "index": 41,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị thông cảm người nhà đóng trước giúp em ạ bên em sẽ kiểm tra và liên hệ lại phản hồi đến chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 6,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 45,
                     "channel": 2,
                     "text": "dạ em cám ơn thông tin của chị ạ",
@@ -7725,6 +6293,10 @@
             "slots": {
                 "thank": [
                     {
+                        "index": 41,
+                        "value": "cám"
+                    },
+                    {
                         "index": 45,
                         "value": "cám ơn"
                     },
@@ -7743,7 +6315,7 @@
     {
         "fileName": "0911486219.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022308826446533203,
+        "time_load_info": 0.0022373199462890625,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -7875,18 +6447,27 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 63,
+                            "end": 66,
+                            "value": "đào",
+                            "real_value": "đào",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
@@ -7925,12 +6506,21 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 63,
+                            "end": 66,
+                            "value": "đào",
+                            "real_value": "đào",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "slots": {
@@ -7942,6 +6532,10 @@
                     {
                         "index": 7,
                         "value": "long cho"
+                    },
+                    {
+                        "index": 7,
+                        "value": "đào"
                     }
                 ]
             },
@@ -8062,6 +6656,36 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "trường hợp nhà thuốc long cho bên em sẽ kiểm tra lại về vấn đề này ạ nhà thuốc long cho bên em sai phạm thì bên em sẽ chủ động liên hệ đến chị để gia giao lại đúng sản phẩm này chị đã đặt ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 21,
+                            "end": 25,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
+                            "start": 79,
+                            "end": 83,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
                     "index": 22,
                     "channel": 2,
                     "text": "chị chụp giúp em thông tin hình ảnh sản phẩm chị nhận được hưởng qua zalo cá nhân em tên ngọc ạ",
@@ -8084,9 +6708,9 @@
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
@@ -8196,6 +6820,36 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "trường hợp nhà thuốc long cho bên em sẽ kiểm tra lại về vấn đề này ạ nhà thuốc long cho bên em sai phạm thì bên em sẽ chủ động liên hệ đến chị để gia giao lại đúng sản phẩm này chị đã đặt ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 21,
+                            "end": 25,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
+                            "start": 79,
+                            "end": 83,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
                     "index": 22,
                     "channel": 2,
                     "text": "chị chụp giúp em thông tin hình ảnh sản phẩm chị nhận được hưởng qua zalo cá nhân em tên ngọc ạ",
@@ -8238,6 +6892,14 @@
                     {
                         "index": 15,
                         "value": "ngọc"
+                    },
+                    {
+                        "index": 20,
+                        "value": "long"
+                    },
+                    {
+                        "index": 20,
+                        "value": "long"
                     },
                     {
                         "index": 22,
@@ -8464,73 +7126,22 @@
     {
         "fileName": "0908614456.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030088424682617188,
+        "time_load_info": 0.0037384033203125,
         "agentIntroduce": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "người nhà thôi fpt vân xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 19,
-                            "end": 22,
-                            "value": "vân",
-                            "real_value": "vân",
-                            "entity": "agent_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "người nhà thôi fpt vân xin nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 19,
-                            "end": 22,
-                            "value": "vân",
-                            "real_value": "vân",
-                            "entity": "agent_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "agent_name": [
-                    {
-                        "index": 0,
-                        "value": "vân"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -8569,9 +7180,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 18,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 22,
+                            "value": "fpt vân",
+                            "real_value": "fpt vân",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -8598,9 +7209,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 18,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 22,
+                            "value": "fpt vân",
+                            "real_value": "fpt vân",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -8616,7 +7227,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt"
+                        "value": "fpt vân"
                     }
                 ]
             },
@@ -8695,6 +7306,27 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 40,
+                    "channel": 2,
+                    "text": "hiện tại em kiểm trang em thấy đơn hàng tổng tiền 53000 mang theo hợp đồng có hóa đơn là tên người mua hàng là nguyễn ngọc địa chỉ là 10",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 17,
+                            "end": 22,
+                            "value": "trang",
+                            "real_value": "trang",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 81,
                     "channel": 2,
                     "text": "dạ em cám ơn chị ngọc đã giữ máy ạ",
@@ -8808,6 +7440,27 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 40,
+                    "channel": 2,
+                    "text": "hiện tại em kiểm trang em thấy đơn hàng tổng tiền 53000 mang theo hợp đồng có hóa đơn là tên người mua hàng là nguyễn ngọc địa chỉ là 10",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 17,
+                            "end": 22,
+                            "value": "trang",
+                            "real_value": "trang",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 81,
                     "channel": 2,
                     "text": "dạ em cám ơn chị ngọc đã giữ máy ạ",
@@ -8863,6 +7516,10 @@
                     {
                         "index": 19,
                         "value": "thủy"
+                    },
+                    {
+                        "index": 40,
+                        "value": "trang"
                     },
                     {
                         "index": 81,
@@ -9088,7 +7745,7 @@
     {
         "fileName": "0903847048.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021576881408691406,
+        "time_load_info": 0.0030570030212402344,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9482,7 +8139,7 @@
     {
         "fileName": "0902876991.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024437904357910156,
+        "time_load_info": 0.002207517623901367,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9517,9 +8174,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -9546,9 +8203,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -9564,7 +8221,7 @@
                 "ask_support": [
                     {
                         "index": 46,
-                        "value": "cần hỗ trợ"
+                        "value": "cần"
                     }
                 ]
             },
@@ -9573,20 +8230,71 @@
             "task": "query"
         },
         "companyName": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "người nhà của fpt làm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 25,
+                            "value": "fpt làm cho",
+                            "real_value": "fpt làm cho",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "người nhà của fpt làm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 25,
+                            "value": "fpt làm cho",
+                            "real_value": "fpt làm cho",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 0,
+                        "value": "fpt làm cho"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -9641,14 +8349,14 @@
                     "confidence_criteria": 1.0
                 },
                 {
-                    "index": 18,
+                    "index": 11,
                     "channel": 2,
-                    "text": "chị vui lòng mang sản phẩm ra trực tiếp nhà thuốc long cho gần nhất để các bạn nhân viên hỗ trợ kiểm tra nếu mà sản phẩm thỏa điều kiện thì các bạn nhân viên sẽ hỗ trợ ạ chị vui lòng mang sản phẩm đó giúp em ạ",
+                    "text": "dạ hiện tại thì nhà thuốc long cho bên em có chính sách đổi trả trong vòng 30 ngày kể từ ngày mua hàng nếu mà sản phẩm lỗi của nhà sản xuất thì chị vui lòng có thể mang sản phẩm đến trực tiếp nhà thuốc long cho gần nhất để các bạn nhân viên hỗ trợ kiểm tra ạ",
                     "intents": [],
                     "entities": [
                         {
-                            "start": 50,
-                            "end": 54,
+                            "start": 202,
+                            "end": 206,
                             "value": "long",
                             "real_value": "long",
                             "entity": "customer_name",
@@ -9733,14 +8441,14 @@
                     "confidence_criteria": 1.0
                 },
                 {
-                    "index": 18,
+                    "index": 11,
                     "channel": 2,
-                    "text": "chị vui lòng mang sản phẩm ra trực tiếp nhà thuốc long cho gần nhất để các bạn nhân viên hỗ trợ kiểm tra nếu mà sản phẩm thỏa điều kiện thì các bạn nhân viên sẽ hỗ trợ ạ chị vui lòng mang sản phẩm đó giúp em ạ",
+                    "text": "dạ hiện tại thì nhà thuốc long cho bên em có chính sách đổi trả trong vòng 30 ngày kể từ ngày mua hàng nếu mà sản phẩm lỗi của nhà sản xuất thì chị vui lòng có thể mang sản phẩm đến trực tiếp nhà thuốc long cho gần nhất để các bạn nhân viên hỗ trợ kiểm tra ạ",
                     "intents": [],
                     "entities": [
                         {
-                            "start": 50,
-                            "end": 54,
+                            "start": 202,
+                            "end": 206,
                             "value": "long",
                             "real_value": "long",
                             "entity": "customer_name",
@@ -9786,7 +8494,7 @@
                         "value": "nhung"
                     },
                     {
-                        "index": 18,
+                        "index": 11,
                         "value": "long"
                     },
                     {
@@ -10060,22 +8768,73 @@
     {
         "fileName": "0869835800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022554397583007812,
+        "time_load_info": 0.003125429153442383,
         "agentIntroduce": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "hứa fpt lâm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 0,
+                            "end": 3,
+                            "value": "hứa",
+                            "real_value": "hứa",
+                            "entity": "agent_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "hứa fpt lâm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 0,
+                            "end": 3,
+                            "value": "hứa",
+                            "real_value": "hứa",
+                            "entity": "agent_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "agent_name": [
+                    {
+                        "index": 0,
+                        "value": "hứa"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -10247,6 +9006,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em kiểm tra thì thấy là ngày 5 tháng 11 chị có đến chi nhánh là bình vợ tôi nguyễn đình dũng đang nghe tổng tiền là 690000 đồng và chị đã đến cửa hàng mua vào lúc 17 giờ 19 phút ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 71,
+                            "value": "bình",
+                            "real_value": "bình",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -10276,6 +9056,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em kiểm tra thì thấy là ngày 5 tháng 11 chị có đến chi nhánh là bình vợ tôi nguyễn đình dũng đang nghe tổng tiền là 690000 đồng và chị đã đến cửa hàng mua vào lúc 17 giờ 19 phút ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 71,
+                            "value": "bình",
+                            "real_value": "bình",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -10283,6 +9084,10 @@
                     {
                         "index": 2,
                         "value": "my"
+                    },
+                    {
+                        "index": 4,
+                        "value": "bình"
                     }
                 ]
             },
@@ -10505,7 +9310,7 @@
     {
         "fileName": "0834999199.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002557992935180664,
+        "time_load_info": 0.0023717880249023438,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10940,7 +9745,7 @@
     {
         "fileName": "0768786677.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002424955368041992,
+        "time_load_info": 0.0023207664489746094,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10994,33 +9799,24 @@
                     "entities": [
                         {
                             "start": 31,
-                            "end": 34,
-                            "value": "fpt",
-                            "real_value": "fpt",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
-                            "start": 35,
                             "end": 43,
-                            "value": "long cho",
-                            "real_value": "long cho",
+                            "value": "fpt long cho",
+                            "real_value": "fpt long cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
-            "confidence": 2.0,
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 2.0,
+                "2": 1.0,
                 "1": 0.0
             },
             "position": [
@@ -11032,38 +9828,25 @@
                     "entities": [
                         {
                             "start": 31,
-                            "end": 34,
-                            "value": "fpt",
-                            "real_value": "fpt",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
-                            "start": 35,
                             "end": 43,
-                            "value": "long cho",
-                            "real_value": "long cho",
+                            "value": "fpt long cho",
+                            "real_value": "fpt long cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
                 "company_name": [
                     {
                         "index": 6,
-                        "value": "fpt"
-                    },
-                    {
-                        "index": 6,
-                        "value": "long cho"
+                        "value": "fpt long cho"
                     }
                 ]
             },
@@ -11089,6 +9872,27 @@
                             "end": 21,
                             "value": "yến",
                             "real_value": "yến",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "dạ khách hàng tiên và em thấy là trong đơn hàng là được tặng áo mưa trung tâm tiêm chủng cho á chị tuy nhiên khách hàng quên lấy nên là khách hàng hỏi thăm là chiều khách hàng lấy được không hả chị",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 18,
+                            "value": "tiên",
+                            "real_value": "tiên",
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
@@ -11150,6 +9954,27 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "dạ khách hàng tiên và em thấy là trong đơn hàng là được tặng áo mưa trung tâm tiêm chủng cho á chị tuy nhiên khách hàng quên lấy nên là khách hàng hỏi thăm là chiều khách hàng lấy được không hả chị",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 14,
+                            "end": 18,
+                            "value": "tiên",
+                            "real_value": "tiên",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 45,
                     "channel": 2,
                     "text": "dạ cũng là chị hoa luôn ạ",
@@ -11176,6 +10001,10 @@
                     {
                         "index": 0,
                         "value": "yến"
+                    },
+                    {
+                        "index": 10,
+                        "value": "tiên"
                     },
                     {
                         "index": 45,
@@ -11351,7 +10180,7 @@
     {
         "fileName": "0703603938.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002520322799682617,
+        "time_load_info": 0.0023298263549804688,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -11791,7 +10620,7 @@
     {
         "fileName": "0584256964.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022814273834228516,
+        "time_load_info": 0.002353191375732422,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -11812,71 +10641,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 84,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 13,
-                            "value": "cần",
-                            "real_value": "cần",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 84,
-                    "channel": 2,
-                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 10,
-                            "end": 13,
-                            "value": "cần",
-                            "real_value": "cần",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 84,
-                        "value": "cần"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -12067,6 +10845,27 @@
                     "entities_score": 0.5,
                     "intent_score": 0.0,
                     "confidence_criteria": 0.5
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ alo chào em có thể hỗ trợ thông tin gì cho anh ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 11,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
                 }
             ],
             "decision": "yes",
@@ -12096,6 +10895,27 @@
                     "entities_score": 0.5,
                     "intent_score": 0.0,
                     "confidence_criteria": 0.5
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ alo chào em có thể hỗ trợ thông tin gì cho anh ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 11,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
                 }
             ],
             "slots": {
@@ -12103,6 +10923,10 @@
                     {
                         "index": 0,
                         "value": "xin nghe"
+                    },
+                    {
+                        "index": 2,
+                        "value": "chào"
                     }
                 ]
             },
@@ -12185,7 +11009,7 @@
     {
         "fileName": "0398427472.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023148059844970703,
+        "time_load_info": 0.0025229454040527344,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -12722,7 +11546,7 @@
     {
         "fileName": "0395885712.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002430438995361328,
+        "time_load_info": 0.002307415008544922,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -12873,9 +11697,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 16,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 25,
+                            "value": "fpt hợp đồng",
+                            "real_value": "fpt hợp đồng",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -12902,9 +11726,9 @@
                     "entities": [
                         {
                             "start": 13,
-                            "end": 16,
-                            "value": "fpt",
-                            "real_value": "fpt",
+                            "end": 25,
+                            "value": "fpt hợp đồng",
+                            "real_value": "fpt hợp đồng",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -12920,7 +11744,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt"
+                        "value": "fpt hợp đồng"
                     }
                 ]
             },
@@ -13095,6 +11919,27 @@
             },
             "decision_position": [
                 {
+                    "index": 30,
+                    "channel": 2,
+                    "text": "dự kiến trước 20 giờ ngày mai ạ cám ơn chị tâm thông cảm và đợi thêm giúp em ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 32,
+                            "end": 35,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 40,
                     "channel": 2,
                     "text": "dạ em cám ơn em chào chị ạ",
@@ -13124,6 +11969,27 @@
             },
             "position": [
                 {
+                    "index": 30,
+                    "channel": 2,
+                    "text": "dự kiến trước 20 giờ ngày mai ạ cám ơn chị tâm thông cảm và đợi thêm giúp em ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 32,
+                            "end": 35,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 40,
                     "channel": 2,
                     "text": "dạ em cám ơn em chào chị ạ",
@@ -13148,6 +12014,10 @@
             "slots": {
                 "thank": [
                     {
+                        "index": 30,
+                        "value": "cám"
+                    },
+                    {
                         "index": 40,
                         "value": "cám ơn"
                     }
@@ -13162,7 +12032,7 @@
     {
         "fileName": "0395464353.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002768993377685547,
+        "time_load_info": 0.0025224685668945312,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13546,7 +12416,7 @@
     {
         "fileName": "0383261678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002762317657470703,
+        "time_load_info": 0.002210378646850586,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13593,27 +12463,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 15,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -13643,27 +12492,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 15,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -13671,10 +12499,6 @@
                     {
                         "index": 14,
                         "value": "có thể hỗ trợ"
-                    },
-                    {
-                        "index": 15,
-                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -13717,34 +12541,25 @@
                     "intents": [],
                     "entities": [
                         {
-                            "start": 55,
-                            "end": 58,
-                            "value": "nhà",
-                            "real_value": "nhà",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
                             "start": 65,
-                            "end": 69,
-                            "value": "long",
-                            "real_value": "long",
+                            "end": 73,
+                            "value": "long cho",
+                            "real_value": "long cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
-            "confidence": 2.0,
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 2.0,
+                "2": 1.0,
                 "1": 0.0
             },
             "position": [
@@ -13776,28 +12591,19 @@
                     "intents": [],
                     "entities": [
                         {
-                            "start": 55,
-                            "end": 58,
-                            "value": "nhà",
-                            "real_value": "nhà",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        },
-                        {
                             "start": 65,
-                            "end": 69,
-                            "value": "long",
-                            "real_value": "long",
+                            "end": 73,
+                            "value": "long cho",
+                            "real_value": "long cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -13808,11 +12614,7 @@
                     },
                     {
                         "index": 8,
-                        "value": "nhà"
-                    },
-                    {
-                        "index": 8,
-                        "value": "long"
+                        "value": "long cho"
                     }
                 ]
             },
@@ -13849,6 +12651,27 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 8,
+                    "channel": 2,
+                    "text": "dạ chị hoài cho em hỏi thăm là hiện tại chị đã tải app nhà thuốc long cho bên em chưa ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 11,
+                            "value": "hoài",
+                            "real_value": "hoài",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 10,
                     "channel": 2,
                     "text": "dạ về trường hợp mã quy trinh thu thanh toán là để khách hàng quét mã để tải app nhà thuốc long cho bên em là khách hàng có thể đặt hàng online hoặc là đỗ phiếu mua hàng online trên app đó chị ạ",
@@ -13862,18 +12685,27 @@
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 91,
+                            "end": 95,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
@@ -13899,6 +12731,27 @@
                     "confidence_criteria": 1.0
                 },
                 {
+                    "index": 8,
+                    "channel": 2,
+                    "text": "dạ chị hoài cho em hỏi thăm là hiện tại chị đã tải app nhà thuốc long cho bên em chưa ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 11,
+                            "value": "hoài",
+                            "real_value": "hoài",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 10,
                     "channel": 2,
                     "text": "dạ về trường hợp mã quy trinh thu thanh toán là để khách hàng quét mã để tải app nhà thuốc long cho bên em là khách hàng có thể đặt hàng online hoặc là đỗ phiếu mua hàng online trên app đó chị ạ",
@@ -13912,12 +12765,21 @@
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 91,
+                            "end": 95,
+                            "value": "long",
+                            "real_value": "long",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "slots": {
@@ -13927,8 +12789,16 @@
                         "value": "hòa"
                     },
                     {
+                        "index": 8,
+                        "value": "hoài"
+                    },
+                    {
                         "index": 10,
                         "value": "trinh"
+                    },
+                    {
+                        "index": 10,
+                        "value": "long"
                     }
                 ]
             },
@@ -14197,7 +13067,7 @@
     {
         "fileName": "0378525255.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022912025451660156,
+        "time_load_info": 0.0023839473724365234,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -14218,71 +13088,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ nếu cần hỗ trợ thêm thông tin chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 17,
-                    "channel": 2,
-                    "text": "dạ nếu cần hỗ trợ thêm thông tin chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 17,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -14302,9 +13121,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 22,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
+                            "end": 27,
+                            "value": "fpt lâm xuân",
+                            "real_value": "fpt lâm xuân",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -14331,9 +13150,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 22,
-                            "value": "fpt lâm",
-                            "real_value": "fpt lâm",
+                            "end": 27,
+                            "value": "fpt lâm xuân",
+                            "real_value": "fpt lâm xuân",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -14349,7 +13168,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt lâm"
+                        "value": "fpt lâm xuân"
                     }
                 ]
             },
@@ -14872,7 +13691,7 @@
     {
         "fileName": "0369750252.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024657249450683594,
+        "time_load_info": 0.002225637435913086,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -14893,71 +13712,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 48,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 48,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 48,
-                        "value": "cần hỗ trợ"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -15088,6 +13856,15 @@
                     "intents": [],
                     "entities": [
                         {
+                            "start": 66,
+                            "end": 70,
+                            "value": "ngọc",
+                            "real_value": "ngọc",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
                             "start": 71,
                             "end": 76,
                             "value": "tuyền",
@@ -15107,9 +13884,9 @@
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 3.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 3.0
                 },
                 {
                     "index": 40,
@@ -15164,9 +13941,9 @@
                 }
             ],
             "decision": "yes",
-            "confidence": 2.0,
+            "confidence": 3.0,
             "confidence_channel": {
-                "2": 2.0,
+                "2": 3.0,
                 "1": 0.0
             },
             "position": [
@@ -15219,6 +13996,15 @@
                     "intents": [],
                     "entities": [
                         {
+                            "start": 66,
+                            "end": 70,
+                            "value": "ngọc",
+                            "real_value": "ngọc",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
                             "start": 71,
                             "end": 76,
                             "value": "tuyền",
@@ -15238,9 +14024,9 @@
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 3.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 3.0
                 },
                 {
                     "index": 40,
@@ -15303,6 +14089,10 @@
                     {
                         "index": 30,
                         "value": "trinh"
+                    },
+                    {
+                        "index": 32,
+                        "value": "ngọc"
                     },
                     {
                         "index": 32,
@@ -15545,7 +14335,7 @@
     {
         "fileName": "0365550610.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002599000930786133,
+        "time_load_info": 0.002225160598754883,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15580,9 +14370,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -15609,9 +14399,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
+                            "end": 10,
+                            "value": "cần",
+                            "real_value": "cần",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -15627,7 +14417,7 @@
                 "ask_support": [
                     {
                         "index": 45,
-                        "value": "cần hỗ trợ"
+                        "value": "cần"
                     }
                 ]
             },
@@ -15713,25 +14503,88 @@
             },
             "decision_position": [
                 {
+                    "index": 13,
+                    "channel": 2,
+                    "text": "em thấy đơn hàng gần nhất chị mua ngày 6 tây tháng 11 thì số tiền là 74698 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 41,
+                            "end": 44,
+                            "value": "tây",
+                            "real_value": "tây",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 15,
+                    "channel": 2,
+                    "text": "dạ em thấy là 6 tây tháng 11 thì em thấy đơn hàng này là để là đã gia hạn thành công đến chị là",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 16,
+                            "end": 19,
+                            "value": "tây",
+                            "real_value": "tây",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 30,
                     "channel": 2,
                     "text": "gửi giúp em thông tin hình ảnh chị đã chuyển khoản cho nhà thuốc long cho bên em mà vẫn chưa được hoàn tiền gửi qua zalo cá nhân cho em tên ngọc được không ạ",
                     "intents": [],
                     "entities": [
                         {
-                            "start": 65,
-                            "end": 69,
-                            "value": "long",
-                            "real_value": "long",
+                            "start": 140,
+                            "end": 144,
+                            "value": "ngọc",
+                            "real_value": "ngọc",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 39,
+                    "channel": 2,
+                    "text": "162000 dạ tên là huỳnh quỳnh đúng không chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 17,
+                            "end": 22,
+                            "value": "huỳnh",
+                            "real_value": "huỳnh",
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
                         },
                         {
-                            "start": 140,
-                            "end": 144,
-                            "value": "ngọc",
-                            "real_value": "ngọc",
+                            "start": 23,
+                            "end": 28,
+                            "value": "quỳnh",
+                            "real_value": "quỳnh",
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
@@ -15772,25 +14625,88 @@
             },
             "position": [
                 {
+                    "index": 13,
+                    "channel": 2,
+                    "text": "em thấy đơn hàng gần nhất chị mua ngày 6 tây tháng 11 thì số tiền là 74698 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 41,
+                            "end": 44,
+                            "value": "tây",
+                            "real_value": "tây",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 15,
+                    "channel": 2,
+                    "text": "dạ em thấy là 6 tây tháng 11 thì em thấy đơn hàng này là để là đã gia hạn thành công đến chị là",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 16,
+                            "end": 19,
+                            "value": "tây",
+                            "real_value": "tây",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 30,
                     "channel": 2,
                     "text": "gửi giúp em thông tin hình ảnh chị đã chuyển khoản cho nhà thuốc long cho bên em mà vẫn chưa được hoàn tiền gửi qua zalo cá nhân cho em tên ngọc được không ạ",
                     "intents": [],
                     "entities": [
                         {
-                            "start": 65,
-                            "end": 69,
-                            "value": "long",
-                            "real_value": "long",
+                            "start": 140,
+                            "end": 144,
+                            "value": "ngọc",
+                            "real_value": "ngọc",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 39,
+                    "channel": 2,
+                    "text": "162000 dạ tên là huỳnh quỳnh đúng không chị ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 17,
+                            "end": 22,
+                            "value": "huỳnh",
+                            "real_value": "huỳnh",
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
                         },
                         {
-                            "start": 140,
-                            "end": 144,
-                            "value": "ngọc",
-                            "real_value": "ngọc",
+                            "start": 23,
+                            "end": 28,
+                            "value": "quỳnh",
+                            "real_value": "quỳnh",
                             "entity": "customer_name",
                             "subentities": [],
                             "is_required": "required"
@@ -15826,12 +14742,24 @@
             "slots": {
                 "customer_name": [
                     {
-                        "index": 30,
-                        "value": "long"
+                        "index": 13,
+                        "value": "tây"
+                    },
+                    {
+                        "index": 15,
+                        "value": "tây"
                     },
                     {
                         "index": 30,
                         "value": "ngọc"
+                    },
+                    {
+                        "index": 39,
+                        "value": "huỳnh"
+                    },
+                    {
+                        "index": 39,
+                        "value": "quỳnh"
                     },
                     {
                         "index": 42,
@@ -16058,7 +14986,7 @@
     {
         "fileName": "0347341290.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023145675659179688,
+        "time_load_info": 0.002889871597290039,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -16079,71 +15007,20 @@
             "task": "query"
         },
         "askSupport": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 14,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thông tin chị linh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 10,
-                            "value": "cần",
-                            "real_value": "cần",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 14,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thông tin chị linh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 10,
-                            "value": "cần",
-                            "real_value": "cần",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "ask_support": [
-                    {
-                        "index": 14,
-                        "value": "cần"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -16685,7 +15562,7 @@
     {
         "fileName": "0326348428.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002516031265258789,
+        "time_load_info": 0.0024657249450683594,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -16732,27 +15609,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 22,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -16782,27 +15638,6 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
-                },
-                {
-                    "index": 22,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 7,
-                            "end": 17,
-                            "value": "cần hỗ trợ",
-                            "real_value": "cần hỗ trợ",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -16810,10 +15645,6 @@
                     {
                         "index": 20,
                         "value": "có thể hỗ trợ"
-                    },
-                    {
-                        "index": 22,
-                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -16835,10 +15666,10 @@
                     "intents": [],
                     "entities": [
                         {
-                            "start": 7,
+                            "start": 3,
                             "end": 15,
-                            "value": "đóng cho",
-                            "real_value": "đóng cho",
+                            "value": "fpt đóng cho",
+                            "real_value": "fpt đóng cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -16864,10 +15695,10 @@
                     "intents": [],
                     "entities": [
                         {
-                            "start": 7,
+                            "start": 3,
                             "end": 15,
-                            "value": "đóng cho",
-                            "real_value": "đóng cho",
+                            "value": "fpt đóng cho",
+                            "real_value": "fpt đóng cho",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -16883,7 +15714,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "đóng cho"
+                        "value": "fpt đóng cho"
                     }
                 ]
             },
