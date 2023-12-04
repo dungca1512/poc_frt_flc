@@ -322,6 +322,19 @@
             ]
         },
         {
+            "text": "dạ dạ khó fpt lâm",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "company_name",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "fpt lâm"
+                }
+            ]
+        },
+        {
             "text": "dạ cho em xin hỏi là hiện tại em đang được trao đổi thông tin với chị kiều phải không ạ",
             "intent": "greet",
             "entities": [
@@ -411,6 +424,26 @@
                     "start": 6,
                     "subentities": [],
                     "value": "cám ơn"
+                }
+            ]
+        },
+        {
+            "text": "dạ fpt 5 xin nghe",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 17,
+                    "entity": "ciao",
+                    "start": 9,
+                    "subentities": [],
+                    "value": "xin nghe"
+                },
+                {
+                    "end": 8,
+                    "entity": "company_name",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "fpt 5"
                 }
             ]
         },
@@ -1558,6 +1591,26 @@
             "text": "chào chị nha",
             "intent": "ciao",
             "entities": []
+        },
+        {
+            "text": "dạ fpt xin nghe ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 6,
+                    "entity": "company_name",
+                    "start": 3,
+                    "subentities": [],
+                    "value": "fpt"
+                },
+                {
+                    "end": 15,
+                    "entity": "ciao",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "xin nghe"
+                }
+            ]
         },
         {
             "text": "dạ vâng ạ vậy khi cần hỗ trợ mời anh liên hệ lại tổng đài chăm sóc khách hàng miễn phí bên em",

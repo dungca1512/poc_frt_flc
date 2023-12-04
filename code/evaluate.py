@@ -2,8 +2,6 @@ import json
 import requests
 import time
 
-state = input("Enter environment: ")
-
 project = input("Enter project: ")
 
 start = time.time()
@@ -12,8 +10,9 @@ with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 project_info_poc = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
-criteria_names = [i for i in project_info_poc]
+# criteria_names = [i for i in project_info_poc]
 
+criteria_names = ["greet", "companyName", "askSupport", "thank", "goodbye"]
 project_info = {}
 for criteria in criteria_names:
     project_info.update({criteria: project_info_poc[criteria]})
