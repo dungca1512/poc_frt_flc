@@ -6,22 +6,18 @@ project = input("Enter project: ")
 
 start = time.time()
 
+print("Program is running, please wait...")
+
 with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-project_info_poc = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
-# criteria_names = [i for i in project_info_poc]
+project_info = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
 
+criteria_names = [i for i in project_info]
 criteria_names = ["greet", "companyName", "askSupport", "thank", "goodbye"]
-project_info = {}
+project_info_eval = {}
 for criteria in criteria_names:
-    project_info.update({criteria: project_info_poc[criteria]})
-    
-criteria_frt = [i for i in project_info_poc]
-# criteria_frt = ['askSupport']
-project_info_frt = {}
-for cri in criteria_frt:
-    project_info_frt.update({cri: project_info_poc[cri]})
+    project_info_eval.update({criteria: project_info[criteria]})
 
 endpoint = "http://103.176.146.250:5005" # môi trường nlp
 
@@ -36,10 +32,10 @@ for call in data:
         'Content-Type': 'application/json'
     }
     body = {
-        "project_info": project_info_frt,
+        "project_info": project_info_eval,
         "transcript": call['content'],
         "metadata": metadata,
-        "criteria": criteria_frt,
+        "criteria": criteria_names,
         "fileName": call['name'],
         "agentChannel": agentChannel
     }
@@ -50,6 +46,7 @@ for call in data:
     
 with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json_file:
     json.dump(response, json_file, ensure_ascii=False, indent=4)
+
 
 end = time.time()
 
