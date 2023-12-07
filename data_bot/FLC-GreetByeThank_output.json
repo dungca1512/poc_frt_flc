@@ -1431,6 +1431,19 @@
             ]
         },
         {
+            "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
+            "intent": "ask_support",
+            "entities": [
+                {
+                    "end": 20,
+                    "entity": "ask_support",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "cần hỗ trợ"
+                }
+            ]
+        },
+        {
             "text": "dạ em có thể giúp gì thêm cho chị nữa không ạ",
             "intent": "",
             "entities": []

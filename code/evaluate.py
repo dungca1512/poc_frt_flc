@@ -11,6 +11,9 @@ print("Program is running, please wait...")
 with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
     data = json.load(f)
 
+# with open(f"../data/call_transcript.json", 'r', encoding='utf-8') as f:
+#     data = json.load(f)
+
 project_info = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
 
 criteria_names = [i for i in project_info]
@@ -46,6 +49,9 @@ for call in data:
     
 with open(f'../response/{project}_evaluate.json', 'w', encoding='utf-8') as json_file:
     json.dump(response, json_file, ensure_ascii=False, indent=4)
+
+# with open(f'../response/call_transcript_evaluate.json', 'w', encoding='utf-8') as json_file:
+#     json.dump(response, json_file, ensure_ascii=False, indent=4)
 
 
 end = time.time()

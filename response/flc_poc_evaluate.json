@@ -2,7 +2,7 @@
     {
         "fileName": "0936062085.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025331974029541016,
+        "time_load_info": 0.004938840866088867,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -68,6 +68,27 @@
             },
             "decision_position": [
                 {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 5,
+                            "end": 13,
+                            "value": "xin nghe",
+                            "real_value": "xin nghe",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
                     "index": 2,
                     "channel": 2,
                     "text": "alo dạ em chào chị",
@@ -97,6 +118,27 @@
             },
             "position": [
                 {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 5,
+                            "end": 13,
+                            "value": "xin nghe",
+                            "real_value": "xin nghe",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
                     "index": 2,
                     "channel": 2,
                     "text": "alo dạ em chào chị",
@@ -120,6 +162,10 @@
             ],
             "slots": {
                 "ciao": [
+                    {
+                        "index": 0,
+                        "value": "xin nghe"
+                    },
                     {
                         "index": 2,
                         "value": "chào"
@@ -154,7 +200,7 @@
     {
         "fileName": "0918852277.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002876758575439453,
+        "time_load_info": 0.0028214454650878906,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -401,7 +447,7 @@
     {
         "fileName": "0918030442.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029659271240234375,
+        "time_load_info": 0.004979133605957031,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -602,7 +648,7 @@
     {
         "fileName": "0916731457.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002416849136352539,
+        "time_load_info": 0.0023136138916015625,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -618,9 +664,9 @@
                     "entities": [
                         {
                             "start": 61,
-                            "end": 74,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
+                            "end": 70,
+                            "value": "có thể hỗ",
+                            "real_value": "có thể hỗ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -639,9 +685,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 18,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 25,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -668,9 +714,9 @@
                     "entities": [
                         {
                             "start": 61,
-                            "end": 74,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
+                            "end": 70,
+                            "value": "có thể hỗ",
+                            "real_value": "có thể hỗ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -689,9 +735,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 18,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 25,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -707,11 +753,11 @@
                 "ask_support": [
                     {
                         "index": 15,
-                        "value": "có thể hỗ trợ"
+                        "value": "có thể hỗ"
                     },
                     {
                         "index": 17,
-                        "value": "cần"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -953,7 +999,7 @@
     {
         "fileName": "0913381439.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025947093963623047,
+        "time_load_info": 0.002580404281616211,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -969,9 +1015,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -998,9 +1044,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -1016,7 +1062,7 @@
                 "ask_support": [
                     {
                         "index": 46,
-                        "value": "cần hỗ"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -1401,7 +1447,7 @@
     {
         "fileName": "0988533800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002432584762573242,
+        "time_load_info": 0.0022780895233154297,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1624,7 +1670,7 @@
     {
         "fileName": "0985980495.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00220489501953125,
+        "time_load_info": 0.0023534297943115234,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1652,6 +1698,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 10,
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
@@ -1681,6 +1748,27 @@
                     "entities_score": 1.0,
                     "intent_score": 0.0,
                     "confidence_criteria": 1.0
+                },
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 10,
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -1688,6 +1776,10 @@
                     {
                         "index": 43,
                         "value": "có thể hỗ trợ"
+                    },
+                    {
+                        "index": 45,
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -1702,6 +1794,27 @@
                 "1": "no"
             },
             "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ fpt lâm nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 10,
+                            "value": "fpt lâm",
+                            "real_value": "fpt lâm",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
                 {
                     "index": 6,
                     "channel": 2,
@@ -1732,6 +1845,27 @@
             },
             "position": [
                 {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ fpt lâm nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 3,
+                            "end": 10,
+                            "value": "fpt lâm",
+                            "real_value": "fpt lâm",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
                     "index": 6,
                     "channel": 2,
                     "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
@@ -1755,6 +1889,10 @@
             ],
             "slots": {
                 "company_name": [
+                    {
+                        "index": 0,
+                        "value": "fpt lâm"
+                    },
                     {
                         "index": 6,
                         "value": "long cho"
@@ -1843,27 +1981,6 @@
             },
             "decision_position": [
                 {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 15,
-                            "value": "fpt lâm nghe",
-                            "real_value": "fpt lâm nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
                     "index": 6,
                     "channel": 2,
                     "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
@@ -1893,27 +2010,6 @@
             },
             "position": [
                 {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "dạ fpt lâm nghe ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 3,
-                            "end": 15,
-                            "value": "fpt lâm nghe",
-                            "real_value": "fpt lâm nghe",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                },
-                {
                     "index": 6,
                     "channel": 2,
                     "text": "dạ em chào chị ạ hiện tại chị đang có nhu cầu cho nhà thuốc long cho thuê mặt bằng hả chị cho em xin lại",
@@ -1937,10 +2033,6 @@
             ],
             "slots": {
                 "ciao": [
-                    {
-                        "index": 0,
-                        "value": "fpt lâm nghe"
-                    },
                     {
                         "index": 6,
                         "value": "chào"
@@ -2026,7 +2118,7 @@
     {
         "fileName": "0979418241.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002420663833618164,
+        "time_load_info": 0.0023305416107177734,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2041,6 +2133,15 @@
                     "intents": [],
                     "entities": [
                         {
+                            "start": 6,
+                            "end": 8,
+                            "value": "sẽ",
+                            "real_value": "sẽ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
                             "start": 60,
                             "end": 73,
                             "value": "có thể hỗ trợ",
@@ -2051,9 +2152,9 @@
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 },
                 {
                     "index": 21,
@@ -2078,9 +2179,9 @@
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
@@ -2090,6 +2191,15 @@
                     "text": "dạ em sẽ ghi nhận thông tin của khả năng bên an tâm ạ dạ em có thể hỗ trợ gì cho anh nữa không ạ",
                     "intents": [],
                     "entities": [
+                        {
+                            "start": 6,
+                            "end": 8,
+                            "value": "sẽ",
+                            "real_value": "sẽ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
                         {
                             "start": 60,
                             "end": 73,
@@ -2101,9 +2211,9 @@
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 },
                 {
                     "index": 21,
@@ -2129,6 +2239,10 @@
             ],
             "slots": {
                 "ask_support": [
+                    {
+                        "index": 17,
+                        "value": "sẽ"
+                    },
                     {
                         "index": 17,
                         "value": "có thể hỗ trợ"
@@ -2349,20 +2463,71 @@
             "task": "query"
         },
         "thank": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 14,
+                    "channel": 2,
+                    "text": "và em cũng cám ơn anh phong đã dành thời gian góp ý tại nhà thuốc không cho bên em có thể cải thiện chất lượng dịch vụ trong thời gian tới ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 11,
+                            "end": 14,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 14,
+                    "channel": 2,
+                    "text": "và em cũng cám ơn anh phong đã dành thời gian góp ý tại nhà thuốc không cho bên em có thể cải thiện chất lượng dịch vụ trong thời gian tới ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 11,
+                            "end": 14,
+                            "value": "cám",
+                            "real_value": "cám",
+                            "entity": "thank",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 14,
+                        "value": "cám"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -2372,22 +2537,73 @@
     {
         "fileName": "0976267870.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023734569549560547,
+        "time_load_info": 0.0028846263885498047,
         "askSupport": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin anh khanh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin anh khanh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 7,
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "ask_support": [
+                    {
+                        "index": 20,
+                        "value": "cần hỗ trợ"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -2723,7 +2939,7 @@
     {
         "fileName": "0974223295.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002362489700317383,
+        "time_load_info": 0.002482891082763672,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2739,9 +2955,9 @@
                     "entities": [
                         {
                             "start": 6,
-                            "end": 19,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
+                            "end": 8,
+                            "value": "có",
+                            "real_value": "có",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -2789,9 +3005,9 @@
                     "entities": [
                         {
                             "start": 6,
-                            "end": 19,
-                            "value": "có thể hỗ trợ",
-                            "real_value": "có thể hỗ trợ",
+                            "end": 8,
+                            "value": "có",
+                            "real_value": "có",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -2828,7 +3044,7 @@
                 "ask_support": [
                     {
                         "index": 20,
-                        "value": "có thể hỗ trợ"
+                        "value": "có"
                     },
                     {
                         "index": 22,
@@ -3166,22 +3382,73 @@
     {
         "fileName": "0973895906.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002941608428955078,
+        "time_load_info": 0.0024619102478027344,
         "askSupport": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 35,
+                    "channel": 2,
+                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 10,
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
-            "slots": {},
+            "position": [
+                {
+                    "index": 35,
+                    "channel": 2,
+                    "text": "dạ dạ khi cần hỗ trợ thêm thông tin",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 10,
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
+                            "entity": "ask_support",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "ask_support": [
+                    {
+                        "index": 35,
+                        "value": "cần hỗ trợ"
+                    }
+                ]
+            },
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -3471,7 +3738,7 @@
     {
         "fileName": "0969166565.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022971630096435547,
+        "time_load_info": 0.0023686885833740234,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3508,9 +3775,9 @@
                     "entities": [
                         {
                             "start": 12,
-                            "end": 15,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 22,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -3558,9 +3825,9 @@
                     "entities": [
                         {
                             "start": 12,
-                            "end": 15,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 22,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -3580,7 +3847,7 @@
                     },
                     {
                         "index": 16,
-                        "value": "cần"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -3817,7 +4084,7 @@
     {
         "fileName": "0963315505.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002675771713256836,
+        "time_load_info": 0.0025615692138671875,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3959,71 +4226,20 @@
             "task": "query"
         },
         "goodbye": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 24,
-                    "channel": 2,
-                    "text": "nha chứ không hỗ trợ gì thêm chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cám ơn chào chị uyên ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 94,
-                            "end": 98,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 0.5,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 24,
-                    "channel": 2,
-                    "text": "nha chứ không hỗ trợ gì thêm chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cám ơn chào chị uyên ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 94,
-                            "end": 98,
-                            "value": "chào",
-                            "real_value": "chào",
-                            "entity": "ciao",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "slots": {
-                "ciao": [
-                    {
-                        "index": 24,
-                        "value": "chào"
-                    }
-                ]
-            },
+            "position": [],
+            "slots": {},
             "position_range_index": [],
             "position_condition": [],
             "task": "query"
@@ -4173,7 +4389,7 @@
     {
         "fileName": "0962729718.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023393630981445312,
+        "time_load_info": 0.00222015380859375,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4229,9 +4445,9 @@
                     "entities": [
                         {
                             "start": 140,
-                            "end": 148,
-                            "value": "again lô",
-                            "real_value": "again lô",
+                            "end": 145,
+                            "value": "again",
+                            "real_value": "again",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -4279,9 +4495,9 @@
                     "entities": [
                         {
                             "start": 140,
-                            "end": 148,
-                            "value": "again lô",
-                            "real_value": "again lô",
+                            "end": 145,
+                            "value": "again",
+                            "real_value": "again",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -4301,7 +4517,7 @@
                     },
                     {
                         "index": 8,
-                        "value": "again lô"
+                        "value": "again"
                     }
                 ]
             },
@@ -4422,7 +4638,7 @@
     {
         "fileName": "0962637810.wav",
         "agentChannel": 2,
-        "time_load_info": 0.005049943923950195,
+        "time_load_info": 0.002370119094848633,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -4438,9 +4654,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -4467,9 +4683,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -4485,7 +4701,7 @@
                 "ask_support": [
                     {
                         "index": 20,
-                        "value": "cần hỗ"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -4916,7 +5132,7 @@
     {
         "fileName": "0944070272.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029103755950927734,
+        "time_load_info": 0.0023183822631835938,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5156,9 +5372,9 @@
                     "entities": [
                         {
                             "start": 6,
-                            "end": 9,
-                            "value": "cám",
-                            "real_value": "cám",
+                            "end": 12,
+                            "value": "cám ơn",
+                            "real_value": "cám ơn",
                             "entity": "thank",
                             "subentities": [],
                             "is_required": "required"
@@ -5185,9 +5401,9 @@
                     "entities": [
                         {
                             "start": 6,
-                            "end": 9,
-                            "value": "cám",
-                            "real_value": "cám",
+                            "end": 12,
+                            "value": "cám ơn",
+                            "real_value": "cám ơn",
                             "entity": "thank",
                             "subentities": [],
                             "is_required": "required"
@@ -5203,7 +5419,7 @@
                 "thank": [
                     {
                         "index": 5,
-                        "value": "cám"
+                        "value": "cám ơn"
                     }
                 ]
             },
@@ -5216,7 +5432,7 @@
     {
         "fileName": "0936306386.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002961397171020508,
+        "time_load_info": 0.0027396678924560547,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -5470,7 +5686,7 @@
     {
         "fileName": "0398427472.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002439737319946289,
+        "time_load_info": 0.0025544166564941406,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -5708,6 +5924,27 @@
                     "entities_score": 0.5,
                     "intent_score": 0.0,
                     "confidence_criteria": 0.5
+                },
+                {
+                    "index": 7,
+                    "channel": 2,
+                    "text": "chào anh long em kiểm tra thấy số điện thoại anh liên hệ lên tổng đài bên em thì anh có nhắn tin trên facebook là hỏi sản phẩm là ngô taxi số tiền 930000 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 0,
+                            "end": 4,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
                 }
             ],
             "decision": "yes",
@@ -5737,6 +5974,27 @@
                     "entities_score": 0.5,
                     "intent_score": 0.0,
                     "confidence_criteria": 0.5
+                },
+                {
+                    "index": 7,
+                    "channel": 2,
+                    "text": "chào anh long em kiểm tra thấy số điện thoại anh liên hệ lên tổng đài bên em thì anh có nhắn tin trên facebook là hỏi sản phẩm là ngô taxi số tiền 930000 đồng đúng không ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 0,
+                            "end": 4,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
                 }
             ],
             "slots": {
@@ -5744,6 +6002,10 @@
                     {
                         "index": 0,
                         "value": "xin nghe"
+                    },
+                    {
+                        "index": 7,
+                        "value": "chào"
                     }
                 ]
             },
@@ -5826,7 +6088,7 @@
     {
         "fileName": "0395885712.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002277374267578125,
+        "time_load_info": 0.0022401809692382812,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6168,9 +6430,9 @@
                     "entities": [
                         {
                             "start": 32,
-                            "end": 35,
-                            "value": "cám",
-                            "real_value": "cám",
+                            "end": 38,
+                            "value": "cám ơn",
+                            "real_value": "cám ơn",
                             "entity": "thank",
                             "subentities": [],
                             "is_required": "required"
@@ -6218,9 +6480,9 @@
                     "entities": [
                         {
                             "start": 32,
-                            "end": 35,
-                            "value": "cám",
-                            "real_value": "cám",
+                            "end": 38,
+                            "value": "cám ơn",
+                            "real_value": "cám ơn",
                             "entity": "thank",
                             "subentities": [],
                             "is_required": "required"
@@ -6257,7 +6519,7 @@
                 "thank": [
                     {
                         "index": 30,
-                        "value": "cám"
+                        "value": "cám ơn"
                     },
                     {
                         "index": 40,
@@ -6274,7 +6536,7 @@
     {
         "fileName": "0395464353.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002497434616088867,
+        "time_load_info": 0.0027892589569091797,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6477,7 +6739,7 @@
     {
         "fileName": "0383261678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023040771484375,
+        "time_load_info": 0.0028939247131347656,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6514,9 +6776,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -6564,9 +6826,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -6586,7 +6848,7 @@
                     },
                     {
                         "index": 15,
-                        "value": "cần hỗ"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -6971,7 +7233,7 @@
     {
         "fileName": "0378525255.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023322105407714844,
+        "time_load_info": 0.002431631088256836,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6987,9 +7249,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 10,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -7016,9 +7278,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 10,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -7034,7 +7296,7 @@
                 "ask_support": [
                     {
                         "index": 17,
-                        "value": "cần"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -7373,7 +7635,7 @@
     {
         "fileName": "0369750252.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027010440826416016,
+        "time_load_info": 0.0024116039276123047,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -7389,9 +7651,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -7418,9 +7680,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -7436,7 +7698,7 @@
                 "ask_support": [
                     {
                         "index": 48,
-                        "value": "cần hỗ"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -7729,7 +7991,7 @@
     {
         "fileName": "0365550610.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029647350311279297,
+        "time_load_info": 0.0026721954345703125,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8085,7 +8347,7 @@
     {
         "fileName": "0347341290.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002499818801879883,
+        "time_load_info": 0.002608060836791992,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8093,27 +8355,6 @@
                 "1": "no"
             },
             "decision_position": [
-                {
-                    "index": 8,
-                    "channel": 2,
-                    "text": "dạ chị đang thắc mắc là không biết là khoảng khoảng bao lâu chị có phải là uống được thuốc người 2 hay là hiện tại bây giờ chị có thể uống thuốc ngừa thai hay không đúng không chị ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 127,
-                            "end": 129,
-                            "value": "có",
-                            "real_value": "có",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
                 {
                     "index": 14,
                     "channel": 2,
@@ -8144,27 +8385,6 @@
             },
             "position": [
                 {
-                    "index": 8,
-                    "channel": 2,
-                    "text": "dạ chị đang thắc mắc là không biết là khoảng khoảng bao lâu chị có phải là uống được thuốc người 2 hay là hiện tại bây giờ chị có thể uống thuốc ngừa thai hay không đúng không chị ạ",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 127,
-                            "end": 129,
-                            "value": "có",
-                            "real_value": "có",
-                            "entity": "ask_support",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
                     "index": 14,
                     "channel": 2,
                     "text": "dạ khi cần hỗ trợ thông tin chị linh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
@@ -8188,10 +8408,6 @@
             ],
             "slots": {
                 "ask_support": [
-                    {
-                        "index": 8,
-                        "value": "có"
-                    },
                     {
                         "index": 14,
                         "value": "cần hỗ trợ"
@@ -8533,7 +8749,7 @@
     {
         "fileName": "0326348428.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002446413040161133,
+        "time_load_info": 0.002444744110107422,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8570,9 +8786,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -8620,9 +8836,9 @@
                     "entities": [
                         {
                             "start": 7,
-                            "end": 13,
-                            "value": "cần hỗ",
-                            "real_value": "cần hỗ",
+                            "end": 17,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -8642,7 +8858,7 @@
                     },
                     {
                         "index": 22,
-                        "value": "cần hỗ"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -9003,7 +9219,7 @@
     {
         "fileName": "0911486219.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026421546936035156,
+        "time_load_info": 0.0024204254150390625,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -9116,18 +9332,27 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 63,
+                            "end": 66,
+                            "value": "đào",
+                            "real_value": "đào",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "decision": "yes",
-            "confidence": 1.0,
+            "confidence": 2.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 2.0,
                 "1": 0.0
             },
             "position": [
@@ -9166,12 +9391,21 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
+                        },
+                        {
+                            "start": 63,
+                            "end": 66,
+                            "value": "đào",
+                            "real_value": "đào",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 1.0,
+                    "entities_score": 2.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 1.0
+                    "confidence_criteria": 2.0
                 }
             ],
             "slots": {
@@ -9183,6 +9417,10 @@
                     {
                         "index": 7,
                         "value": "long cho"
+                    },
+                    {
+                        "index": 7,
+                        "value": "đào"
                     }
                 ]
             },
@@ -9405,7 +9643,7 @@
     {
         "fileName": "0908614456.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022020339965820312,
+        "time_load_info": 0.002786874771118164,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9440,9 +9678,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 22,
-                            "value": "fpt vân",
-                            "real_value": "fpt vân",
+                            "end": 18,
+                            "value": "fpt",
+                            "real_value": "fpt",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -9469,9 +9707,9 @@
                     "entities": [
                         {
                             "start": 15,
-                            "end": 22,
-                            "value": "fpt vân",
-                            "real_value": "fpt vân",
+                            "end": 18,
+                            "value": "fpt",
+                            "real_value": "fpt",
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
@@ -9487,7 +9725,7 @@
                 "company_name": [
                     {
                         "index": 0,
-                        "value": "fpt vân"
+                        "value": "fpt"
                     }
                 ]
             },
@@ -9705,7 +9943,7 @@
     {
         "fileName": "0903847048.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002305746078491211,
+        "time_load_info": 0.002568483352661133,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10010,7 +10248,7 @@
     {
         "fileName": "0902876991.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002351522445678711,
+        "time_load_info": 0.002383708953857422,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -10412,7 +10650,7 @@
     {
         "fileName": "0869835800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023005008697509766,
+        "time_load_info": 0.0022401809692382812,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -10525,27 +10763,18 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
-                        },
-                        {
-                            "start": 79,
-                            "end": 85,
-                            "value": "nguyễn",
-                            "real_value": "nguyễn",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "decision": "yes",
-            "confidence": 2.0,
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 2.0,
+                "2": 1.0,
                 "1": 0.0
             },
             "position": [
@@ -10584,21 +10813,12 @@
                             "entity": "company_name",
                             "subentities": [],
                             "is_required": "required"
-                        },
-                        {
-                            "start": 79,
-                            "end": 85,
-                            "value": "nguyễn",
-                            "real_value": "nguyễn",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 2.0,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 2.0
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
@@ -10610,10 +10830,6 @@
                     {
                         "index": 4,
                         "value": "bình"
-                    },
-                    {
-                        "index": 4,
-                        "value": "nguyễn"
                     }
                 ]
             },
@@ -10705,34 +10921,14 @@
                     "intents": [],
                     "entities": [
                         {
-                            "start": 16,
-                            "end": 24,
-                            "value": "xin nghe",
-                            "real_value": "xin nghe",
+                            "start": 0,
+                            "end": 3,
+                            "value": "hứa",
+                            "real_value": "hứa",
                             "entity": "ciao",
                             "subentities": [],
                             "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 0.5,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 0.5
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.5,
-            "confidence_channel": {
-                "2": 0.5,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 0,
-                    "channel": 2,
-                    "text": "hứa fpt lâm cho xin nghe ạ",
-                    "intents": [],
-                    "entities": [
+                        },
                         {
                             "start": 16,
                             "end": 24,
@@ -10744,13 +10940,55 @@
                         }
                     ],
                     "evaluate": "yes",
-                    "entities_score": 0.5,
+                    "entities_score": 1.0,
                     "intent_score": 0.0,
-                    "confidence_criteria": 0.5
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "hứa fpt lâm cho xin nghe ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 0,
+                            "end": 3,
+                            "value": "hứa",
+                            "real_value": "hứa",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        },
+                        {
+                            "start": 16,
+                            "end": 24,
+                            "value": "xin nghe",
+                            "real_value": "xin nghe",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
                 }
             ],
             "slots": {
                 "ciao": [
+                    {
+                        "index": 0,
+                        "value": "hứa"
+                    },
                     {
                         "index": 0,
                         "value": "xin nghe"
@@ -10836,7 +11074,7 @@
     {
         "fileName": "0834999199.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002792835235595703,
+        "time_load_info": 0.0023860931396484375,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11182,7 +11420,7 @@
     {
         "fileName": "0768786677.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0031926631927490234,
+        "time_load_info": 0.0023527145385742188,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -11436,7 +11674,7 @@
     {
         "fileName": "0703603938.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023849010467529297,
+        "time_load_info": 0.002545595169067383,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11452,9 +11690,9 @@
                     "entities": [
                         {
                             "start": 12,
-                            "end": 15,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 22,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -11481,9 +11719,9 @@
                     "entities": [
                         {
                             "start": 12,
-                            "end": 15,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 22,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -11499,7 +11737,7 @@
                 "ask_support": [
                     {
                         "index": 17,
-                        "value": "cần"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
@@ -11741,7 +11979,7 @@
     {
         "fileName": "0584256964.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024564266204833984,
+        "time_load_info": 0.0022652149200439453,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11757,9 +11995,9 @@
                     "entities": [
                         {
                             "start": 10,
-                            "end": 13,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -11786,9 +12024,9 @@
                     "entities": [
                         {
                             "start": 10,
-                            "end": 13,
-                            "value": "cần",
-                            "real_value": "cần",
+                            "end": 20,
+                            "value": "cần hỗ trợ",
+                            "real_value": "cần hỗ trợ",
                             "entity": "ask_support",
                             "subentities": [],
                             "is_required": "required"
@@ -11804,7 +12042,7 @@
                 "ask_support": [
                     {
                         "index": 84,
-                        "value": "cần"
+                        "value": "cần hỗ trợ"
                     }
                 ]
             },
