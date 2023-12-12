@@ -2,7 +2,7 @@
     {
         "fileName": "0936062085.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004938840866088867,
+        "time_load_info": 0.0034744739532470703,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -200,7 +200,7 @@
     {
         "fileName": "0918852277.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028214454650878906,
+        "time_load_info": 0.002734661102294922,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -447,7 +447,7 @@
     {
         "fileName": "0918030442.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004979133605957031,
+        "time_load_info": 0.002429485321044922,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -648,7 +648,7 @@
     {
         "fileName": "0916731457.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023136138916015625,
+        "time_load_info": 0.002446889877319336,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -999,7 +999,7 @@
     {
         "fileName": "0913381439.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002580404281616211,
+        "time_load_info": 0.002692699432373047,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1447,7 +1447,7 @@
     {
         "fileName": "0988533800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022780895233154297,
+        "time_load_info": 0.002672910690307617,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1670,7 +1670,7 @@
     {
         "fileName": "0985980495.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023534297943115234,
+        "time_load_info": 0.002218961715698242,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2118,7 +2118,7 @@
     {
         "fileName": "0979418241.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023305416107177734,
+        "time_load_info": 0.002178192138671875,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2537,7 +2537,7 @@
     {
         "fileName": "0976267870.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028846263885498047,
+        "time_load_info": 0.0025205612182617188,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2939,7 +2939,7 @@
     {
         "fileName": "0974223295.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002482891082763672,
+        "time_load_info": 0.0022361278533935547,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3382,7 +3382,7 @@
     {
         "fileName": "0973895906.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024619102478027344,
+        "time_load_info": 0.0029289722442626953,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3738,7 +3738,7 @@
     {
         "fileName": "0969166565.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023686885833740234,
+        "time_load_info": 0.0027742385864257812,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -4084,7 +4084,7 @@
     {
         "fileName": "0963315505.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025615692138671875,
+        "time_load_info": 0.0022788047790527344,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -4389,7 +4389,7 @@
     {
         "fileName": "0962729718.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00222015380859375,
+        "time_load_info": 0.002271890640258789,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4638,7 +4638,7 @@
     {
         "fileName": "0962637810.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002370119094848633,
+        "time_load_info": 0.003063678741455078,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -5132,7 +5132,7 @@
     {
         "fileName": "0944070272.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023183822631835938,
+        "time_load_info": 0.0022172927856445312,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5432,7 +5432,7 @@
     {
         "fileName": "0936306386.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027396678924560547,
+        "time_load_info": 0.002229928970336914,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -5686,7 +5686,7 @@
     {
         "fileName": "0398427472.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025544166564941406,
+        "time_load_info": 0.002208709716796875,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6088,7 +6088,7 @@
     {
         "fileName": "0395885712.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022401809692382812,
+        "time_load_info": 0.0023136138916015625,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6536,7 +6536,7 @@
     {
         "fileName": "0395464353.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027892589569091797,
+        "time_load_info": 0.0023779869079589844,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6739,7 +6739,7 @@
     {
         "fileName": "0383261678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028939247131347656,
+        "time_load_info": 0.0024802684783935547,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -7233,7 +7233,7 @@
     {
         "fileName": "0378525255.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002431631088256836,
+        "time_load_info": 0.002317667007446289,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -7635,7 +7635,7 @@
     {
         "fileName": "0369750252.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024116039276123047,
+        "time_load_info": 0.002636432647705078,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -7991,7 +7991,7 @@
     {
         "fileName": "0365550610.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026721954345703125,
+        "time_load_info": 0.0022995471954345703,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8347,7 +8347,7 @@
     {
         "fileName": "0347341290.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002608060836791992,
+        "time_load_info": 0.002799510955810547,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8749,7 +8749,7 @@
     {
         "fileName": "0326348428.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002444744110107422,
+        "time_load_info": 0.0022716522216796875,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -9219,7 +9219,7 @@
     {
         "fileName": "0911486219.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024204254150390625,
+        "time_load_info": 0.0023207664489746094,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -9643,7 +9643,7 @@
     {
         "fileName": "0908614456.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002786874771118164,
+        "time_load_info": 0.0023810863494873047,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9943,7 +9943,7 @@
     {
         "fileName": "0903847048.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002568483352661133,
+        "time_load_info": 0.0030918121337890625,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10248,7 +10248,7 @@
     {
         "fileName": "0902876991.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002383708953857422,
+        "time_load_info": 0.002568483352661133,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -10650,7 +10650,7 @@
     {
         "fileName": "0869835800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022401809692382812,
+        "time_load_info": 0.0022568702697753906,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11074,7 +11074,7 @@
     {
         "fileName": "0834999199.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023860931396484375,
+        "time_load_info": 0.0029859542846679688,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11420,7 +11420,7 @@
     {
         "fileName": "0768786677.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023527145385742188,
+        "time_load_info": 0.002279996871948242,
         "askSupport": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -11674,7 +11674,7 @@
     {
         "fileName": "0703603938.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002545595169067383,
+        "time_load_info": 0.002466440200805664,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11979,7 +11979,7 @@
     {
         "fileName": "0584256964.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022652149200439453,
+        "time_load_info": 0.0022995471954345703,
         "askSupport": {
             "evaluate": "yes",
             "evaluate_channel": {
