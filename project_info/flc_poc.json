@@ -99,6 +99,32 @@
             "description": "[available] agent confirms customer's name for information assurance",
             "version": "DEV"
         },
+        "contactHotline": {
+            "task": "query",
+            "agent": {
+                "FLC-GreetByeThank": {
+                    "intents": {
+                        "contact_hotline": "required"
+                    },
+                    "entities": {
+                        
+                    },
+                    "threshold": 0.5,
+                    "version": "latest"
+                }
+            },
+            "customer": {},
+            "decision": null,
+            "start_turn": 0,
+            "zone": [
+                -3,
+                null
+            ],
+            "merge_turn": false,
+            "default_decision": "no",
+            "description": "[available] agent asks if the customer needs any further assistance at the end of the call",
+            "version": "DEV"
+        },
         "goodbye": {
             "task": "query",
             "agent": {
