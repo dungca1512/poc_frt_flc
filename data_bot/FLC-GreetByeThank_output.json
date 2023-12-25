@@ -287,6 +287,11 @@
             "entities": []
         },
         {
+            "text": "nhanh cho cô thì con sẽ chuyển cuộc gọi đến bộ phận tư vấn bán hàng để các bạn hỗ trợ trực tiếp cho cô ừ",
+            "intent": "",
+            "entities": []
+        },
+        {
             "text": "dạ fpt xin nghe ạ",
             "intent": "greet",
             "entities": [
@@ -428,6 +433,19 @@
             ]
         },
         {
+            "text": "em cũng xin thay mặt nhà thuốc làm cho bên em gửi lời xin lỗi đến chị ạ sau khi kết thúc cuộc gọi này em sẽ liên hệ trực tiếp đến shop ngay để nhờ shop kiểm tra lại ạ và bên em sẽ chủ động liên hệ đến chị ngay khi có thông tin mong chị phí an tâm hả",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 38,
+                    "entity": "company_name",
+                    "start": 31,
+                    "subentities": [],
+                    "value": "làm cho"
+                }
+            ]
+        },
+        {
             "text": "dạ nhà thuốc fpt long cho nghe ạ",
             "intent": "greet",
             "entities": [
@@ -481,6 +499,11 @@
             ]
         },
         {
+            "text": "cho khách hàng thỏa mãn rồi dạ chú vui lòng giữ máy vài giây lát con xin phép kiểm tra thông tin ạ",
+            "intent": "",
+            "entities": []
+        },
+        {
             "text": "anh gọi hotline để được hỗ trợ em xin chào",
             "intent": "goodbye",
             "entities": [
@@ -510,6 +533,33 @@
                     "start": 20,
                     "subentities": [],
                     "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ vâng dạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ cám ơn em chào anh ạ",
+            "intent": "contact_hotline",
+            "entities": [
+                {
+                    "end": 64,
+                    "entity": "hotline",
+                    "start": 56,
+                    "subentities": [],
+                    "value": "tổng đài"
+                },
+                {
+                    "end": 101,
+                    "entity": "thank",
+                    "start": 95,
+                    "subentities": [],
+                    "value": "cám ơn"
+                },
+                {
+                    "end": 92,
+                    "entity": "hotline",
+                    "start": 84,
+                    "subentities": [],
+                    "value": "18006928"
                 }
             ]
         },
@@ -1080,6 +1130,19 @@
             ]
         },
         {
+            "text": "dạ vâng dạ ngay khi có thông tin thì em sẽ liên hệ phản hồi thông tin đến anh ạ rồi em cảm ơn",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 93,
+                    "entity": "thank",
+                    "start": 87,
+                    "subentities": [],
+                    "value": "cảm ơn"
+                }
+            ]
+        },
+        {
             "text": "dạ chị vui lòng cho em hỏi là em đang trao đổi với chị dung phải không ạ",
             "intent": "greet",
             "entities": [
@@ -1211,6 +1274,26 @@
             ]
         },
         {
+            "text": "dạ vậy khi cần hỗ trợ chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+            "intent": "contact_hotline",
+            "entities": [
+                {
+                    "end": 80,
+                    "entity": "hotline",
+                    "start": 72,
+                    "subentities": [],
+                    "value": "18006928"
+                },
+                {
+                    "end": 55,
+                    "entity": "hotline",
+                    "start": 47,
+                    "subentities": [],
+                    "value": "tổng đài"
+                }
+            ]
+        },
+        {
             "text": "dạ fpt vân xin nghe ạ",
             "intent": "greet",
             "entities": [
@@ -1238,6 +1321,11 @@
             ]
         },
         {
+            "text": "nhờ anh là vui lòng kiểm tra tin nhắn và gửi giúp em đơn thuốc của mình ạ và hiện",
+            "intent": "",
+            "entities": []
+        },
+        {
             "text": "chào chị nha",
             "intent": "ciao",
             "entities": []
@@ -1252,6 +1340,19 @@
                     "start": 6,
                     "subentities": [],
                     "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ anh vui lòng cho em hỏi thăm là khi bên em có thông tin sẽ liên hệ đến số điện thoại anh đã liên hệ lên tổng đài",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 115,
+                    "entity": "contact_hotline",
+                    "start": 107,
+                    "subentities": [],
+                    "value": "tổng đài"
                 }
             ]
         },
@@ -1709,6 +1810,19 @@
                     "end": 55,
                     "entity": "hotline",
                     "start": 47,
+                    "subentities": [],
+                    "value": "tổng đài"
+                }
+            ]
+        },
+        {
+            "text": "dạ hiện tổng đài không nhận được tín hiệu từ quý khách tổng đài xin phép được gác máy ạ",
+            "intent": "",
+            "entities": [
+                {
+                    "end": 63,
+                    "entity": "contact_hotline",
+                    "start": 55,
                     "subentities": [],
                     "value": "tổng đài"
                 }

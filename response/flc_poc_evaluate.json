@@ -2,7 +2,7 @@
     {
         "fileName": "02583883468 (1).wav",
         "agentChannel": 2,
-        "time_load_info": 0.005080699920654297,
+        "time_load_info": 0.002324342727661133,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -27,7 +27,7 @@
     {
         "fileName": "0987372909.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025272369384765625,
+        "time_load_info": 0.0027260780334472656,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -80,7 +80,7 @@
     {
         "fileName": "0983159699.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026078224182128906,
+        "time_load_info": 0.002342700958251953,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -105,7 +105,7 @@
     {
         "fileName": "0981493887.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002599000930786133,
+        "time_load_info": 0.0021457672119140625,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -130,7 +130,7 @@
     {
         "fileName": "0981098538.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002857208251953125,
+        "time_load_info": 0.0022513866424560547,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -183,49 +183,21 @@
     {
         "fileName": "0978339507.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020737648010253906,
+        "time_load_info": 0.0021288394927978516,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 28,
-                    "channel": 2,
-                    "text": "cho khách hàng thỏa mãn rồi dạ chú vui lòng giữ máy vài giây lát con xin phép kiểm tra thông tin ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 28,
-                    "channel": 2,
-                    "text": "cho khách hàng thỏa mãn rồi dạ chú vui lòng giữ máy vài giây lát con xin phép kiểm tra thông tin ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -236,7 +208,7 @@
     {
         "fileName": "0974032727.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002291440963745117,
+        "time_load_info": 0.0021381378173828125,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -261,7 +233,7 @@
     {
         "fileName": "0973402263.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027086734771728516,
+        "time_load_info": 0.0021431446075439453,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -286,49 +258,21 @@
     {
         "fileName": "0969704701.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002084970474243164,
+        "time_load_info": 0.002396106719970703,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 47,
-                    "channel": 2,
-                    "text": "nhân viên giao hàng để kiểm tra và sẽ phản hồi thông tin đến chị ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 47,
-                    "channel": 2,
-                    "text": "nhân viên giao hàng để kiểm tra và sẽ phản hồi thông tin đến chị ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -339,7 +283,7 @@
     {
         "fileName": "0968643227 (2).wav",
         "agentChannel": 2,
-        "time_load_info": 0.002039670944213867,
+        "time_load_info": 0.0033330917358398438,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -392,49 +336,21 @@
     {
         "fileName": "0968643227 (1).wav",
         "agentChannel": 2,
-        "time_load_info": 0.002523660659790039,
+        "time_load_info": 0.0027761459350585938,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 27,
-                    "channel": 2,
-                    "text": "em cũng xin thay mặt nhà thuốc làm cho bên em gửi lời xin lỗi đến chị ạ sau khi kết thúc cuộc gọi này em sẽ liên hệ trực tiếp đến shop ngay để nhờ shop kiểm tra lại ạ và bên em sẽ chủ động liên hệ đến chị ngay khi có thông tin mong chị phí an tâm hả",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9448,
-                    "confidence_criteria": 0.9448
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.9448,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 0.9448,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 27,
-                    "channel": 2,
-                    "text": "em cũng xin thay mặt nhà thuốc làm cho bên em gửi lời xin lỗi đến chị ạ sau khi kết thúc cuộc gọi này em sẽ liên hệ trực tiếp đến shop ngay để nhờ shop kiểm tra lại ạ và bên em sẽ chủ động liên hệ đến chị ngay khi có thông tin mong chị phí an tâm hả",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9448,
-                    "confidence_criteria": 0.9448
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -445,7 +361,7 @@
     {
         "fileName": "0967408898.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002035856246948242,
+        "time_load_info": 0.0020477771759033203,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -470,7 +386,7 @@
     {
         "fileName": "0962180704.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002568960189819336,
+        "time_load_info": 0.0021626949310302734,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -495,7 +411,7 @@
     {
         "fileName": "0949016070.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002145528793334961,
+        "time_load_info": 0.0021924972534179688,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -520,7 +436,7 @@
     {
         "fileName": "0946325899.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020868778228759766,
+        "time_load_info": 0.0021295547485351562,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -573,7 +489,7 @@
     {
         "fileName": "0945931111.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030586719512939453,
+        "time_load_info": 0.002290010452270508,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -626,7 +542,7 @@
     {
         "fileName": "0945478983.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020895004272460938,
+        "time_load_info": 0.0021691322326660156,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -651,21 +567,49 @@
     {
         "fileName": "0945126153.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022428035736083984,
+        "time_load_info": 0.0021810531616210938,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 83,
+                    "channel": 2,
+                    "text": "nếu cần hỗ trợ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 0.7258,
+                    "confidence_criteria": 0.7258
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.7258,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 0.7258,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 83,
+                    "channel": 2,
+                    "text": "nếu cần hỗ trợ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 0.7258,
+                    "confidence_criteria": 0.7258
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -676,7 +620,7 @@
     {
         "fileName": "0944481616.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020325183868408203,
+        "time_load_info": 0.002495288848876953,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -701,49 +645,21 @@
     {
         "fileName": "0942797948.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021066665649414062,
+        "time_load_info": 0.0020186901092529297,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 38,
-                    "channel": 2,
-                    "text": "dạ vâng dạ ngay khi có thông tin thì em sẽ liên hệ phản hồi thông tin đến anh ạ rồi em cảm ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9991,
-                    "confidence_criteria": 0.9991
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.9991,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 0.9991,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 38,
-                    "channel": 2,
-                    "text": "dạ vâng dạ ngay khi có thông tin thì em sẽ liên hệ phản hồi thông tin đến anh ạ rồi em cảm ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9991,
-                    "confidence_criteria": 0.9991
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -754,7 +670,7 @@
     {
         "fileName": "0938055756.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002306222915649414,
+        "time_load_info": 0.002863645553588867,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -807,7 +723,7 @@
     {
         "fileName": "0932914700.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0035715103149414062,
+        "time_load_info": 0.0025968551635742188,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -860,7 +776,7 @@
     {
         "fileName": "0931460919.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028269290924072266,
+        "time_load_info": 0.002584218978881836,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -885,7 +801,7 @@
     {
         "fileName": "0923005342.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002440929412841797,
+        "time_load_info": 0.0033855438232421875,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -938,7 +854,7 @@
     {
         "fileName": "0919919922.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002387523651123047,
+        "time_load_info": 0.0022602081298828125,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -991,47 +907,19 @@
     {
         "fileName": "0918179531.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002087116241455078,
+        "time_load_info": 0.002010345458984375,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes"
+                "2": "no"
             },
-            "decision_position": [
-                {
-                    "index": 43,
-                    "channel": 2,
-                    "text": "dạ hiện tổng đài không nhận được tín hiệu từ quý khách tổng đài xin phép được gác máy ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.7621,
-                    "confidence_criteria": 0.7621
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.7621,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 0.7621
+                "2": 0.0
             },
-            "position": [
-                {
-                    "index": 43,
-                    "channel": 2,
-                    "text": "dạ hiện tổng đài không nhận được tín hiệu từ quý khách tổng đài xin phép được gác máy ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.7621,
-                    "confidence_criteria": 0.7621
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1042,7 +930,7 @@
     {
         "fileName": "0917733189.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026454925537109375,
+        "time_load_info": 0.0020599365234375,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1095,7 +983,7 @@
     {
         "fileName": "0915779505.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002603292465209961,
+        "time_load_info": 0.0027506351470947266,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1120,21 +1008,49 @@
     {
         "fileName": "0914302332.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0031251907348632812,
+        "time_load_info": 0.0021011829376220703,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 46,
+                    "channel": 2,
+                    "text": "dạ vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ em cám ơn anh chào anh nè",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 46,
+                    "channel": 2,
+                    "text": "dạ vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ em cám ơn anh chào anh nè",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1145,7 +1061,7 @@
     {
         "fileName": "0909480623.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025892257690429688,
+        "time_load_info": 0.0021686553955078125,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1198,7 +1114,7 @@
     {
         "fileName": "0907452011.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002534627914428711,
+        "time_load_info": 0.002699136734008789,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1223,7 +1139,7 @@
     {
         "fileName": "0906084454.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003951072692871094,
+        "time_load_info": 0.0020821094512939453,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1248,7 +1164,7 @@
     {
         "fileName": "0905501495.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023767948150634766,
+        "time_load_info": 0.0023190975189208984,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1273,7 +1189,7 @@
     {
         "fileName": "0902870977.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002162933349609375,
+        "time_load_info": 0.002196788787841797,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1298,7 +1214,7 @@
     {
         "fileName": "0902290019.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027756690979003906,
+        "time_load_info": 0.0020046234130859375,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1323,7 +1239,7 @@
     {
         "fileName": "0898780471.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027840137481689453,
+        "time_load_info": 0.002321958541870117,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1348,7 +1264,7 @@
     {
         "fileName": "0858605657.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028188228607177734,
+        "time_load_info": 0.0021257400512695312,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1373,49 +1289,21 @@
     {
         "fileName": "0799875038.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022351741790771484,
+        "time_load_info": 0.0021910667419433594,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 38,
-                    "channel": 2,
-                    "text": "nhanh cho cô thì con sẽ chuyển cuộc gọi đến bộ phận tư vấn bán hàng để các bạn hỗ trợ trực tiếp cho cô ừ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 38,
-                    "channel": 2,
-                    "text": "nhanh cho cô thì con sẽ chuyển cuộc gọi đến bộ phận tư vấn bán hàng để các bạn hỗ trợ trực tiếp cho cô ừ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1426,7 +1314,7 @@
     {
         "fileName": "0799439299.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021724700927734375,
+        "time_load_info": 0.002115011215209961,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1479,7 +1367,7 @@
     {
         "fileName": "0797890258.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027065277099609375,
+        "time_load_info": 0.0020558834075927734,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1504,7 +1392,7 @@
     {
         "fileName": "0778842648.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00213623046875,
+        "time_load_info": 0.002016305923461914,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1529,7 +1417,7 @@
     {
         "fileName": "0396412443.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023877620697021484,
+        "time_load_info": 0.0021209716796875,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1582,7 +1470,7 @@
     {
         "fileName": "0395368316.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002597808837890625,
+        "time_load_info": 0.0025048255920410156,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1607,7 +1495,7 @@
     {
         "fileName": "0378224633.wav",
         "agentChannel": 2,
-        "time_load_info": 0.001990795135498047,
+        "time_load_info": 0.0025572776794433594,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1632,7 +1520,7 @@
     {
         "fileName": "0364266169.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002050638198852539,
+        "time_load_info": 0.002367734909057617,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1657,49 +1545,21 @@
     {
         "fileName": "0363459868.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002187013626098633,
+        "time_load_info": 0.001983642578125,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 138,
-                    "channel": 2,
-                    "text": "dạ anh vui lòng cho em hỏi thăm là khi bên em có thông tin sẽ liên hệ đến số điện thoại anh đã liên hệ lên tổng đài",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 1.0,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 138,
-                    "channel": 2,
-                    "text": "dạ anh vui lòng cho em hỏi thăm là khi bên em có thông tin sẽ liên hệ đến số điện thoại anh đã liên hệ lên tổng đài",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1710,49 +1570,21 @@
     {
         "fileName": "0362181234.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002134084701538086,
+        "time_load_info": 0.002354145050048828,
         "contactHotline": {
-            "evaluate": "yes",
+            "evaluate": "no",
             "evaluate_channel": {
-                "2": "yes",
+                "2": "no",
                 "1": "no"
             },
-            "decision_position": [
-                {
-                    "index": 67,
-                    "channel": 2,
-                    "text": "nhờ anh là vui lòng kiểm tra tin nhắn và gửi giúp em đơn thuốc của mình ạ và hiện",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9999,
-                    "confidence_criteria": 0.9999
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.9999,
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
             "confidence_channel": {
-                "2": 0.9999,
+                "2": 0.0,
                 "1": 0.0
             },
-            "position": [
-                {
-                    "index": 67,
-                    "channel": 2,
-                    "text": "nhờ anh là vui lòng kiểm tra tin nhắn và gửi giúp em đơn thuốc của mình ạ và hiện",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9999,
-                    "confidence_criteria": 0.9999
-                }
-            ],
+            "position": [],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1763,7 +1595,7 @@
     {
         "fileName": "0359216361.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025887489318847656,
+        "time_load_info": 0.00331878662109375,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1788,7 +1620,7 @@
     {
         "fileName": "0352845800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002175569534301758,
+        "time_load_info": 0.002401113510131836,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
