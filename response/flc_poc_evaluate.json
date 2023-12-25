@@ -2,7 +2,7 @@
     {
         "fileName": "02583883468 (1).wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028076171875,
+        "time_load_info": 0.005080699920654297,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -27,7 +27,7 @@
     {
         "fileName": "0987372909.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029065608978271484,
+        "time_load_info": 0.0025272369384765625,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -80,7 +80,7 @@
     {
         "fileName": "0983159699.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002045869827270508,
+        "time_load_info": 0.0026078224182128906,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -105,7 +105,7 @@
     {
         "fileName": "0981493887.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028285980224609375,
+        "time_load_info": 0.002599000930786133,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -130,7 +130,7 @@
     {
         "fileName": "0981098538.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021467208862304688,
+        "time_load_info": 0.002857208251953125,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -183,7 +183,7 @@
     {
         "fileName": "0978339507.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002176523208618164,
+        "time_load_info": 0.0020737648010253906,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -236,7 +236,7 @@
     {
         "fileName": "0974032727.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022644996643066406,
+        "time_load_info": 0.002291440963745117,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -261,7 +261,7 @@
     {
         "fileName": "0973402263.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002343416213989258,
+        "time_load_info": 0.0027086734771728516,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -286,7 +286,7 @@
     {
         "fileName": "0969704701.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030853748321533203,
+        "time_load_info": 0.002084970474243164,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -339,7 +339,7 @@
     {
         "fileName": "0968643227 (2).wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024137496948242188,
+        "time_load_info": 0.002039670944213867,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -392,7 +392,7 @@
     {
         "fileName": "0968643227 (1).wav",
         "agentChannel": 2,
-        "time_load_info": 0.002061605453491211,
+        "time_load_info": 0.002523660659790039,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -445,7 +445,7 @@
     {
         "fileName": "0967408898.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026738643646240234,
+        "time_load_info": 0.002035856246948242,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -470,7 +470,7 @@
     {
         "fileName": "0962180704.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022029876708984375,
+        "time_load_info": 0.002568960189819336,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -495,7 +495,7 @@
     {
         "fileName": "0949016070.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002115488052368164,
+        "time_load_info": 0.002145528793334961,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -520,7 +520,7 @@
     {
         "fileName": "0946325899.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021703243255615234,
+        "time_load_info": 0.0020868778228759766,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -573,7 +573,7 @@
     {
         "fileName": "0945931111.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002947568893432617,
+        "time_load_info": 0.0030586719512939453,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -626,7 +626,7 @@
     {
         "fileName": "0945478983.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029866695404052734,
+        "time_load_info": 0.0020895004272460938,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -651,7 +651,7 @@
     {
         "fileName": "0945126153.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002717256546020508,
+        "time_load_info": 0.0022428035736083984,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -676,7 +676,7 @@
     {
         "fileName": "0944481616.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002242565155029297,
+        "time_load_info": 0.0020325183868408203,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -701,7 +701,7 @@
     {
         "fileName": "0942797948.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024619102478027344,
+        "time_load_info": 0.0021066665649414062,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -754,7 +754,7 @@
     {
         "fileName": "0938055756.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002199888229370117,
+        "time_load_info": 0.002306222915649414,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -807,7 +807,7 @@
     {
         "fileName": "0932914700.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021338462829589844,
+        "time_load_info": 0.0035715103149414062,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -860,7 +860,7 @@
     {
         "fileName": "0931460919.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020952224731445312,
+        "time_load_info": 0.0028269290924072266,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -885,7 +885,7 @@
     {
         "fileName": "0923005342.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002680540084838867,
+        "time_load_info": 0.002440929412841797,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -938,7 +938,7 @@
     {
         "fileName": "0919919922.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020940303802490234,
+        "time_load_info": 0.002387523651123047,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -991,7 +991,7 @@
     {
         "fileName": "0918179531.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020341873168945312,
+        "time_load_info": 0.002087116241455078,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1042,7 +1042,7 @@
     {
         "fileName": "0917733189.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021812915802001953,
+        "time_load_info": 0.0026454925537109375,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1095,7 +1095,7 @@
     {
         "fileName": "0915779505.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002116680145263672,
+        "time_load_info": 0.002603292465209961,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1120,7 +1120,7 @@
     {
         "fileName": "0914302332.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002596139907836914,
+        "time_load_info": 0.0031251907348632812,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1145,7 +1145,7 @@
     {
         "fileName": "0909480623.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025429725646972656,
+        "time_load_info": 0.0025892257690429688,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1198,7 +1198,7 @@
     {
         "fileName": "0907452011.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021610260009765625,
+        "time_load_info": 0.002534627914428711,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1223,7 +1223,7 @@
     {
         "fileName": "0906084454.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002228260040283203,
+        "time_load_info": 0.003951072692871094,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1248,7 +1248,7 @@
     {
         "fileName": "0905501495.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021491050720214844,
+        "time_load_info": 0.0023767948150634766,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1273,7 +1273,7 @@
     {
         "fileName": "0902870977.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021719932556152344,
+        "time_load_info": 0.002162933349609375,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1298,7 +1298,7 @@
     {
         "fileName": "0902290019.wav",
         "agentChannel": 2,
-        "time_load_info": 0.001984119415283203,
+        "time_load_info": 0.0027756690979003906,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1323,7 +1323,7 @@
     {
         "fileName": "0898780471.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021920204162597656,
+        "time_load_info": 0.0027840137481689453,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1348,7 +1348,7 @@
     {
         "fileName": "0858605657.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002164602279663086,
+        "time_load_info": 0.0028188228607177734,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1373,7 +1373,7 @@
     {
         "fileName": "0799875038.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022695064544677734,
+        "time_load_info": 0.0022351741790771484,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1426,7 +1426,7 @@
     {
         "fileName": "0799439299.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002234220504760742,
+        "time_load_info": 0.0021724700927734375,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1479,7 +1479,7 @@
     {
         "fileName": "0797890258.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002382516860961914,
+        "time_load_info": 0.0027065277099609375,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1504,7 +1504,7 @@
     {
         "fileName": "0778842648.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002445697784423828,
+        "time_load_info": 0.00213623046875,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1529,7 +1529,7 @@
     {
         "fileName": "0396412443.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002031087875366211,
+        "time_load_info": 0.0023877620697021484,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1582,7 +1582,7 @@
     {
         "fileName": "0395368316.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002013683319091797,
+        "time_load_info": 0.002597808837890625,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1607,7 +1607,7 @@
     {
         "fileName": "0378224633.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026285648345947266,
+        "time_load_info": 0.001990795135498047,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1632,7 +1632,7 @@
     {
         "fileName": "0364266169.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002240896224975586,
+        "time_load_info": 0.002050638198852539,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1657,7 +1657,7 @@
     {
         "fileName": "0363459868.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002166271209716797,
+        "time_load_info": 0.002187013626098633,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1710,7 +1710,7 @@
     {
         "fileName": "0362181234.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022029876708984375,
+        "time_load_info": 0.002134084701538086,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1763,7 +1763,7 @@
     {
         "fileName": "0359216361.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0019605159759521484,
+        "time_load_info": 0.0025887489318847656,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1788,7 +1788,7 @@
     {
         "fileName": "0352845800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002501964569091797,
+        "time_load_info": 0.002175569534301758,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
