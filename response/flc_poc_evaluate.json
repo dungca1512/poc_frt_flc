@@ -1,8 +1,8 @@
 [
     {
-        "fileName": "02583883468 (1).wav",
+        "fileName": "0908614456.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002324342727661133,
+        "time_load_info": 0.0021326541900634766,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -25,62 +25,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0987372909.wav",
+        "fileName": "0903847048.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027260780334472656,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "không không em đâu phải khi cần hỗ trợ chị vui lòng liên hệ tổng đài miễn phí bên em",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "không không em đâu phải khi cần hỗ trợ chị vui lòng liên hệ tổng đài miễn phí bên em",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0983159699.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002342700958251953,
+        "time_load_info": 0.002093791961669922,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -103,912 +50,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0981493887.wav",
+        "fileName": "0902876991.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021457672119140625,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0981098538.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0022513866424560547,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 42,
-                    "channel": 2,
-                    "text": "dạ vâng dạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ cám ơn em chào anh ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 42,
-                    "channel": 2,
-                    "text": "dạ vâng dạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ cám ơn em chào anh ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0978339507.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021288394927978516,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0974032727.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021381378173828125,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0973402263.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021431446075439453,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0969704701.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002396106719970703,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0968643227 (2).wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0033330917358398438,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 25,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thông tin chị thúy vui lòng liên hệ tổng đài miễn phí bên em 19006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 25,
-                    "channel": 2,
-                    "text": "dạ khi cần hỗ trợ thông tin chị thúy vui lòng liên hệ tổng đài miễn phí bên em 19006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0968643227 (1).wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0027761459350585938,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0967408898.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0020477771759033203,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0962180704.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021626949310302734,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0949016070.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021924972534179688,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0946325899.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021295547485351562,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 79,
-                    "channel": 2,
-                    "text": "vậy khi cần hỗ trợ anh trường vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 79,
-                    "channel": 2,
-                    "text": "vậy khi cần hỗ trợ anh trường vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0945931111.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002290010452270508,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ em cám ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ em cám ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0945478983.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021691322326660156,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0945126153.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021810531616210938,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 83,
-                    "channel": 2,
-                    "text": "nếu cần hỗ trợ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.7258,
-                    "confidence_criteria": 0.7258
-                }
-            ],
-            "decision": "yes",
-            "confidence": 0.7258,
-            "confidence_channel": {
-                "2": 0.7258,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 83,
-                    "channel": 2,
-                    "text": "nếu cần hỗ trợ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.7258,
-                    "confidence_criteria": 0.7258
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0944481616.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002495288848876953,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0942797948.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0020186901092529297,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0938055756.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002863645553588867,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 112,
-                    "channel": 2,
-                    "text": "dạ vâng ạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ rồi ok mình cảm ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 112,
-                    "channel": 2,
-                    "text": "dạ vâng ạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ rồi ok mình cảm ơn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0932914700.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0025968551635742188,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 117,
-                    "channel": 2,
-                    "text": "vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 117,
-                    "channel": 2,
-                    "text": "vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0931460919.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002584218978881836,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0923005342.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0033855438232421875,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "giảm gác dạ vâng vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em là 1800928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 52,
-                    "channel": 2,
-                    "text": "giảm gác dạ vâng vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em là 1800928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0919919922.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0022602081298828125,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 93,
-                    "channel": 2,
-                    "text": "rồi rồi có gì cám ơn dạ vậy khi cần hỗ trợ chú vui lòng liên hệ tổng đài miễn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 93,
-                    "channel": 2,
-                    "text": "rồi rồi có gì cám ơn dạ vậy khi cần hỗ trợ chú vui lòng liên hệ tổng đài miễn",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0918179531.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002010345458984375,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0917733189.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0020599365234375,
-        "contactHotline": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 78,
-                    "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 78,
-                    "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
-                    "intents": [
-                        "contact_hotline"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0915779505.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0027506351470947266,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0914302332.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021011829376220703,
+        "time_load_info": 0.0020461082458496094,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1019,7 +63,7 @@
                 {
                     "index": 46,
                     "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ em cám ơn anh chào anh nè",
+                    "text": "dạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1040,7 +84,7 @@
                 {
                     "index": 46,
                     "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ em cám ơn anh chào anh nè",
+                    "text": "dạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1059,9 +103,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0909480623.wav",
+        "fileName": "0869835800.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021686553955078125,
+        "time_load_info": 0.002348184585571289,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1070,9 +114,9 @@
             },
             "decision_position": [
                 {
-                    "index": 35,
+                    "index": 12,
                     "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ chị vui lòng liên hệ tổng đài miễn phí bên em",
+                    "text": "dạ vâng khi cần hỗ trợ gì thêm chị vui lòng liên hệ tổng đài miễn phí",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1091,9 +135,9 @@
             },
             "position": [
                 {
-                    "index": 35,
+                    "index": 12,
                     "channel": 2,
-                    "text": "dạ vậy khi cần hỗ trợ chị vui lòng liên hệ tổng đài miễn phí bên em",
+                    "text": "dạ vâng khi cần hỗ trợ gì thêm chị vui lòng liên hệ tổng đài miễn phí",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1112,9 +156,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0907452011.wav",
+        "fileName": "0834999199.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002699136734008789,
+        "time_load_info": 0.0019636154174804688,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1137,9 +181,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0906084454.wav",
+        "fileName": "0768786677.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020821094512939453,
+        "time_load_info": 0.002094268798828125,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1162,159 +206,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0905501495.wav",
+        "fileName": "0703603938.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023190975189208984,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0902870977.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002196788787841797,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0902290019.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0020046234130859375,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0898780471.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002321958541870117,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0858605657.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021257400512695312,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0799875038.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021910667419433594,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0799439299.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.002115011215209961,
+        "time_load_info": 0.002338409423828125,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1323,9 +217,9 @@
             },
             "decision_position": [
                 {
-                    "index": 49,
+                    "index": 18,
                     "channel": 2,
-                    "text": "dạ vâng ạ dạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ",
+                    "text": "dạ vâng khi cần hỗ trợ gì thêm anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cám ơn chào anh ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1344,9 +238,9 @@
             },
             "position": [
                 {
-                    "index": 49,
+                    "index": 18,
                     "channel": 2,
-                    "text": "dạ vâng ạ dạ vậy khi cần hỗ trợ thêm anh vui lòng liên hệ tổng đài miễn phí bên em là 18006928 ạ",
+                    "text": "dạ vâng khi cần hỗ trợ gì thêm anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 em cám ơn chào anh ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1365,9 +259,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0797890258.wav",
+        "fileName": "0584256964.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0020558834075927734,
+        "time_load_info": 0.0027964115142822266,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1390,34 +284,9 @@
         "criterias_order": null
     },
     {
-        "fileName": "0778842648.wav",
+        "fileName": "0398427472.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002016305923461914,
-        "contactHotline": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
-    },
-    {
-        "fileName": "0396412443.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.0021209716796875,
+        "time_load_info": 0.002920389175415039,
         "contactHotline": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1426,9 +295,9 @@
             },
             "decision_position": [
                 {
-                    "index": 78,
+                    "index": 20,
                     "channel": 2,
-                    "text": "ạ dạ vậy khi cần hỗ trợ chị trang vui lòng liên hệ tổng đài miễn phí bên em 18006928",
+                    "text": "dạ khi cần hỗ trợ thông tin anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1447,9 +316,9 @@
             },
             "position": [
                 {
-                    "index": 78,
+                    "index": 20,
                     "channel": 2,
-                    "text": "ạ dạ vậy khi cần hỗ trợ chị trang vui lòng liên hệ tổng đài miễn phí bên em 18006928",
+                    "text": "dạ khi cần hỗ trợ thông tin anh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
                     "intents": [
                         "contact_hotline"
                     ],
@@ -1468,9 +337,62 @@
         "criterias_order": null
     },
     {
-        "fileName": "0395368316.wav",
+        "fileName": "0395885712.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025048255920410156,
+        "time_load_info": 0.002280712127685547,
+        "contactHotline": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 38,
+                    "channel": 2,
+                    "text": "khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 38,
+                    "channel": 2,
+                    "text": "khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "0395464353.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0022945404052734375,
         "contactHotline": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1493,23 +415,51 @@
         "criterias_order": null
     },
     {
-        "fileName": "0378224633.wav",
+        "fileName": "0383261678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025572776794433594,
+        "time_load_info": 0.002268075942993164,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 15,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 15,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1518,23 +468,51 @@
         "criterias_order": null
     },
     {
-        "fileName": "0364266169.wav",
+        "fileName": "0378525255.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002367734909057617,
+        "time_load_info": 0.0021376609802246094,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 17,
+                    "channel": 2,
+                    "text": "dạ nếu cần hỗ trợ thêm thông tin chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 17,
+                    "channel": 2,
+                    "text": "dạ nếu cần hỗ trợ thêm thông tin chị vân vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1543,23 +521,51 @@
         "criterias_order": null
     },
     {
-        "fileName": "0363459868.wav",
+        "fileName": "0369750252.wav",
         "agentChannel": 2,
-        "time_load_info": 0.001983642578125,
+        "time_load_info": 0.0025691986083984375,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 48,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 48,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1568,23 +574,51 @@
         "criterias_order": null
     },
     {
-        "fileName": "0362181234.wav",
+        "fileName": "0365550610.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002354145050048828,
+        "time_load_info": 0.002031564712524414,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1593,23 +627,51 @@
         "criterias_order": null
     },
     {
-        "fileName": "0359216361.wav",
+        "fileName": "0347341290.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00331878662109375,
+        "time_load_info": 0.0024526119232177734,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 14,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thông tin chị linh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 14,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thông tin chị linh vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
@@ -1618,23 +680,104 @@
         "criterias_order": null
     },
     {
-        "fileName": "0352845800.wav",
+        "fileName": "0326348428.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002401113510131836,
+        "time_load_info": 0.0024755001068115234,
         "contactHotline": {
-            "evaluate": "no",
+            "evaluate": "yes",
             "evaluate_channel": {
-                "2": "no",
+                "2": "yes",
                 "1": "no"
             },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
+            "decision_position": [
+                {
+                    "index": 22,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
             "confidence_channel": {
-                "2": 0.0,
+                "2": 1.0,
                 "1": 0.0
             },
-            "position": [],
+            "position": [
+                {
+                    "index": 22,
+                    "channel": 2,
+                    "text": "dạ khi cần hỗ trợ thêm thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "0911486219.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0028181076049804688,
+        "contactHotline": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 24,
+                    "channel": 2,
+                    "text": "dạ em gửi lời xin lỗi đến chị rất là nhiều ạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 24,
+                    "channel": 2,
+                    "text": "dạ em gửi lời xin lỗi đến chị rất là nhiều ạ khi cần hỗ trợ thông tin chị vui lòng liên hệ tổng đài miễn phí bên em 18006928 ạ",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": [],
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 1.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
             "slots": {},
             "position_range_index": [],
             "position_condition": [],
