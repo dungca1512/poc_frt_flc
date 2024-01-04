@@ -16,8 +16,8 @@ with open(f"../data/transcript_{project}.json", 'r', encoding='utf-8') as f:
 
 project_info = json.load(open(f"../project_info/{project}.json", encoding="utf-8"))["project_info"]
 
-# criteria_names = [i for i in project_info]
-criteria_names = ["contactHotline"]
+criteria_names = [i for i in project_info]
+# criteria_names = ["contactHotline"]
 project_info_eval = {}
 for criteria in criteria_names:
     project_info_eval.update({criteria: project_info[criteria]})

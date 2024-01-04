@@ -1,0 +1,3095 @@
+[
+    {
+      "id": "onPIcRnvs8XOnqXyRLpGpQ",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2854580-441156927984.ulaw.wav",
+      "size": 4045816,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 252900,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 2,
+          "confidence": 93.0720627307892,
+          "end": 7.06,
+          "start": 1.2,
+          "text": "nghe em chào anh dũng em là tiên gọi đến từ fpt shop em xin phép được trao đổi với anh ít phúc có tiện không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.66810345649719,
+          "end": 8.2,
+          "start": 7.65,
+          "text": "dạ được ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.45531036303595,
+          "end": 16.43,
+          "start": 8.44,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cảm nhận của mình không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 85.16655713319778,
+          "end": 22.050000000000004,
+          "start": 17.150000000000002,
+          "text": "à thì cái này á là cái thứ nhất á là chỗ khi mà mình mua máy mới đúng không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 73.55196997523308,
+          "end": 23.33,
+          "start": 22.7,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 96.56576429094586,
+          "end": 24.28,
+          "start": 22.77,
+          "text": "thì mình chưa biết là",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 48.02185148000717,
+          "end": 27.15,
+          "start": 24.129999999999995,
+          "text": "ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 86.6859216644312,
+          "end": 37.58,
+          "start": 24.75,
+          "text": "cái máy là máy trân bày hay là hàng kho nhưng mà khi mà do cho khách hàng á thì bên mình có thể làm mới ví dụ như có những cái camera nó dính cái màn hình á cái keo giấy mà nó dính",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 71.94492860221175,
+          "end": 59.21,
+          "start": 39.13,
+          "text": "chỗ chỗ thắc mắc vô chuột á thì mình vui lòng mình tháo ra mình vệ sinh lãi cho khách mà gửi cho khách khi mà đóng mới mới được đây là khi mình nhận về á thì là những cái keo dính trên màn hình á thì nó vẫn còn cái giấy mà cái giấy a dây dó á",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 76.81691456051107,
+          "end": 71.46,
+          "start": 60.77,
+          "text": "ngay chỗ dưới bàn khiếm phí thì nó cũng vẫn còn thì khó nào mình mua 1 cái máy đi về mở ra đưa cho người sử dụng á thì giống như kiểu máy mình đang mua máy cũ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.42554876489459,
+          "end": 78.30999999999999,
+          "start": 72.9,
+          "text": "dạ vâng ạ về vấn đề này thì em xin phép được thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện này",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.7467577457428,
+          "end": 78.42,
+          "start": 78.05,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.42554876489459,
+          "end": 83.11,
+          "start": 78.50999999999999,
+          "text": "em xin phép được ghi nhận ý kiến đóng góp của anh để fpt shop có khả năng cao hơn chất lượng dịch vụ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 80.59535609711752,
+          "end": 127.49,
+          "start": 83.02000000000001,
+          "text": "dạ còn cái thứ 2 á là bên chỗ mà khi mà mình nhận máy về á ở trên thì mình cũng chưa kiểm tra kỹ cho lắm thì mình khi nhận máy về xong tới nhà tới qua thì mình khui máy ra thì mình thấy nó có 1 cái dấu cắt phải màn hình không thì mình có liên hệ với chỗ bạn à nhân viên ở bên chỗ á để coi thử cái hướng giải quyết như thế nào á thì mình thấy là bạn ấy báo là để nhắn lại cái chỗ quản lý khu vực mà chắc mình đợi 2 ngày rồi thì mà cũng không thấy trả lời thì có vẻ là nó nó nó nó nó khó có thì mình có thể cho cộng qua được cái vấn đề này nhưng mà mình cũng chưa nhận được cái cái câu trả lời là vũ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.35258882386344,
+          "end": 129.42999999999998,
+          "start": 128.07,
+          "text": "dạ vâng anh cho em hỏi thăm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 46.54700756072998,
+          "end": 129.74,
+          "start": 129.52,
+          "text": "chị",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.11964094638824,
+          "end": 132.14999999999998,
+          "start": 131.66,
+          "text": "thì sao ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.03827148675919,
+          "end": 137.25,
+          "start": 132.26,
+          "text": "dạ vâng anh cho em hỏi thăm là các bạn nhân viên bên em có cho mình kiểm tra sản phẩm tại cửa hàng phải không anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 87.56546401282456,
+          "end": 163.16,
+          "start": 138.28,
+          "text": "ừ thì kiểm thì chắc ơ kiểm tra thì cũng kiểm tra nhưng mà chắc là cũng hơi khó 2 3 á thì ý là mình muốn hỏi là bên chỗ ví dụ như là máy thì mình sử dụng thì mình cũng không nó nó nó bị 1 cái pass đó thì nó mình chắc nếu mình sử dụng thì nó cũng không ảnh hưởng chi nhưng mà ví dụ như lỡ tầm trong 30 ngày mình có đổi trả ví dụ như gặp cái trường hợp á thì ví dụ như bên mình có trao đổi trả hay là không",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.73308456937471,
+          "end": 175.94,
+          "start": 164.17000000000002,
+          "text": "dạ vâng ạ về vấn đề này thì em cũng xin phép thông tin đến anh sau khi mình sản phẩm được ra khỏi cửa hàng thì fpt shop cũng không thể kiểm soát được quá trình mà mình sử dụng nữa nè cho nên em cũng mong anh có thể thông cảm về vấn đề này",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.03538489341736,
+          "end": 174.27999999999997,
+          "start": 173.85,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 31.92274421453476,
+          "end": 176.73,
+          "start": 176,
+          "text": "rồi rồi rồi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.3524059880195,
+          "end": 183.98000000000002,
+          "start": 176.14000000000001,
+          "text": "hồ sơ sản phẩm của mình thì em mời anh mình cứ yên tâm và trải nghiệm thêm nếu có vấn đề gì cần hỗ trợ mình có thể đến tất cả hệ thống fpt shop trên toàn quốc",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.32310247421265,
+          "end": 180.23,
+          "start": 179.8,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.42610773135875,
+          "end": 188.42000000000002,
+          "start": 184.09000000000003,
+          "text": "để các bạn nhân viên bên em sẽ tiếp nhận và hỗ trợ giúp mình đó anh ạ hoặc mình có thể liên hệ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 26.8780916929245,
+          "end": 187.79,
+          "start": 187.45000000000002,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.42610773135875,
+          "end": 194.33,
+          "start": 188.53000000000003,
+          "text": "tổng đài miễn phí bên em là 18006616 sẽ có nhân viên tiếp nhận và hỗ trợ giúp mình đó anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.24228191375732,
+          "end": 195.27999999999997,
+          "start": 194.88,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 100,
+          "end": 196.53,
+          "start": 195.8,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 79.77966112834751,
+          "end": 205.99,
+          "start": 196.1,
+          "text": "dạ đây em có 2 cái ý kiến thôi chị cũng không có bên chỗ việc á mà chăm sóc khách hàng hay là tư vấn thì mấy bạn đó là hỗ trợ tốt ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.31434881687164,
+          "end": 213.06,
+          "start": 206.36,
+          "text": "dạ vâng dạ anh cho em hỏi thăm thêm là khi mà mình thông tin đến bản nhân viên thì mình liên hệ bằng số điện thoại cá nhân của bạn hay sao vậy anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.59161259369418,
+          "end": 220.14999999999998,
+          "start": 214.35,
+          "text": "dạ mình cứ liên hệ qua zalo nhưng mà mình nghĩ bây giờ thì hiện tại thì cứ cứ cứ việc thì mình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.34089279174805,
+          "end": 216.94,
+          "start": 216.3,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 74.21264292282629,
+          "end": 225.85,
+          "start": 220.89999999999998,
+          "text": "xong rồi thì mới có cũng không để ý mình có thông báo là vậy thôi chứ còn mà giờ nó cũng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 100,
+          "end": 222.73,
+          "start": 222,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 56.73454403877258,
+          "end": 227.17000000000002,
+          "start": 226.79999999999998,
+          "text": "chưa",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 86.10476776957512,
+          "end": 228.63,
+          "start": 227.60000000000002,
+          "text": "dạ vâng ạ ecom",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 56.90165460109711,
+          "end": 228.7,
+          "start": 228.12,
+          "text": "cũng qua rồi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.30723523474359,
+          "end": 237.67000000000002,
+          "start": 229.95000000000002,
+          "text": "dạ vâng em xin phép được thông tin đến anh thì fpt shop không thể kiểm soát được số cá nhân của các bạn nhân viên đó nè nếu có vấn đề gì cần hỗ trợ anh cứ trực tiếp liên hệ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 80.13346791267395,
+          "end": 235.67,
+          "start": 235.33,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.3072352347436,
+          "end": 245.05,
+          "start": 237.78000000000003,
+          "text": "tổng đài miễn phí bên em là 18006616 để các bạn nhân viên tổng đài sẽ tiếp nhận và hỗ trợ thông tin giúp mình đó anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.4639048576355,
+          "end": 239.79999999999998,
+          "start": 239.43,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.16336631774902,
+          "end": 246.08,
+          "start": 245.51000000000002,
+          "text": "dạ rồi chị",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 9.587254737081476,
+          "end": 252.51999999999998,
+          "start": 246.25,
+          "text": "dạ vâng em cám ơn anh đã dành thời gian chia sẻ rất mong được phục vụ anh trong thời gian sắp tới em xin phép chào anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2854580-441156927984.ulaw.wav/onPIcRnvs8XOnqXyRLpGpQ?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=64650180597b6b9150e3c8dbdf7a4132e874f0651118c6da401b167637750b80",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:45.844Z",
+      "overlapDetails": [
+        {
+          "start": 24.75,
+          "end": 27.15,
+          "index": 7
+        }
+      ],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": false,
+        "callStartAbnormal": false,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [
+        {
+          "start": 24.129999999999995,
+          "end": 27.15,
+          "index": 6
+        }
+      ],
+      "sa2": [
+        {
+          "start": 131.66,
+          "end": 132.14999999999998,
+          "index": 16
+        }
+      ],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "Yes",
+                    "note": "",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 100,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        0,
+        2,
+        4,
+        10,
+        17
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "pD1A1VxgNKajsXYx1X1FBA",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2839129-726901966527.ulaw.wav",
+      "size": 1094456,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 68400,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 2,
+          "confidence": 96.73332858968664,
+          "end": 7.619999999999999,
+          "start": 1.55,
+          "text": "dạ em chào anh em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với anh ít phúc có tiện không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 100,
+          "end": 3.5,
+          "start": 3.01,
+          "text": "alo",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.51478433609009,
+          "end": 9.32,
+          "start": 8.68,
+          "text": "dạ sao ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.83305968688086,
+          "end": 17.86,
+          "start": 9.629999999999999,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cảm nhận của mình không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 83.09240973190416,
+          "end": 26.650000000000002,
+          "start": 19.4,
+          "text": "à em ý là cái cái cái cái đánh giá hồi bữa của em là 3 sao đúng không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.46485360463461,
+          "end": 27.93,
+          "start": 27.049999999999997,
+          "text": "dạ vâng ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.22277424049001,
+          "end": 36.43,
+          "start": 29.25,
+          "text": "à thì là cái em chỉ muốn hỏi là cái hàng cái hàng khuyến mãi đấy thì giờ thế nào thôi ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.68374889095624,
+          "end": 41.34,
+          "start": 37.4,
+          "text": "dạ vâng anh cho em hỏi thăm là các bạn nhân viên bên em thông tin đến mình như thế nào vậy anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 10,
+          "end": 39.51,
+          "start": 39.32,
+          "text": "vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.67475841965286,
+          "end": 57.96,
+          "start": 42.410000000000004,
+          "text": "à ý là mua hàng á thì à anh có phải là em được tặng thêm 1 bộ 2 đá với loại bộ ép gì đấy tại vì em thấy trong bill nó có ấy nhưng mà",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 84.87854599952698,
+          "end": 57.760000000000005,
+          "start": 57.449999999999996,
+          "text": "nha",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.73782649210521,
+          "end": 63.5,
+          "start": 58.19,
+          "text": "em không thấy anh ấy đưa cho em với lại em có hỏi lại thì em chưa thấy trả lời ấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 22.293440093234228,
+          "end": 67.94,
+          "start": 64.4,
+          "text": "dạ vâng anh cho em hỏi thăm là mình hỏi trực tiếp bản nhân viên hay sao vậy anh hà",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2839129-726901966527.ulaw.wav/pD1A1VxgNKajsXYx1X1FBA?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5f964db343ccdd6243f9a9fcdd5ae68f8ab46070718d783a678d9063ffc2134c",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:43.527Z",
+      "overlapDetails": [],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": true,
+        "callStartAbnormal": false,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [
+        {
+          "start": 37.4,
+          "end": 41.34,
+          "index": 7
+        }
+      ],
+      "sa2": [],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "Yes",
+                    "note": "",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 100,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        5
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "kHUh_-73qk4dqC7aH4tMhw",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2832818-169476482374.ulaw.wav",
+      "size": 1695896,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 106000,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 1,
+          "confidence": 92.3104077577591,
+          "end": 1.36,
+          "start": 0.87,
+          "text": "alo ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.08732006379536,
+          "end": 7.239999999999999,
+          "start": 1.35,
+          "text": "dạ đảm bảo em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với anh ít phúc có tiện không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 100,
+          "end": 11.649999999999999,
+          "start": 11.25,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 89.51133489608765,
+          "end": 11.969999999999999,
+          "start": 11.33,
+          "text": "dạ nói đi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.43471837043762,
+          "end": 20.14,
+          "start": 12.3,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cảm nhận của mình không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.47235054259963,
+          "end": 39.3,
+          "start": 25.18,
+          "text": "dạ bữa trước là thấy nhân viên nhưng mà không biết rõ chương trình khuyến mãi là dẫn đến là báo giá nhiều lần cái phân vân máy với lại",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 83.00035613170569,
+          "end": 42.97,
+          "start": 39.410000000000004,
+          "text": "ạ dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 96.70610825220744,
+          "end": 40.980000000000004,
+          "start": 40.1,
+          "text": "mất thời gian",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.75709535764612,
+          "end": 46.660000000000004,
+          "start": 43.11,
+          "text": "anh cho em hỏi thăm là cái bạn nhân viên bên em để mình đợi trong bao lâu vậy anh hà",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 87.84525311699824,
+          "end": 68.83,
+          "start": 48.18,
+          "text": "tại vì vì hỏi hỏi bao nhiêu chương trình khuyến mãi lần đầu là báo giá với lại quà tặng kèm theo đó là lần này thì như này lần sau thì báo kiểu khác lần đầu tính thì là 23000000 lần sau thì lại báo là còn 21 xong rồi lại cuối cùng thanh toán là còn 20 à nói chung là như thế",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.857107022713,
+          "end": 75.00999999999999,
+          "start": 69.48,
+          "text": "dạ anh cho em hỏi thăm là sau đó các bạn nhân viên bên em đã thông tin lại cho mình các chương trình khuyến mãi chưa anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.04230449527982,
+          "end": 88.57,
+          "start": 77.73,
+          "text": "chương trình khuyến mãi nó của tân sinh viên nó là trừ 5% từ 3 đến 10% vào thẳng sản phẩm bạn",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 81.21528695357043,
+          "end": 96.85,
+          "start": 90.68,
+          "text": "là thiếu mua hàng quà tặng 1 thời gian thì kêu phản hồi lại mà nhân viên vẫn xem lại",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.02756381034851,
+          "end": 98.52,
+          "start": 98.37,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 94.77871484828718,
+          "end": 104.94000000000001,
+          "start": 98.91000000000001,
+          "text": "dạ vâng ạ ngoài ra thì các bạn nhân viên bên em đã thông tin cho mình đầy đủ các chương trình khuyến mãi của sản phẩm là mình đi kèm cho anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2832818-169476482374.ulaw.wav/kHUh_-73qk4dqC7aH4tMhw?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9769f088d26af5f1b384979b224462be2b7ab8c5ae745c08144f91bc8b6bd658",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:42.371Z",
+      "overlapDetails": [],
+      "silenceDetails": [
+        {
+          "start": 7.239999999999999,
+          "end": 11.25,
+          "index": 2
+        },
+        {
+          "start": 20.14,
+          "end": 25.18,
+          "index": 5
+        }
+      ],
+      "aiEval": {
+        "callEndAbnormal": true,
+        "callStartAbnormal": true,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [
+        {
+          "start": 39.410000000000004,
+          "end": 42.97,
+          "index": 6
+        }
+      ],
+      "sa2": [
+        {
+          "start": 98.37,
+          "end": 98.52,
+          "index": 13
+        }
+      ],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "No",
+                    "note": "Không chào hỏi",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 0,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        2,
+        4,
+        6
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "po8JLjg3QIB7yYnapA9Edw",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2828747-63028984412.ulaw.wav",
+      "size": 7448376,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 465500,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 1,
+          "confidence": 41.019777953624725,
+          "end": 1.81,
+          "start": 1.2,
+          "text": "alo số",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.54571135227499,
+          "end": 7.409999999999999,
+          "start": 1.85,
+          "text": "dạ em chào chị em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với chị phúc có tiện không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.83867555856705,
+          "end": 8.92,
+          "start": 8.13,
+          "text": "ừ em nói đi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.88961444756926,
+          "end": 17.03,
+          "start": 9.1,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ chị có thể chia sẻ cảm nhận của mình không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 94.83960725012278,
+          "end": 23.42,
+          "start": 16.9,
+          "text": "ừ ok ờ như thế này nhá tức là chị có đầu năm thì chị có mua cái macbook của bên em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 82.12966322898865,
+          "end": 24.490000000000002,
+          "start": 23.82,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.72598000368137,
+          "end": 79.31,
+          "start": 24.2,
+          "text": "thế thế thì các bạn ấy giao với các thứ cũng bình thường thế thì đến hôm vừa rồi chị có mua 1 cái iphone 14 ấy thế thế thì có hẹn với chị để để để giao máy thế thì khi khi mà chị order mua ấy thì chị có đánh dấu là là chị cần cài đặt chị không biết cài đặt ấy thế thế nhưng mà khi mà đến thì cái bạn kêu đấy thì bạn ý cũng có cài đặt cho chị nhưng cái cài đặt của bạn nó rất là thủ công thế chị không chuyển được hết ảnh sang thế thì khi khi mà nói chuyện rồi các thứ chị nhắn tin lại chị bảo bây giờ chị cần chuyển hết ảnh sang các thứ thì bạn ấy hướng dẫn cho chị các thứ nhưng cũng không thành công thế thế thì bạn ấy bảo thế thì chị phải mang đến số chị mang lúc nào cũng được bọn em chỉ cài đặt được chủ công như thế thôi và chị rất khó khăn khi mà liên hệ lại được với bạn ấy thì sau đó thì chị có mang đến đến số chị",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 100,
+          "end": 77.05,
+          "start": 76.67999999999999,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 94.11922689476758,
+          "end": 187,
+          "start": 79.42,
+          "text": "chị cái số ở gần nhà chị thì chị cài đặt thế thì bạn ấy cũng cài đặt các thứ cho chị thì chị lại gặp tiếp 1 cái không chị chị thấy nhân viên làm việc chị không hài lòng lắm bởi vì cái bởi vì là khi mà chị chị cài đặt ấy thì chị cũng nói rõ là chị cài đặt máy này xong sau đó chị xóa cái máy cũ đi để để để để cho con gái chị sử dụng thế thế thì chị chị chị bạn ấy cứ app cho chị cái trách nhiệm là nếu giả sử như xóa cái máy cũ đi mà có vấn đề gì thì bên em không chịu trách nhiệm bảo ừ được rồi chị bảo chị sẽ kiểm tra lại cái máy mới của chị nếu đủ thì em xóa cho chị bởi vì là về nhà chị không biết làm như thế nào bạn chị cứ nói đi nói lại cái điều đấy thì chị thấy là bạn ấy như kiểu là bạn ấy sự trách nhiệm rồi bạn ấy yêu cầu chị là nếu mà chị muốn xóa thì chị phải ký vào 1 cái giấy tờ chị bảo ừ giấy tờ gì chị cũng ký được hết bởi vì chị là người yêu cầu xóa thế nhưng sau đó thì bạn ấy có xóa cho chị và chị hỏi là bây giờ chị cần cái gì thì em cứ đưa cho chị ký cuối cùng chị không phải ký cái gì cả thế thế thì chị thấy là các cái thao tác về những cái lời nói thì là nó bắt nhất với nhau yêu yêu cầu chị ký giấy tờ chị sẵn sàng ký nhưng cuối cùng chị không phải ký giấy tờ gì cả nhưng trong cái quá trình mà trao đổi với chị thì cứ nói theo cái cách là ờ chị tức là xóa đi và bên em không chịu trách nhiệm gì cả mà chị chị chị không sợ thì thôi tại sao bọn em phải sợ phải sợ trách nhiệm mà chị bản thân chị là yêu cầu các em xóa cho chị cơ mà dạ thế thì chị chị sợ là từ trước đến giờ chị chị rất thích fpt thích từ ừ trên hệ thống từ bên trên xuống dưới thế nhưng mà đúng là lần này chị đi mua và chị thấy là chất lượng dịch vụ nhân viên đợt này quá là kém",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.77635065811437,
+          "end": 193.37,
+          "start": 188.68,
+          "text": "mà chị đánh dấu 3 sao là chị vì chị vẫn còn tình yêu với cả fpt",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 84.79785323143005,
+          "end": 189.09,
+          "start": 188.78,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.77635065811435,
+          "end": 199.16,
+          "start": 193.66,
+          "text": "chứ còn nếu không mà thái độ nhân viên phục vụ như thế này thì chị chỉ đáng cho 1 đến 2 sao thôi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.92856979370117,
+          "end": 201.2,
+          "start": 200.56,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 95.35455820739409,
+          "end": 235.34,
+          "start": 200.65,
+          "text": "chị nghĩ là đấy chị nghĩ là cần phải phản hồi lại để cho quản lý rồi quản trị từ công ty các thứ xuống là đào tạo lại văn hóa fpt cho bọn em bởi vì chị quen rất nhiều thì cô các thứ ở bên trường fpt cũng như là lãnh đạo các thứ của ép thì cho nên chị mới lựa chọn qua nhà chị có 3 cái thế giới di động và chị có mua 1 số đồ của bên thế giới di động mà chị thực sự thấy các bạn nhân viên ở bên thế giới di động là tốt hơn các bạn fpt và chị đã cân nhắc là nếu lần tới khi mà mua cái gì chị sẽ lựa chọn thế giới di động cho fpt",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.2822207226823,
+          "end": 254.27,
+          "start": 236.85,
+          "text": "dạ vâng về vấn đề này thì em cũng xin phép được thay mặt các bạn nhân viên gửi lời xin lỗi đến chị vì sự bất tiện này ạ chị cho em hỏi thăm là đơn mình đang muốn phản ánh là đơn hàng mình đã mua điện thoại iphone mười bốn hai trăm năm mươi sáu ghi vào ngày 13 tháng 9 đúng không chị tại fpt shop ở 22 16 thái hà đúng không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.61472302675247,
+          "end": 255.52,
+          "start": 254.73000000000002,
+          "text": "đúng rồi em ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.57664585113525,
+          "end": 260.08000000000004,
+          "start": 255.75,
+          "text": "dạ vâng chị cho em hỏi thăm là mình trao đổi với bạn nhân viên qua số điện thoại cá nhân hay sao vậy chị",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 95.52357956057503,
+          "end": 269.94000000000005,
+          "start": 260.78000000000003,
+          "text": "đúng rồi chị trao đổi với nhân viên qua số điện thoại cá nhân tức là chị có order sau đó thì bạn ý dùng số điện thoại cá nhân để bạn ấy liên hệ với chị và bạn ấy giao máy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 92.92103445458561,
+          "end": 273.01,
+          "start": 270.04999999999995,
+          "text": "dạ vâng dạ vâng ạ chị trinh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 78.52663795153299,
+          "end": 273.5,
+          "start": 272.36,
+          "text": "thì sau ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.0207885942961,
+          "end": 277.39,
+          "start": 274.2,
+          "text": "dạ vâng chị cho em hỏi thăm là mình có nhớ được tên có bạn nhân viên không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.87902561101046,
+          "end": 281.18,
+          "start": 278.65,
+          "text": "ờ bạn ý tên là gì chị cũng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 42.498376965522766,
+          "end": 280.48,
+          "start": 280.22999999999996,
+          "text": "gì",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.87902561101046,
+          "end": 287.27000000000004,
+          "start": 281.34999999999997,
+          "text": "không không không không nhớ bởi vì là đến chị cũng ngặt nhiên là đợt vừa rồi khi mà chị mua 2 đồ ấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 57.29368428389231,
+          "end": 284.61,
+          "start": 284.15,
+          "text": "cũng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.10425268977343,
+          "end": 296.5,
+          "start": 287.47,
+          "text": "thì thậm chí là à chị có mua 1 cái cái cái cái nữa của bên em nữa thì các bạn nhân viên đến thì đều không mặc đồng phục",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.66586530208588,
+          "end": 298.59000000000003,
+          "start": 297.92,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 80.67922592163086,
+          "end": 300.85,
+          "start": 299.88,
+          "text": "chị hơi kỳ lạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.83029055595398,
+          "end": 300.23,
+          "start": 299.91999999999996,
+          "text": "dạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.57008884290964,
+          "end": 311.11,
+          "start": 301.26,
+          "text": "chị hơi kỳ lạ là cái cái fpt shop bây giờ không không chuyên nghiệp bởi vì các bạn đến thì thì không không mặc đồng phục cho nên là chị cũng hơi ngạc nhiên",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 51.406919956207275,
+          "end": 308.57000000000005,
+          "start": 308.11,
+          "text": "đến",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.91483409061074,
+          "end": 353.07000000000005,
+          "start": 311.46,
+          "text": "thì nhưng mà các bạn ấy vẫn xuất được hóa đơn các thứ ấy thì chị có hỏi lại bên em thì bảo nếu bạn ấy xuất lại xuất hóa đơn các thứ thì bạn ý vẫn là nhân viên của bên em nhưng chị cũng thấy hơi hơi lo hơi lo lắng bởi vì là chị muốn của các cái đồ thất tiền như thế mà mà các bạn nhân viên sau đó là chị chuyển tiền cho các bạn hoặc là giao tiền cho các bạn nhân viên đấy và chị có nhận được hóa đơn nhưng mà các bạn lại không có tức là chị trước đây chị cũng mua rất nhiều đồ chị mua chị đều dùng iphone mỗi lần chị đổi iphone thì chị đều dùng số thì chị đều đều thấy là là là là các bạn nhân viên phục vụ rất chuyên nghiệp như lần này thì hoàn toàn khác hẳn",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.30300913596975,
+          "end": 359.12000000000006,
+          "start": 354.25,
+          "text": "dạ vâng ạ về vấn đề này 1 lần nữa em thay mặt các bạn nhân viên gửi lời xin lỗi chị về sự bất tiện này",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.9660153388977,
+          "end": 355.65000000000003,
+          "start": 355.31,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.30300913596975,
+          "end": 365.93000000000006,
+          "start": 359.35,
+          "text": "chị cho em hỏi thăm thêm là mình có nhớ được cái thời gian mà mình đã quay lại cửa hàng khác để các bạn nhân viên hỗ trợ không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 95.4328260638497,
+          "end": 368.09000000000003,
+          "start": 366.73,
+          "text": "chị mới quay lại chiều hôm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 91.7628064751625,
+          "end": 368.13,
+          "start": 366.90000000000003,
+          "text": "10 quay lại chú",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 95.43282606384972,
+          "end": 369.95000000000005,
+          "start": 368.26,
+          "text": "kia hôm kia hôm qua con nhở",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.56255370378494,
+          "end": 373.36,
+          "start": 371.7,
+          "text": "hôm mẹ giao điện thoại cho con ấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.8863730430603,
+          "end": 378.32000000000005,
+          "start": 376.03000000000003,
+          "text": "hôm kia hôm kia chiều hôm kia em ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 76.93216353654861,
+          "end": 379.53000000000003,
+          "start": 378.47,
+          "text": "dạ vâng làm nghe",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 86.40479721572488,
+          "end": 389.67,
+          "start": 378.85,
+          "text": "chị có tới cái cửa cái cái cái đại lý à cái cái fpt shop ở cái chỗ đầu đường đầu chợ bởi đường hoàng hoa thám",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.71440696716309,
+          "end": 396.32000000000005,
+          "start": 390.67,
+          "text": "dạ vâng và mình có nhớ khoảng thời gian mình đã quay lại không chị mình vừa chia sẻ là ngày 14 tháng 9",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.22301195173495,
+          "end": 400.59000000000003,
+          "start": 394.7,
+          "text": "chị lúc đấy là chị tận hơn 4 giờ hơn 4 giờ và chị ngồi cài đặt đến khoảng hơn 6 giờ chị mới xong",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 94.7048343718052,
+          "end": 407.28000000000003,
+          "start": 401.15,
+          "text": "dạ vâng để em ghi nhận được đầy đủ thông tin hơn nữa thì chị có nhớ bạn nhân viên tên gì không ạ bạn nhân viên đã hỗ trợ cho mình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 93.41241186380485,
+          "end": 417.79,
+          "start": 406.29999999999995,
+          "text": "chị không nhớ bạn nhân viên tên gì nhưng em có thể check lại cửa hàng đấy có chị linh đến cài đặt lại điện thoại và lúc đấy chị cũng có xấu lên với bạn ấy mà chị bảo là tại sao em lại phải sự trách nhiệm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 91.53914451599121,
+          "end": 419.28,
+          "start": 418.54999999999995,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.515104896882,
+          "end": 423.06000000000006,
+          "start": 418.76,
+          "text": "chị cũng có chị cũng có có có tỏ thái độ với bạn ấy ngay lúc đấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.98345046513009,
+          "end": 436.11,
+          "start": 423.8,
+          "text": "dạ vâng ạ về vấn đề này em cũng xin phép thay mặt các bạn nhân viên gửi lời xin lỗi đến chị vì sự bất tiện này em đã ghi nhận lại toàn bộ thông tin mà mình vừa chia sẻ để có thể làm việc với các bộ phận liên quan nâng cao hơn chất lượng dịch vụ của fpt shop đấy chị ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 97.26067980130514,
+          "end": 441.09,
+          "start": 436.78999999999996,
+          "text": "đúng rồi chị nghĩ là cần phải nâng cao chất lượng lên bởi vì fpt là 1 công ty tốt ấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 100,
+          "end": 442.1700000000001,
+          "start": 441.47,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.1674760977427,
+          "end": 444.65000000000003,
+          "start": 441.7,
+          "text": "nếu mà tình trạng tiếp tục như thế này thì chị thấy rất là tiếc",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.41373758776147,
+          "end": 456.09000000000003,
+          "start": 445.49,
+          "text": "dạ vâng ạ và các vấn đề mình chia sẻ thì em đã ghi nhận lại hết đầy đủ đó chị để có thể làm việc với các bộ phận liên quan để giúp các bạn nhân viên có thể khắc phục tình trạng hiện tại và nâng cao hơn chất lượng của mình đó chị ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 100,
+          "end": 457.69,
+          "start": 456.93,
+          "text": "rồi ok",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.45005199644301,
+          "end": 463.49,
+          "start": 457.69,
+          "text": "em cám ơn chị đã dành thời gian chia sẻ rất mong được phục vụ chị trong thời gian sắp tới em sắp xếp chào chị nha",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 94.15741222245352,
+          "end": 459.89000000000004,
+          "start": 458.68,
+          "text": "rồi rồi rồi cảm ơn em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 75.68564414978027,
+          "end": 464.49,
+          "start": 463.68,
+          "text": "ừ rồi rồi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 59.86978309591676,
+          "end": 465.09000000000003,
+          "start": 464.64,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2828747-63028984412.ulaw.wav/po8JLjg3QIB7yYnapA9Edw?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d2cfa586745a2dc324439900b0f2148dd7a59928752c59330aadfac4664125f8",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:40.937Z",
+      "overlapDetails": [
+        {
+          "start": 366.90000000000003,
+          "end": 368.09000000000003,
+          "index": 36
+        },
+        {
+          "start": 394.7,
+          "end": 396.32000000000005,
+          "index": 43
+        },
+        {
+          "start": 458.68,
+          "end": 459.89000000000004,
+          "index": 55
+        }
+      ],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": false,
+        "callStartAbnormal": false,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": true,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [],
+      "sa2": [],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "Yes",
+                    "note": "",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 100,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        1,
+        3,
+        5,
+        7,
+        12,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "kuTDDsQdhslJkVeKHAxHUQ",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2825175-801298768843.ulaw.wav",
+      "size": 5248216,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 328000,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 1,
+          "confidence": 90.0769293308258,
+          "end": 2.23,
+          "start": 1.95,
+          "text": "alo",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 92.28988709273162,
+          "end": 8.31,
+          "start": 2.24,
+          "text": "nhàn chứ anh thuận em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với anh ít phúc có tiện không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.70196104049683,
+          "end": 13.22,
+          "start": 10.9,
+          "text": "em là nhân viên hay là máy nói tự động",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.16606448377881,
+          "end": 16.05,
+          "start": 13.49,
+          "text": "dạ vâng em là nhân viên đang trao đổi trực tiếp với mình á",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 63.564130663871765,
+          "end": 17.29,
+          "start": 16.82,
+          "text": "chào em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.96596592978428,
+          "end": 25.89,
+          "start": 17.75,
+          "text": "dạ vâng bên em có nhận đánh giá hay sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cảm nhận của mình không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.31926996833735,
+          "end": 31.390000000000004,
+          "start": 27.96,
+          "text": "ừ chi trả như thế nào cho nó thuận tiện đây à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.56612384319305,
+          "end": 34.2,
+          "start": 33.59,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 84.99133687326777,
+          "end": 136.81,
+          "start": 33.65,
+          "text": "anh đến 1 cách anh anh cần mua 1 cái máy tính nhưng mà anh đến anh thấy nó nhạc nhẹ đến ngày đầu tiên hết từ 1 cái chu kỳ mua hàng anh bước vào anh gửi xe thì anh thấy trả có bảo vệ không có ai hết anh cũng không biết phải để xe máy hay là để cái thực sự hướng dẫn thế nào không có ai hết anh nhìn xiên qua cửa tính thì anh thấy có 2 nhân viên trong khi đấy thì anh đang ra dấu là anh để xe ở đây có được không thấy thất quả cũng chả hiểu gì và các bạn cũng rất là nhạt nhẽo ừ không có quan tâm đến cái việc là là có khách đang vào trong mãi 1 lúc thì anh đi vào anh cứ để xe lại anh đi vào cửa thì 1 bạn bảo là ừ không có bảo vệ anh thông cảm xong rồi khi anh vào thì mọi người giống như là đang hỏi là là là anh đi đâu như như 1 cái cách giống như là là vào để ghi ra chịu khó chịu cho châu nhân viên ấy nhưng mà thực ra anh đến mua hàng mà anh đang đăng ký như mọi người đang nhìn giống như là 1 cái đến để làm phiền á anh có cảm giác như vậy anh không có cái cái cái thân thiện đóng tiếp mà trong khi đó nếu anh vào 1 cái cửa hàng của thế giới di động thì từ cửa là ông bảo vệ ổng đã đưa 1 cái thẻ xe ổng đã để tây ninh ngược ổng cuối chào ổng mời hướng dẫn vào còn trong khi đến fpt anh thấy nhạc nho mà có phải mọi người không không cầm đến mình nhưng mà mình đã vào đấy thì cảm thấy giống như là làm 1 cái điều làm phiền cho khách hàng cho châu cửa hàng ấy nhưng mà người không không có hà hướng việc anh đến",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 86.51430606842041,
+          "end": 138.89,
+          "start": 138.16,
+          "text": "dạ sao",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.42927527427673,
+          "end": 140.5,
+          "start": 139.26000000000002,
+          "text": "anh thấy nó nhẹt nhiều lắm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.57211693337089,
+          "end": 149.04999999999998,
+          "start": 141.24,
+          "text": "dạ vâng anh cho em hỏi thăm có phải mình đang muốn phản ánh ở cửa hàng 418000 nguyễn văn nghi nơi anh đã mua sản phẩm máy tính xách tay lenovo phải không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 85.58906278302594,
+          "end": 157,
+          "start": 149.44,
+          "text": "ở ở ngay cửa hàng gì ngay cái vòng xoay ngã 6 đấy anh không biết nó thuộc đường nguyễn oanh hay đường nguyễn văn nghi nữa ngay ngã 6 đấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.63154727220537,
+          "end": 162.37,
+          "start": 157.17000000000002,
+          "text": "dạ vâng nếu mình đã mua sản phẩm máy tính xách tay lenovo vào ngày 11 tháng 9 phải không anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 100,
+          "end": 163.3,
+          "start": 162.3,
+          "text": "đúng rồi đúng rồi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.81372873376056,
+          "end": 170.98,
+          "start": 163.5,
+          "text": "dạ vâng anh cho em hỏi thăm là mình có thể chia sẻ cụ thể giúp em là các bạn nhân viên có hành động hay lời nói như thế nào khiến mình cảm thấy không hài lòng vậy anh nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 83.15254257170506,
+          "end": 177.06,
+          "start": 170.97,
+          "text": "tức là không có hành động hay không có lời nói nào đó là 1 cái cách hiện sự hợp ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 83.49931652729327,
+          "end": 180.97,
+          "start": 178.8,
+          "text": "tức là là không thể hiện ra là nhiệt tình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 56.05374127626419,
+          "end": 183.14,
+          "start": 182.79999999999998,
+          "text": "nhà",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.19187232426233,
+          "end": 189.58,
+          "start": 184.17000000000002,
+          "text": "dạ vâng chắc là nhân viên bên em không lại hỗ trợ mình hay sao vậy anh nè khiến mình cầm thấy các bạn thờ ơ vậy anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 86.46978187564592,
+          "end": 220.60999999999999,
+          "start": 190.43,
+          "text": "ủa anh vừa mô tả với em mà anh vào như thế nào anh đi vào như thế nào rồi đấy anh kiếm mà không có ai đón tiếp anh để xe cũng không biết là để đâu và cũng không biết rằng là mình để ở đây có được đây có đúng chỗ để xe không có được bảo bảo vệ của ai chung con không là cũng anh nhìn thấy nhân viên ở trong á anh ra hiểu là là anh để xe ở đây có được không cũng không ai thèm trả lời không ai thèm nói năng gì hết mãi anh đi anh anh phải tự để đại đi anh đi vào trong thì anh thấy mọi người rất là hơi hợp với mình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 99.61403012275696,
+          "end": 222.39,
+          "start": 221.54,
+          "text": "dạ vâng ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.58738499879837,
+          "end": 224.6,
+          "start": 221.98000000000002,
+          "text": "đấy anh anh anh nhắc lại 1 lần nữa anh như thế đấy",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.74391655598654,
+          "end": 235.43,
+          "start": 225.04,
+          "text": "dạ vâng về vấn đề này em xin phép được thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện này em xin phép được ghi nhận ý kiến đóng góp của anh để fpt shop có khả năng cao hơn chất lượng nghiệp vụ của các bạn nhân viên đó anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.21286852513809,
+          "end": 295.59000000000003,
+          "start": 236.99,
+          "text": "dạ cám ơn em đã quan tâm gọi lại nhưng mà cái việc này á thì hôm qua cái gì đấy thì anh cũng lại có được 1 điện thoại nhưng mà từ 1 cái cái hệ thống tự động gọi thì anh cũng cảm thấy rằng là như cái máy thì mọi người gọi không có cho nên nãy lúc mà nhận cuộc điện thoại này anh hỏi em em là là nhân viên là người hay là máy thế thì anh thấy nếu là máy cái gì đúng là nó khó khăn rời già nhưng mà cái việc có thì mua xong sản phẩm thì cứ cài tự động về để trả vài cho xong anh có cảm biết như vậy nên dù gì đi nữa thì nói chuyện với người để biết rằng là cái cảm xuất của khách hàng mua hàng thế nào nhưng mà để 1 cái hệ thống tự động gọi xong rồi anh anh đang hỏi là là em là người anh là nhân viên hay là máy di động thì cái máy di động hiểu là xin lỗi em không hiểu câu hỏi của anh anh vui lòng cho biết anh đánh máy sao thì thì anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 80.75221180915833,
+          "end": 298.24,
+          "start": 294.65999999999997,
+          "text": "ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 89.80213829191175,
+          "end": 303.59000000000003,
+          "start": 295.7,
+          "text": "giống như mình đi đùa với nhau á anh có cảm giác như vậy không có vui vẻ không gì với cái việc mua sắm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.99349254369736,
+          "end": 320.08000000000004,
+          "start": 306.15000000000003,
+          "text": "dạ vâng hiểu vấn đề mình chia sẻ thì em cũng hiểu ạ 1 lần nữa xin phép thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện này em đã ghi nhận lại đầy đủ toàn bộ thông tin anh chia sẻ để có thể gửi đến các bộ phận liên quan nâng cao hơn chất lượng dịch vụ đó nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 78.39145362377167,
+          "end": 321.81000000000006,
+          "start": 320.81,
+          "text": "ừ cảm ơn nghe",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 21.876031953838538,
+          "end": 324.09000000000003,
+          "start": 322.09999999999997,
+          "text": "em cám ơn anh đã dành thời gian chia sẻ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 49.86216127872467,
+          "end": 323.4,
+          "start": 323.15,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 21.87603195383854,
+          "end": 327.77,
+          "start": 324.2,
+          "text": "rất mong được phục vụ anh trong thời gian sắp tới em xin phép chào anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2825175-801298768843.ulaw.wav/kuTDDsQdhslJkVeKHAxHUQ?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9c8a666f6812a95abf910004d7be24288a10404cf5148be9a16298f5525dbe30",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:37.132Z",
+      "overlapDetails": [
+        {
+          "start": 295.7,
+          "end": 298.24,
+          "index": 26
+        }
+      ],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": false,
+        "callStartAbnormal": true,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [
+        {
+          "start": 294.65999999999997,
+          "end": 298.24,
+          "index": 25
+        }
+      ],
+      "sa2": [],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "No",
+                    "note": "Không chào hỏi",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 0,
+      "absIntensityAbnormals": [
+        3,
+        11
+      ],
+      "relIntensityAbnormals": [
+        1,
+        3,
+        11,
+        13
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "uakzgeHXAtG27m2j9rFCdw",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2823122-332315884729.ulaw.wav",
+      "size": 3775416,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 236000,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 1,
+          "confidence": 92.58483648300171,
+          "end": 1.54,
+          "start": 1.17,
+          "text": "alo",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.24611212589123,
+          "end": 7.74,
+          "start": 1.9700000000000002,
+          "text": "dạ em chào anh em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với anh ít phúc có tiện không nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 86.36748865246773,
+          "end": 9.319999999999999,
+          "start": 8.379999999999999,
+          "text": "à rồi anh nghe em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.04810541104048,
+          "end": 17.6,
+          "start": 9.700000000000001,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cẩm nhận của mình không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.79693388938904,
+          "end": 14.969999999999999,
+          "start": 14.569999999999999,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 93.49486284855278,
+          "end": 25.34,
+          "start": 18.75,
+          "text": "ờ xác nhận là như thế nào em nhỉ chấp nhận về đi em cho anh 1 cái nội dung thì anh mới mới nói được chứ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.65801513195038,
+          "end": 28.2,
+          "start": 25.52,
+          "text": "dạ vâng bên em có nhận được đánh giá 3 sao của mình đó anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 36.22291684150696,
+          "end": 29,
+          "start": 28.52,
+          "text": "ờ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 94.49151548055504,
+          "end": 33.660000000000004,
+          "start": 29.33,
+          "text": "dạ vâng ạ mình có thể chia sẻ để bên em có thể ghi nhận lại và nâng cao hơn chất lượng nghiệp vụ không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 58.51433873176575,
+          "end": 30.92,
+          "start": 30.549999999999997,
+          "text": "à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 90.29899957656087,
+          "end": 45.870000000000005,
+          "start": 34.35,
+          "text": "à ghi nhận ủa bữa hôm đấy là à hôm đấy là cái gì hình như là bên chăm sóc khách hàng ai ai ai gọi mà anh khi mà anh nói thì thì thì lại cúp giữ hết trơn à hôm rồi á",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.47945755339681,
+          "end": 50.550000000000004,
+          "start": 46.25,
+          "text": "dạ vâng ạ về vấn đề này thì em cũng xin lỗi anh về sự bất tiện đã gặp phải trong quá trình trao đổi ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 69.89228129386902,
+          "end": 47.77,
+          "start": 47.43,
+          "text": "ờ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.62871766090393,
+          "end": 51.36,
+          "start": 50.48,
+          "text": "ừ ừ ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.47945755339681,
+          "end": 54.150000000000006,
+          "start": 50.690000000000005,
+          "text": "em ơi anh mình có thể chia sẻ lại đầy đủ hơn để em có thể ghi nhận lại đó anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 84.69084654098901,
+          "end": 63.88,
+          "start": 54.660000000000004,
+          "text": "à đúng rồi em có 2 cái vừa rồi anh mua cái máy á thì có 2 cái là không hài lòng ở chỗ thứ nhất anh mua máy là cái máy à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 84.72182063555654,
+          "end": 102.08,
+          "start": 66.13,
+          "text": "2040000 a 04 ừ nhưng mà nhưng mà cái máy đó lại số thông báo là không có máy tải nghiệp mà lại có máy trải nghiệm a 04 hết nhưng mà sự các biệt giữ a 0404 thì nó nó nó khác xa lắm đó là anh thấy chưa hài lòng không xa lắm đó là cái nhất cái thứ 2 nữa là đối với việc mua máy này á thì anh lại thấy là toàn bộ các máy là đều là khui hợp ra và và đưa lên kẹt chứ không như bình thường anh mua trước đây là máy là mở là là khách phải là người trực tiếp khui ra",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 85.5771441036464,
+          "end": 118.39999999999999,
+          "start": 103.81,
+          "text": "ờ thì anh ấy là anh được biết là bên chỗ số báo là những cái dòng máy mà dạng mà được gọi là máy bình dân nè là đều là khui ra và trưng bày trễ chứ không có nào để nguyên trong hộp vậy thôi thì shop nói sao anh nghe vậy thôi chứ còn anh không rõ lắm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.7006542528117,
+          "end": 126.28999999999999,
+          "start": 118.75,
+          "text": "dạ vâng về vấn đề này thì em cũng xin phép thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện đã gặp phải trong quá trình mua hàng ạ đối với sản phẩm mình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.64123463630676,
+          "end": 120.07,
+          "start": 119.73,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.2832899093628,
+          "end": 125.41,
+          "start": 124.98,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.70065425281152,
+          "end": 133.19,
+          "start": 126.58,
+          "text": "mua và không có sản phẩm trải nghiệm á anh thì em xin phép được ghi nhận ý kiến đóng góp của anh để fpt shop có thể cập nhật nhiều hơn sản phẩm trải nghiệm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.21241402626038,
+          "end": 129.07999999999998,
+          "start": 128.71,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.7006542528117,
+          "end": 135.92,
+          "start": 133.36,
+          "text": "để khách hàng có thể được trải nghiệm thực tế trước khi mua hàng nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.46970343589783,
+          "end": 134.26,
+          "start": 133.68,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 93.29430376434189,
+          "end": 143.09,
+          "start": 136.18,
+          "text": "và ngoài ra thì đối vấn đề mở xuyên mua sản phẩm thì hiện tại thất các sản phẩm tại fpt shop chị trừ các sản phẩm của hãng apple",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.2882490158081,
+          "end": 136.76,
+          "start": 136.27,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 92.97634680030167,
+          "end": 153.09,
+          "start": 143.23000000000002,
+          "text": "thì sẽ được voucher ngay khi nhập hàng để có thể kiểm tra ngoại quang của sản phẩm và các phụ kiện đi kèm cho nên em anh mình cứ yên tâm và trách nhiệm vì đây là sản phẩm mới hoàn toàn 100000% đó anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.21356439590454,
+          "end": 149.29999999999998,
+          "start": 148.78,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 92.89344248170958,
+          "end": 171.29,
+          "start": 153.5,
+          "text": "ừ ok thế thì phải nói rõ cái đó cho anh biết chứ còn bữa hôm đấy bạn bán hàng nói dạ anh ơi cái sản phẩm giá dạ gọi là giá giá thấp giá bình dân này bên em là khui hộp lên hết thì anh thì anh sao nhưng mà 1 số người khách thì như vậy người ta sẽ sẽ hơi chậm lòng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 81.04393482208252,
+          "end": 172.37,
+          "start": 171.61,
+          "text": "dạ vâng",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 88.27906532531465,
+          "end": 193.98,
+          "start": 171.7,
+          "text": "bởi vì người ta dự ra cũng là khách hàng mà mua 1 cái giá mấy mười triệu mười lăm triệu hai mươi triệu thì có thể tạo 1 cái phân biệt so với máy thấp hơn được còn anh cũng chi trả thẳng luôn anh vẫn đang dùng cái máy samsung note 10 mà mười trăm nghìn hồi đấy cũng 20 mấy triệu nên định tất nhiên anh nói sao nhưng mà khi bạn ấy nói là như vậy thì anh nghe anh không hài lòng lắm",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.15776748443719,
+          "end": 199.35,
+          "start": 194.60000000000002,
+          "text": "dạ vâng ạ về vấn đề này thì em xin phép được thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện này",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 98.2959508895874,
+          "end": 196.2,
+          "start": 195.68,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.28131699562073,
+          "end": 198.75,
+          "start": 198.23000000000002,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.15776748443719,
+          "end": 203.1,
+          "start": 199.49,
+          "text": "em sẽ ghi nhận lại ý kiến mà anh chia sẻ để có thể làm việc lại với các bạn nhân viên",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.32056069374084,
+          "end": 200.39,
+          "start": 199.87,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 98.15776748443717,
+          "end": 206.52,
+          "start": 203.27,
+          "text": "nâng cao hơn chất lượng dịch vụ của bạn nhân viên tại cửa hàng đó nè",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 77.62109339237213,
+          "end": 204.42,
+          "start": 203.75,
+          "text": "ok em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.78488270420056,
+          "end": 217.93999999999997,
+          "start": 207,
+          "text": "rồi ok em anh cũng nghĩ có thể là bạn nhân viên ấy không cố tình nhưng mà khi mà chuyển tải cái thông tin cho khách hàng thì nó phải chính xác và cần phải tên thế và nhị hơn 1 tí",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 97.86624511082967,
+          "end": 219.23999999999998,
+          "start": 218.26999999999998,
+          "text": "dạ vâng ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 85.71541905403139,
+          "end": 221.29,
+          "start": 219.03,
+          "text": "để tránh làm đánh làm khách hàng phật lòng nha",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.80865854024887,
+          "end": 224.56,
+          "start": 221.4,
+          "text": "dạ vâng ạ em xin phép được ghi nhận ý kiến đóng góp của anh để có thể nâng cao",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 99.43181872367859,
+          "end": 223.04,
+          "start": 222.58,
+          "text": "ừ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.80865854024887,
+          "end": 226.54,
+          "start": 224.73000000000002,
+          "text": "chất lượng dịch vụ của fpt shop ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 96.88809796383505,
+          "end": 228.39,
+          "start": 225.18,
+          "text": "ừ rồi ok em rồi cám ơn em",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 96.31641507148743,
+          "end": 233.76999999999998,
+          "start": 227.7,
+          "text": "dạ em cám ơn anh đã dành thời gian chia sẻ rất mong được phục vụ anh trong thời gian sắp tới em xin phép chào anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 74.31218998181596,
+          "end": 235.05,
+          "start": 231.07,
+          "text": "alo ừ ừ rồi ok chào anh nha",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 63.010545734476786,
+          "end": 235.73,
+          "start": 235.1,
+          "text": "dạ vâng ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2823122-332315884729.ulaw.wav/uakzgeHXAtG27m2j9rFCdw?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=971b3dbe6474fe8b6f86842f2272f073d04c5c98ff7c83298e89125b02712f6a",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:34.539Z",
+      "overlapDetails": [
+        {
+          "start": 225.18,
+          "end": 226.54,
+          "index": 45
+        },
+        {
+          "start": 231.07,
+          "end": 233.76999999999998,
+          "index": 47
+        }
+      ],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": false,
+        "callStartAbnormal": false,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": true,
+        "sentimentNegative": false,
+        "sentimentImpolite": true,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [
+        {
+          "start": 29.33,
+          "end": 33.660000000000004,
+          "index": 8
+        },
+        {
+          "start": 46.25,
+          "end": 50.550000000000004,
+          "index": 11
+        },
+        {
+          "start": 50.690000000000005,
+          "end": 54.150000000000006,
+          "index": 14
+        },
+        {
+          "start": 194.60000000000002,
+          "end": 199.35,
+          "index": 32
+        },
+        {
+          "start": 199.49,
+          "end": 203.1,
+          "index": 35
+        },
+        {
+          "start": 221.4,
+          "end": 224.56,
+          "index": 42
+        }
+      ],
+      "sa2": [
+        {
+          "start": 133.68,
+          "end": 134.26,
+          "index": 24
+        },
+        {
+          "start": 148.78,
+          "end": 149.29999999999998,
+          "index": 28
+        },
+        {
+          "start": 195.68,
+          "end": 196.2,
+          "index": 33
+        },
+        {
+          "start": 198.23000000000002,
+          "end": 198.75,
+          "index": 34
+        },
+        {
+          "start": 199.87,
+          "end": 200.39,
+          "index": 36
+        }
+      ],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "Yes",
+                    "note": "",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 100,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        1,
+        3,
+        18
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    },
+    {
+      "id": "nCG2GvLUrvG4NGoJAbRNoA",
+      "agentEmail": "31676-Ngô Thị Thủy Tiên",
+      "batchName": "Batch test tiêu chí chào hỏi cho Happy call 03/01 lần 1",
+      "name": "recording-1021-2818409-686551566637.ulaw.wav",
+      "size": 858136,
+      "status": "Ready",
+      "processingStatus": "Ready",
+      "duration_ms": 53600,
+      "recordingTime": "2024-01-03T07:04:59.791Z",
+      "keywords": [],
+      "content": [
+        {
+          "channel": 2,
+          "confidence": 97.20536470413208,
+          "end": 7.119999999999999,
+          "start": 1.32,
+          "text": "dạ em chào anh nam em là tiên gọi đến từ fpt shop em xin phép được trao đổi nhanh với anh ít phúc có tiện không ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 73.5145628452301,
+          "end": 8.26,
+          "start": 7.71,
+          "text": "ok",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 92.39701705101207,
+          "end": 16.53,
+          "start": 8.6,
+          "text": "dạ vâng bên em có nhận được đánh giá hồ sơ của mình về trải nghiệm mua sắm tại fpt shop để nâng cao chất lượng dịch vụ anh có thể chia sẻ cảm nhận của mình không à",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 100,
+          "end": 14.04,
+          "start": 13.46,
+          "text": "ok",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 85.88203218850221,
+          "end": 21.060000000000002,
+          "start": 16.73,
+          "text": "máy đang có vấn đề rồi đấy anh đưa lên bảo hành rồi đấy kiểm tra lại cho anh cái máy đi",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 95.11857316378625,
+          "end": 32.9,
+          "start": 21.52,
+          "text": "dạ về vấn đề này thì con xin phép thay mặt các bạn nhân viên gửi lời xin lỗi đến anh về sự bất tiện này ạ sản phẩm của mình em xin phép được mời anh mình đợi thêm có thông tin các bạn nhân viên bên em sẽ chủ động liên hệ để thông tin đến mình đó anh ạ",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 94.50837842055729,
+          "end": 35.33,
+          "start": 32.74,
+          "text": "thì bao giờ 3 sơ mới giải quyết xong cái máy đấy cho anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 92.2039513455497,
+          "end": 44.54,
+          "start": 36.010000000000005,
+          "text": "dạ vâng hiện tại thì em thấy là sản phẩm của mình đang được vận chuyển đến là bảo hành đó anh thì sau khi có thông tin các bạn nhà bảo hành liên hệ trực tiếp đến để thông tin cho mình đó anh",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 1,
+          "confidence": 91.6651850300176,
+          "end": 51.870000000000005,
+          "start": 45.78,
+          "text": "là bao lâu có câu trả lời nói ngắn gọn đang hỏi câu trả lời là bao nhiêu lâu nói chung chung đến tết mới sửa xong",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        },
+        {
+          "channel": 2,
+          "confidence": 56.138848051493206,
+          "end": 53.519999999999996,
+          "start": 52.29,
+          "text": "dạ vâng ạ thời gian của mình",
+          "negative": false,
+          "origText": null,
+          "updatedAt": null,
+          "updatedBy": null
+        }
+      ],
+      "fileUrl": "https://s3-sgn09.fptcloud.com/cqe-staging/Long%20Chau_Demo/ieTK941L9CjRLKMBThdAWw/%5BPOC_test1%5D_Enhance_RFT%20Fshop_Happy%20call/qjhTyO9xBWz49eGcY6tFmQ/Batch%20test%20ti%C3%AAu%20ch%C3%AD%20ch%C3%A0o%20h%E1%BB%8Fi%20cho%20Happy%20call%2003/01%20l%E1%BA%A7n%201/recording-1021-2818409-686551566637.ulaw.wav/nCG2GvLUrvG4NGoJAbRNoA?response-content-type=audio%2Fmpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=18b9bf16b7b137777421%2F20240104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240104T041843Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a88c7895cee33c9b13e1d34ad8beded89f66c9eb9618d98fb902961deea4441e",
+      "agentChannel": 2,
+      "createdAt": "2024-01-03T07:18:32.543Z",
+      "overlapDetails": [],
+      "silenceDetails": [],
+      "aiEval": {
+        "callEndAbnormal": true,
+        "callStartAbnormal": false,
+        "negativeKeywordIds": [],
+        "positiveKeywordIds": [],
+        "silentAbnormal": false,
+        "overlapAbnormal": false,
+        "agentSpeedAbnormal": false,
+        "sentimentNegative": false,
+        "sentimentImpolite": false,
+        "sentimentUncooperative": false,
+        "negativeKeywords": [],
+        "positiveKeywords": []
+      },
+      "sa1": [],
+      "sa2": [
+        {
+          "start": 7.71,
+          "end": 8.26,
+          "index": 1
+        },
+        {
+          "start": 13.46,
+          "end": 14.04,
+          "index": 3
+        }
+      ],
+      "autoscore": {
+        "content": {
+          "sections": [
+            {
+              "title": "Lời chào mở đầu + kết thúc",
+              "description": "",
+              "questions": [
+                {
+                  "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                  "answer": {
+                    "result": "Yes",
+                    "note": "",
+                    "details": "nameFromMeta: undefined, nameEntities: tiên"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Ngôn từ, dùng từ chuyên nghiệp",
+              "description": "",
+              "questions": []
+            }
+          ]
+        }
+      },
+      "scaledScore": 100,
+      "absIntensityAbnormals": [],
+      "relIntensityAbnormals": [
+        0,
+        2
+      ],
+      "lastestScores": [],
+      "manualScores": [],
+      "metadata": "{\"keywordIds\":[]}"
+    }
+  ]
