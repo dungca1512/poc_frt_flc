@@ -1,7 +1,7 @@
 {
     "project_id": "frt_hpc_poc",
     "project_name": "frt_hpc_poc",
-    "project_version": "231120_094821",
+    "project_version": "240104_063251",
     "project_info": {
         "agentIntroduce": {
             "task": "query",
@@ -173,5 +173,6 @@
             "version": "DEV"
         }
     },
+    "context_analysis": {},
     "criteria_wrapper": {}
 }
