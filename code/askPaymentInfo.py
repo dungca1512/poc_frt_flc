@@ -2,7 +2,7 @@ import json
 
 with open("C:/Users/admin/Enhance/debug_hc/json/response/nlp_response_m3.json", "r", encoding='utf-8') as f:
     file = json.load(f)
-    
+
 call_name = input()
 call_result = None
 
@@ -21,7 +21,8 @@ for data in call_data:
     intents = sum['intents']
     entities = sum['entities']
     if text != "":
-        result[text] ={'intent': intents, 'entities': entities}
+        result[text] = {'intent': intents, 'entities': entities}
 
-with open("C:/Users/admin/Enhance/debug_hc/json/response/response_criteria/nlp_response_askPaymentInfo.json", "w", encoding='utf-8') as outfile:
+with open("C:/Users/admin/Enhance/debug_hc/json/response/response_criteria/nlp_response_askPaymentInfo.json", "w",
+          encoding='utf-8') as outfile:
     json.dump(result, outfile, ensure_ascii=False, indent=4)

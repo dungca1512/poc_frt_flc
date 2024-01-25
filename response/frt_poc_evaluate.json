@@ -1,14 +1,535 @@
 [
     {
-        "error": {
-            "code": 500,
-            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FRT-GreetByeThank-24-01-04_11-20-56 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5b4468ecb0>: Failed to establish a new connection: [Errno 111] Connection refused')) (E4ac906e1-a2a1-4dd3-978b-35a164a45471)\\n {'content': ['em nghe', '', 'chị trinh em chuyển giúp em với', '', 'dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ', '', 'dạ', '', 'dạ', 'dạ', '', 'không cài cho mình hả chị', '', 'dạ các bạn có nói lý do tại sao không cài cho mình được không chị', '', 'dạ hiện tại là máy nó phát sinh lỗi thì chị có mang ra shop để cài lại win nhưng mà các bạn chị cài lại win mà không có cài lại micro sắp xếp cho nên hiện tại là mình không có lịch sự', '', 'à dạ trước tiên xin lỗi chị về sự bất tiện này có phải là chị mai ra shop là 227000 phạm văn kiêu để cài lại win luôn chị', '', 'xô viết nghệ tĩnh ở thành phố hồ chí minh luôn đúng không chị', '', 'dạ vậy lúc chị mua cái bản là tư vấn là có sẵn trong máy thì trong trường hợp hiện tại thì em xin phép tiếp nhận thông tin để bên em kiểm tra làm việc lại với nhân viên tại shop về vấn đề này cho mình nha chị chi', '', '', 'dạ trường hợp hiện tại em sẽ kiểm tra lại với nhân viên lý do tại sao không cài lại cái sim này cho mình thì nhân viên bên shop sẽ chủ động liên hệ giải thích với mình thì nếu mà thật sự là máy mình đã có sẵn như vậy không cần phải cài thì chị cứ mang ra shop các bạn nhân viên hỗ trợ lại cho mình nha chị trinh', '', 'cũng xin lỗi chị về sự bất tiện này để em chuyển thông tin nợ xấu sẽ làm việc liền cho chị trinh ạ', '', 'à dạ vâng ạ em sẽ chuyển thông tin về shop để kiểm tra làm việc phản hồi chị liền trong ngày hôm nay nha chị', '', 'dạ không có đâu chị lúc mà nhân viên tư vấn như thế nào sau này mình sẽ sử dụng như vậy', '', 'mà hiện tại nhân viên đang làm sai theo chị sẽ', '', 'tư vấn cho chị', '', 'thì bên em sẽ kiểm tra lại với nhân viên ạ', '', '', 'dạ', '', 'à dạ vâng ạ thì trường hợp này để em kiểm tra lại', '', 'dạ vâng ạ em xin phép ghi nhận thông tin để chuyển về các bạn liên hệ cho chị ạ', ''], 'language': 'vi', 'app_code': 'FRT-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FRT-GreetByeThank, Ea440e420-095a-4509-8bd3-e7f23a47615f) (Ea440e420-095a-4509-8bd3-e7f23a47615f)"
-        }
+        "fileName": "0978632260.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0029823780059814453,
+        "agentIntroduce": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 29,
+                            "end": 32,
+                            "value": "tâm",
+                            "real_value": "tâm",
+                            "entity": "agent_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 29,
+                            "end": 32,
+                            "value": "tâm",
+                            "real_value": "tâm",
+                            "entity": "agent_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "agent_name": [
+                    {
+                        "index": 4,
+                        "value": "tâm"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 75,
+                            "value": "fpt shop",
+                            "real_value": "fpt shop",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 67,
+                            "end": 75,
+                            "value": "fpt shop",
+                            "real_value": "fpt shop",
+                            "entity": "company_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 4,
+                        "value": "fpt shop"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "chị trinh em chuyển giúp em với",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 4,
+                            "end": 9,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 15,
+                            "end": 20,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 17,
+                    "channel": 2,
+                    "text": "à dạ trước tiên xin lỗi chị về sự bất tiện này có phải là chị mai ra shop là 227000 phạm văn kiêu để cài lại win luôn chị",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 93,
+                            "end": 97,
+                            "value": "kiêu",
+                            "real_value": "kiêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 24,
+                    "channel": 2,
+                    "text": "dạ trường hợp hiện tại em sẽ kiểm tra lại với nhân viên lý do tại sao không cài lại cái sim này cho mình thì nhân viên bên shop sẽ chủ động liên hệ giải thích với mình thì nếu mà thật sự là máy mình đã có sẵn như vậy không cần phải cài thì chị cứ mang ra shop các bạn nhân viên hỗ trợ lại cho mình nha chị trinh",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 306,
+                            "end": 311,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 26,
+                    "channel": 2,
+                    "text": "cũng xin lỗi chị về sự bất tiện này để em chuyển thông tin nợ xấu sẽ làm việc liền cho chị trinh ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 91,
+                            "end": 96,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "chị trinh em chuyển giúp em với",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 4,
+                            "end": 9,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 15,
+                            "end": 20,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 17,
+                    "channel": 2,
+                    "text": "à dạ trước tiên xin lỗi chị về sự bất tiện này có phải là chị mai ra shop là 227000 phạm văn kiêu để cài lại win luôn chị",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 93,
+                            "end": 97,
+                            "value": "kiêu",
+                            "real_value": "kiêu",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 24,
+                    "channel": 2,
+                    "text": "dạ trường hợp hiện tại em sẽ kiểm tra lại với nhân viên lý do tại sao không cài lại cái sim này cho mình thì nhân viên bên shop sẽ chủ động liên hệ giải thích với mình thì nếu mà thật sự là máy mình đã có sẵn như vậy không cần phải cài thì chị cứ mang ra shop các bạn nhân viên hỗ trợ lại cho mình nha chị trinh",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 306,
+                            "end": 311,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 26,
+                    "channel": 2,
+                    "text": "cũng xin lỗi chị về sự bất tiện này để em chuyển thông tin nợ xấu sẽ làm việc liền cho chị trinh ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 91,
+                            "end": 96,
+                            "value": "trinh",
+                            "real_value": "trinh",
+                            "entity": "customer_name",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 2,
+                        "value": "trinh"
+                    },
+                    {
+                        "index": 4,
+                        "value": "trinh"
+                    },
+                    {
+                        "index": 17,
+                        "value": "kiêu"
+                    },
+                    {
+                        "index": 24,
+                        "value": "trinh"
+                    },
+                    {
+                        "index": 26,
+                        "value": "trinh"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 6,
+                            "end": 10,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ em chào chị trinh ạ em là tâm bên phòng chăm sóc khách hàng của fpt shop ạ",
+                    "intents": [],
+                    "entities": [
+                        {
+                            "start": 6,
+                            "end": 10,
+                            "value": "chào",
+                            "real_value": "chào",
+                            "entity": "ciao",
+                            "subentities": [],
+                            "is_required": "required"
+                        }
+                    ],
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 4,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
     },
     {
         "fileName": "09041944888.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002137899398803711,
+        "time_load_info": 0.002421855926513672,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -271,7 +792,7 @@
     {
         "fileName": "0986404226.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002216339111328125,
+        "time_load_info": 0.003448486328125,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -711,7 +1232,7 @@
     {
         "fileName": "0978632260.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002227306365966797,
+        "time_load_info": 0.00238037109375,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -1238,7 +1759,7 @@
     {
         "fileName": "0976338862.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002341747283935547,
+        "time_load_info": 0.0028121471405029297,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1627,7 +2148,7 @@
     {
         "fileName": "0975447776.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030431747436523438,
+        "time_load_info": 0.002753019332885742,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1965,7 +2486,7 @@
     {
         "fileName": "0968228434.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002287626266479492,
+        "time_load_info": 0.0030143260955810547,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -2497,7 +3018,7 @@
     {
         "fileName": "0966876386.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021851062774658203,
+        "time_load_info": 0.0027313232421875,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -2784,7 +3305,7 @@
     {
         "fileName": "0947378077.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002214193344116211,
+        "time_load_info": 0.002305746078491211,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -3178,7 +3699,7 @@
     {
         "fileName": "0943882856.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002315998077392578,
+        "time_load_info": 0.002897977828979492,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3761,7 +4282,7 @@
     {
         "fileName": "'0937155849.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023164749145507812,
+        "time_load_info": 0.0021588802337646484,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4293,7 +4814,7 @@
     {
         "fileName": "0936393957.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026693344116210938,
+        "time_load_info": 0.0024454593658447266,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4631,7 +5152,7 @@
     {
         "fileName": "0929252343.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026006698608398438,
+        "time_load_info": 0.003165721893310547,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5117,7 +5638,7 @@
     {
         "fileName": "0908868034.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024306774139404297,
+        "time_load_info": 0.002362489700317383,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -5676,7 +6197,7 @@
     {
         "fileName": "0908349945.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023126602172851562,
+        "time_load_info": 0.003325939178466797,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6453,7 +6974,7 @@
     {
         "fileName": "0905888258.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002305269241333008,
+        "time_load_info": 0.0028998851776123047,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -7072,7 +7593,7 @@
     {
         "fileName": "0902918837.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027849674224853516,
+        "time_load_info": 0.0027141571044921875,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -7769,7 +8290,7 @@
     {
         "fileName": "0901268327.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0024652481079101562,
+        "time_load_info": 0.0028095245361328125,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -8008,7 +8529,7 @@
     {
         "fileName": "0878736686.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002138376235961914,
+        "time_load_info": 0.002365589141845703,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8453,7 +8974,7 @@
     {
         "fileName": "0869199486.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027036666870117188,
+        "time_load_info": 0.0031325817108154297,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8893,7 +9414,7 @@
     {
         "fileName": "0393994678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021703243255615234,
+        "time_load_info": 0.003050565719604492,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9379,7 +9900,7 @@
     {
         "fileName": "0365881538.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0032405853271484375,
+        "time_load_info": 0.0029273033142089844,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9846,7 +10367,7 @@
     {
         "fileName": "0352067666.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030777454376220703,
+        "time_load_info": 0.002340078353881836,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10240,7 +10761,7 @@
     {
         "fileName": "09189594533.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023577213287353516,
+        "time_load_info": 0.002631664276123047,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -10808,7 +11329,7 @@
     {
         "fileName": "09041944888.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023550987243652344,
+        "time_load_info": 0.002349853515625,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11071,7 +11592,7 @@
     {
         "fileName": "0986404226.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022110939025878906,
+        "time_load_info": 0.002379179000854492,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11511,7 +12032,7 @@
     {
         "fileName": "0978632260.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027704238891601562,
+        "time_load_info": 0.002794027328491211,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -12038,7 +12559,7 @@
     {
         "fileName": "0976338862.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002305269241333008,
+        "time_load_info": 0.002742767333984375,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -12427,7 +12948,7 @@
     {
         "fileName": "0975447776.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027332305908203125,
+        "time_load_info": 0.003103494644165039,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -12765,7 +13286,7 @@
     {
         "fileName": "0968228434.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023963451385498047,
+        "time_load_info": 0.002535581588745117,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13297,7 +13818,7 @@
     {
         "fileName": "0966876386.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027306079864501953,
+        "time_load_info": 0.0027549266815185547,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13584,7 +14105,7 @@
     {
         "fileName": "0947378077.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002777576446533203,
+        "time_load_info": 0.002779722213745117,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13978,7 +14499,7 @@
     {
         "fileName": "0943882856.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025053024291992188,
+        "time_load_info": 0.0024619102478027344,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -14561,7 +15082,7 @@
     {
         "fileName": "'0937155849.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0029473304748535156,
+        "time_load_info": 0.0026519298553466797,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15093,7 +15614,7 @@
     {
         "fileName": "0936393957.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023844242095947266,
+        "time_load_info": 0.002298593521118164,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15431,7 +15952,7 @@
     {
         "fileName": "0929252343.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023338794708251953,
+        "time_load_info": 0.002260446548461914,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15917,7 +16438,7 @@
     {
         "fileName": "0908868034.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0021414756774902344,
+        "time_load_info": 0.0024230480194091797,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -16476,7 +16997,7 @@
     {
         "fileName": "0908349945.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002222776412963867,
+        "time_load_info": 0.002702951431274414,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -17253,7 +17774,7 @@
     {
         "fileName": "0905888258.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002677440643310547,
+        "time_load_info": 0.0024535655975341797,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -17872,7 +18393,7 @@
     {
         "fileName": "0902918837.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002359628677368164,
+        "time_load_info": 0.0025153160095214844,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -18569,7 +19090,7 @@
     {
         "fileName": "0901268327.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0037157535552978516,
+        "time_load_info": 0.002328157424926758,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -18808,7 +19329,7 @@
     {
         "fileName": "0878736686.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002288341522216797,
+        "time_load_info": 0.0027420520782470703,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -19253,7 +19774,7 @@
     {
         "fileName": "0869199486.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0022025108337402344,
+        "time_load_info": 0.002461671829223633,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -19693,7 +20214,7 @@
     {
         "fileName": "0393994678.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026082992553710938,
+        "time_load_info": 0.002796649932861328,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -20179,7 +20700,7 @@
     {
         "fileName": "0365881538.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026941299438476562,
+        "time_load_info": 0.0040283203125,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -20646,7 +21167,7 @@
     {
         "fileName": "0352067666.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002788543701171875,
+        "time_load_info": 0.0028557777404785156,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -21040,7 +21561,7 @@
     {
         "fileName": "09041944888.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002180337905883789,
+        "time_load_info": 0.0028333663940429688,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -21303,7 +21824,7 @@
     {
         "fileName": "09189594533.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002309560775756836,
+        "time_load_info": 0.0027837753295898438,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -21871,7 +22392,7 @@
     {
         "fileName": "09041944888.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0023345947265625,
+        "time_load_info": 0.0023899078369140625,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -22134,7 +22655,7 @@
     {
         "fileName": "0986404226.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002190828323364258,
+        "time_load_info": 0.0022640228271484375,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
