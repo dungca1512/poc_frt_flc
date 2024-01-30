@@ -2,8 +2,6 @@ import json
 import requests
 import time
 
-state = input("Enter environment: ")
-
 project = input("Enter project: ")
 
 start = time.time()
@@ -24,7 +22,7 @@ project_info_frt = {}
 for cri in criteria_frt:
     project_info_frt.update({cri: project_info_poc[cri]})
 
-endpoint = "http://103.176.146.250:5005" # môi trường nlp
+endpoint = "http://103.176.146.250:5005"  # môi trường nlp
 
 url = f"{endpoint}/predict/dialogue/test"
 

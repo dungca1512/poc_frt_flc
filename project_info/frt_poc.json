@@ -128,10 +128,11 @@
             "task": "query",
             "agent": {
                 "FRT-GreetByeThank": {
-                    "intents": {},
-                    "entities": {
-                        "ciao": "required",
+                    "intents": {
                         "greet": "required"
+                    },
+                    "entities": {
+
                     },
                     "threshold": 0.5,
                     "version": "latest"
