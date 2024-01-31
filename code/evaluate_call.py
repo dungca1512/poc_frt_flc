@@ -4,6 +4,8 @@ import time
 
 project = input("Enter project: ")
 
+print("Program is running, please wait...")
+
 start = time.time()
 
 with open(f"../data/call_transcript.json", 'r', encoding='utf-8') as f:
