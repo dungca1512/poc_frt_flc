@@ -1339,18 +1339,26 @@ const keywordViolationsByName = (content, keywords) => {
     matchIndices: uniq(group.flatMap((g) => g.matchIndices))
   }));
 };
-const countViolations = (vio) => vio.reduce((counts, violation) => {
-  if (!counts.includes(violation.term)) {
-    counts.push({
-      term: violation.term,
-      count: 0
-    });
-  }
-  else {
-    counts.find((c) => c.term === violation.term).count++;
-  }
+const countViolations = (vio) => {
+  const counts = [];
+  const seenTerms = new Set(); // Sử dụng Set để đếm số từ khóa khác nhau đã xuất hiện
+
+  vio.forEach((violation) => {
+    if (seenTerms.has(violation.term)) {
+      // Nếu từ khóa đã xuất hiện trước đó, tăng số lần xuất hiện lên
+      const existingCount = counts.find((c) => c.term === violation.term);
+      if (existingCount) {
+        existingCount.count++;
+      }
+    } else {
+      // Nếu từ khóa chưa xuất hiện trước đó, thêm vào counts và seenTerms
+      counts.push({ term: violation.term, count: 1 });
+      seenTerms.add(violation.term);
+    }
+  });
+
   return counts;
-}, []);
+};
 const speedAbnormals = (content, { speedMin, speedMax, abnormalSpeedMaxTime }) => {
   const slowText = "slow";
   const fastText = "fast";
@@ -1450,22 +1458,24 @@ const calc = async ({ input, step }) => {
   const dispassionate = ((_a = settings == null ? void 0 : settings.negativeKeywords) != null ? _a : []).flatMap((kw) => {
     const vio = keywordViolationsByName(content, [kw]);
     const counts = countViolations(vio);
-    if ((vio.length == 0) || (vio.length == 1 && counts <= 1)) {
+    if ((vio.length == 0) || (vio.length == 1 && counts[vio[0].term] < 2)) {
       return `Chưa vi phạm điều kiện keyword ${kw.name}`;
     }
-    if ((vio.length == 2) || (vio.length == 1 && counts >= 2)) {
+    // Kiểm tra số từ khác nhau đã xuất hiện ít nhất một lần
+    const uniqueTermsCount = counts.filter((c) => c.count >= 1).length;
+    if (uniqueTermsCount >= 2 || vio.some((v) => v.count >= 2)) {
       return [`Vi phạm keyword ${kw.name} từ 2 lần trở lên #more ${vio.map((x) => x.term).join(", ")}`];
     };
-  }); // Bắt keyword
+  });
   // const dispassionate = ((_a = settings == null ? void 0 : settings.negativeKeywords) != null ? _a : []).flatMap((kw) => {
   //   const vio = keywordViolationsByName(content, [kw]);
-  //   if (vio.length < 2) {
+  //   const counts = countViolations(vio);
+  //   if ((vio.length == 0) || (vio.length == 1 && counts[vio[0].term] < 2)) {
   //     return `Chưa vi phạm điều kiện keyword ${kw.name}`;
   //   }
-  //   else {
+  //   if (vio.some((v) => v.count >= 2)) {
   //     return [`Vi phạm keyword ${kw.name} từ 2 lần trở lên #more ${vio.map((x) => x.term).join(", ")}`];
   //   };
-  // }); // Bắt keyword
 
   const note = buildNote(
       // spdAbnormals.evaluate,

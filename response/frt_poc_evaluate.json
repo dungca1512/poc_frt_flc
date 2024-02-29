@@ -1,727 +1,14 @@
 [
     {
-        "fileName": "'0989524387.wav",
-        "agentChannel": 2,
-        "time_load_info": 0.00263214111328125,
-        "agentIntroduce": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 63,
-                            "value": "bão",
-                            "real_value": "bão",
-                            "entity": "agent_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 60,
-                            "end": 63,
-                            "value": "bão",
-                            "real_value": "bão",
-                            "entity": "agent_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "agent_name": [
-                    {
-                        "index": 1,
-                        "value": "bão"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "askSupport": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "companyName": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 73,
-                            "end": 81,
-                            "value": "fpt shop",
-                            "real_value": "fpt shop",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 73,
-                            "end": 81,
-                            "value": "fpt shop",
-                            "real_value": "fpt shop",
-                            "entity": "company_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "company_name": [
-                    {
-                        "index": 1,
-                        "value": "fpt shop"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "confirmCustomer": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 26,
-                            "end": 30,
-                            "value": "uyên",
-                            "real_value": "uyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 25,
-                    "channel": 2,
-                    "text": "tụi em thay pin trọn đời còn mấy cái kia thì có liên quan gì đâu à bill thì hiện tại bên em kiểm tra thì chưa có thấy thông tin kiểm tra hộ bản plus thời gian bảo hành rồi á chị nguyên",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 178,
-                            "end": 184,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 33,
-                    "channel": 2,
-                    "text": "bạn báo là cái phần vay võ bị ok khó vay đồng hồ này kiểm tra lại có ráng kiều á chị nguyên ạ nên là các bạn báo chi phí thay pin là 200000",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 85,
-                            "end": 91,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 73,
-                    "channel": 2,
-                    "text": "lần sau trễ có báo lại chi phí thay pin là 200000 á chị là 200000 mình trả tiền bill á chị nguyên",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 91,
-                            "end": 97,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 164,
-                    "channel": 2,
-                    "text": "mình đã hết thời gian bảo hành thì em báo cho mình gọi hotline ảnh thôi chị nguyên có đây nhưng mà nó bảo",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 76,
-                            "end": 82,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 226,
-                    "channel": 2,
-                    "text": "thời gian bảo hành 1 năm là tới ngày 17 tháng tư năm 2022 là thời gian đang cập nhật trên hệ thống bên em liên hệ cho mình để em thông báo là đồng hồ minh là nay hay mai hôm 2 3 thì tranh thủ mình đã hết thời gian bảo hành rồi còn vấn đề chị báo nhân viên lúc chị mua hàng nhân viên tư vấn cho mình là hiện tại bảo hành pin trọn đời thì để bên em kiểm tra lại thông tin này qua bên phía bên công ty em là lúc mà mua hàng công ty khó khăn trễ tránh này hay không thì em báo lại cho mình còn hiện tại cái thông tin mình yêu cầu chị nói với em chị không cần bảo hành ừ chị chỉ cần thay cái bill cho cái đồng hồ nó chạy lại được thôi em hiểu ý chị không",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 150,
-                            "end": 154,
-                            "value": "minh",
-                            "real_value": "minh",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 236,
-                    "channel": 2,
-                    "text": "thì lần thứ nhất chị mua về máy bị lỗi cho nên nay chị mới bảo là gửi vào cho hạn xem lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 78,
-                            "end": 81,
-                            "value": "hạn",
-                            "real_value": "hạn",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 258,
-                    "channel": 2,
-                    "text": "em nói với chị chỗ đó thôi từ đây mới chia sẻ để bên em kiểm tra lại với công ty á chị nguyên chưa chưa có nói gì tới cái vấn đề là mình",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 87,
-                            "end": 93,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 26,
-                            "end": 30,
-                            "value": "uyên",
-                            "real_value": "uyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 25,
-                    "channel": 2,
-                    "text": "tụi em thay pin trọn đời còn mấy cái kia thì có liên quan gì đâu à bill thì hiện tại bên em kiểm tra thì chưa có thấy thông tin kiểm tra hộ bản plus thời gian bảo hành rồi á chị nguyên",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 178,
-                            "end": 184,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 33,
-                    "channel": 2,
-                    "text": "bạn báo là cái phần vay võ bị ok khó vay đồng hồ này kiểm tra lại có ráng kiều á chị nguyên ạ nên là các bạn báo chi phí thay pin là 200000",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 85,
-                            "end": 91,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 73,
-                    "channel": 2,
-                    "text": "lần sau trễ có báo lại chi phí thay pin là 200000 á chị là 200000 mình trả tiền bill á chị nguyên",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 91,
-                            "end": 97,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 164,
-                    "channel": 2,
-                    "text": "mình đã hết thời gian bảo hành thì em báo cho mình gọi hotline ảnh thôi chị nguyên có đây nhưng mà nó bảo",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 76,
-                            "end": 82,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 226,
-                    "channel": 2,
-                    "text": "thời gian bảo hành 1 năm là tới ngày 17 tháng tư năm 2022 là thời gian đang cập nhật trên hệ thống bên em liên hệ cho mình để em thông báo là đồng hồ minh là nay hay mai hôm 2 3 thì tranh thủ mình đã hết thời gian bảo hành rồi còn vấn đề chị báo nhân viên lúc chị mua hàng nhân viên tư vấn cho mình là hiện tại bảo hành pin trọn đời thì để bên em kiểm tra lại thông tin này qua bên phía bên công ty em là lúc mà mua hàng công ty khó khăn trễ tránh này hay không thì em báo lại cho mình còn hiện tại cái thông tin mình yêu cầu chị nói với em chị không cần bảo hành ừ chị chỉ cần thay cái bill cho cái đồng hồ nó chạy lại được thôi em hiểu ý chị không",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 150,
-                            "end": 154,
-                            "value": "minh",
-                            "real_value": "minh",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 236,
-                    "channel": 2,
-                    "text": "thì lần thứ nhất chị mua về máy bị lỗi cho nên nay chị mới bảo là gửi vào cho hạn xem lại",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 78,
-                            "end": 81,
-                            "value": "hạn",
-                            "real_value": "hạn",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 258,
-                    "channel": 2,
-                    "text": "em nói với chị chỗ đó thôi từ đây mới chia sẻ để bên em kiểm tra lại với công ty á chị nguyên chưa chưa có nói gì tới cái vấn đề là mình",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 87,
-                            "end": 93,
-                            "value": "nguyên",
-                            "real_value": "nguyên",
-                            "entity": "customer_name",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "customer_name": [
-                    {
-                        "index": 1,
-                        "value": "uyên"
-                    },
-                    {
-                        "index": 25,
-                        "value": "nguyên"
-                    },
-                    {
-                        "index": 33,
-                        "value": "nguyên"
-                    },
-                    {
-                        "index": 73,
-                        "value": "nguyên"
-                    },
-                    {
-                        "index": 164,
-                        "value": "nguyên"
-                    },
-                    {
-                        "index": 226,
-                        "value": "minh"
-                    },
-                    {
-                        "index": 236,
-                        "value": "hạn"
-                    },
-                    {
-                        "index": 258,
-                        "value": "nguyên"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "goodbye": {
-            "evaluate": "no",
-            "evaluate_channel": {
-                "2": "no",
-                "1": "no"
-            },
-            "decision_position": [],
-            "decision": "no",
-            "confidence": 0.0,
-            "confidence_channel": {
-                "2": 0.0,
-                "1": 0.0
-            },
-            "position": [],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "greet": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [
-                        "greet"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 7,
-                    "channel": 2,
-                    "text": "các bạn có báo là đồng hồ này thì các bạn kiểm tra có ráng kêu với lại can thiệp giữ ngoài á chị à mình có nhu cầu thay pin tình trạng báo chi phí thay pin là 200000 ạ",
-                    "intents": [
-                        "greet"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9349,
-                    "confidence_criteria": 0.9349
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 1,
-                    "channel": 2,
-                    "text": "alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này",
-                    "intents": [
-                        "greet"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 1.0,
-                    "confidence_criteria": 1.0
-                },
-                {
-                    "index": 7,
-                    "channel": 2,
-                    "text": "các bạn có báo là đồng hồ này thì các bạn kiểm tra có ráng kêu với lại can thiệp giữ ngoài á chị à mình có nhu cầu thay pin tình trạng báo chi phí thay pin là 200000 ạ",
-                    "intents": [
-                        "greet"
-                    ],
-                    "entities": [],
-                    "evaluate": "yes",
-                    "entities_score": 0,
-                    "intent_score": 0.9349,
-                    "confidence_criteria": 0.9349
-                }
-            ],
-            "slots": {},
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "thank": {
-            "evaluate": "yes",
-            "evaluate_channel": {
-                "2": "yes",
-                "1": "no"
-            },
-            "decision_position": [
-                {
-                    "index": 283,
-                    "channel": 2,
-                    "text": "chào ừ ừ rồi chị cám ơn em trai",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 17,
-                            "end": 23,
-                            "value": "cám ơn",
-                            "real_value": "cám ơn",
-                            "entity": "thank",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "decision": "yes",
-            "confidence": 1.0,
-            "confidence_channel": {
-                "2": 1.0,
-                "1": 0.0
-            },
-            "position": [
-                {
-                    "index": 283,
-                    "channel": 2,
-                    "text": "chào ừ ừ rồi chị cám ơn em trai",
-                    "intents": [],
-                    "entities": [
-                        {
-                            "start": 17,
-                            "end": 23,
-                            "value": "cám ơn",
-                            "real_value": "cám ơn",
-                            "entity": "thank",
-                            "subentities": [],
-                            "is_required": "required"
-                        }
-                    ],
-                    "evaluate": "yes",
-                    "entities_score": 1.0,
-                    "intent_score": 0.0,
-                    "confidence_criteria": 1.0
-                }
-            ],
-            "slots": {
-                "thank": [
-                    {
-                        "index": 283,
-                        "value": "cám ơn"
-                    }
-                ]
-            },
-            "position_range_index": [],
-            "position_condition": [],
-            "task": "query"
-        },
-        "criterias_order": null
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FRT-GreetByeThank-24-01-30_16-27-55 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffadc213610>: Failed to establish a new connection: [Errno 111] Connection refused')) (E030502da-6ea4-4ba0-bcf5-9a59164168af)\\n {'content': ['', 'alo dạ alo dạ em chào chị uyên ạ dạ em đã hiểu gọi từ phòng bão hành của fpt shop à trước tiên em xin lỗi đã làm phiền chị nguyên giờ này', '', 'em liên hệ về trường hợp mình có gửi đồng hồ đeo tay đi kiểm tra ấy chị ạ', '', 'ừ dạ', '', 'các bạn có báo là đồng hồ này thì các bạn kiểm tra có ráng kêu với lại can thiệp giữ ngoài á chị à mình có nhu cầu thay pin tình trạng báo chi phí thay pin là 200000 ạ', '', 'ủa là sao', '', 'chị đâu có sửa ngoài đâu cái này các bạn kiểm tra hợp đồng của mình có dám kiều á chị ạ', '', 'nhấn kêu là hồi đợt đó chị gửi bên em 1 lần rồi nè em có kiểm tra thông tin là chị gửi 2 lần', '', 'rồi 1 lần đợt trước với lần đợt này là chỉ có bên em thôi chứ chị không có làm bên ngoài à dạ có phải là mình gửi 1 lần vào', '', 'tháng 4420210 chị', '', 'đúng rồi và bây giờ lại 1 lần nữa thôi chứ chị không bao giờ ra bên ngoài luôn em rút nên chị không hiểu lý do vì sao có dán keo', '', 'tại vì trường hợp này thì bên em kiểm tra thì ở lần đầu lần thứ 2 bên cùng trung tâm hết chị thì các bạn báo', '', 'với tình trạng là trầy cấn trầy cấn ngô thị khó vay võ các bạn kiểm tra đã can thiệp sửa chữa ngoài đồng hồ có dán keo nên là báo chi phí thay pin là 200000 đó chị bảo hành nước ạ', '', 'tụi em thay pin trọn đời còn mấy cái kia thì có liên quan gì đâu à bill thì hiện tại bên em kiểm tra thì chưa có thấy thông tin kiểm tra hộ bản plus thời gian bảo hành rồi á chị nguyên', '', 'là sao', '', 'ý em nói là sao em bên fpt hay là bên kia fpt shop chị tại vì em kiểm tra ừ hiện tại thì em thấy lần trước thì bên phía trung tâm họ xử lý cho mình về', '', 'vấn đề là xử lý lâu rằng pin thì hiện tại các bạn cũng có tư vấn cho mình là không có nên để máy và anh dùng nước á chị mượn á thì em thấy là', '', 'bạn báo là cái phần vay võ bị ok khó vay đồng hồ này kiểm tra lại có ráng kiều á chị nguyên ạ nên là các bạn báo chi phí thay pin là 200000', '', 'trời ráng kêu', '', 'bên đó ráng á em mà chị', '', 'chị cũng thấy buồn cười nhưng mà', '', 'mất 200000 luôn á hả chị phí thay pin 200000 đó chị', '', 'trời ơi chị không hiểu tại sao lúc đầu tụi em nói đi bên trọn đời nè bây giờ kêu chị ok hóa rồi lại bắt chị', '', 'báo pin là sao ta', '', 'chị cũng không hiểu bên đó làm như thế nào nữa giờ em cũng hiểu là kết quả trực tiếp bên phía bên trạm họ báo về bên em liên hệ cho mình á chị', '', 'còn ví dụ nhe chị như thế này nè chị đang hiểu như thế này nè mấy nó vẫn chạy bình thường còn cái việc ráng kêu hay như thế nào nó có liên quan như thế nào thì mình chỉ có thay pin thôi', '', 'nó có liên quan gì kia đâu nhắn kêu thì mình ráng kêu lại chứ có gì đâu nhưng mà cái này chị không bao giờ đưa ra bên ngoài và cũng', '', 'ít hạn chế nước lắm thì tụi em nói sao mà trong trường hợp ví dụ như mình đi', '', 'thì khi nào mà chị đi làm chị mới mang thôi trong khi đó', '', 'chị trễ mấy ở nhà ở trong cái hộp', '', 'thì thì cũng hiểu đi chứ', '', 'sao nữa', '', 'thôi tụi em nói như vậy', '', 'bây giờ như thế này em cứ phản hồi với với shop là tại sao 1 giải quyết giùm chị là', '', 'tại sao bên trọn đời thì lại', '', 'bây giờ lại báo chị là trễ 200000 tiền pin', '', 'nạp 200000 đó chị trễ cho tiền biết hay là chi trả tiền cho cái việc mà tụi em ráng lại kêu hay như thế nào đó em hỏi sếp a hỏi số tiền của chị lại đó', '', 'lần sau trễ có báo lại chi phí thay pin là 200000 á chị là 200000 mình trả tiền bill á chị nguyên', '', 'ừ nghĩa hả này có', '', 'nghĩa là trải nghiệm', '', 'trời', '', 'chị hẹn tháng lời luôn', '', 'ok vậy xế xế tụi em gia chương trình', '', 'nhận đợi để làm gì cũng không hiểu nữa', '', 'nạp 111000 hình thức tụi em', '', 'hay sao', '', 'lại không nói thiệt hay sao hiện tại hôm nay tụi em cũng chưa thấy có thông tin quan trọng đời thì chị mua từ 20 21 trả góp thời gian bảo hành rồi á', '', '', 'hứa thời gian làm sao em', '', 'người ta làm dịch vụ', '', 'người ta mua thời điểm đó', '', 'trọn đời thì nói là trọn đời', '', 'chứ tại sao lại là', '', 'qua thời điểm 2021000 thì nó sẽ hối cái dịch vụ đó', '', 'em làm dịch vụ kỳ cục vậy', '', 'vậy bây giờ nếu như trễ sự bây giờ chuyện bớt 1 cái lên mẹ chị sẽ hỏi tất cả những người', '', 'cùng mua với chị năm hai ngàn trăm mốt tại fpt', '', 'với cái dịch vụ trọn đời đó về khi trễ rồi pin thì có phải là chị', '', 'trễ chi phí 200000 nay hay không', '', 'thì bây giờ chị muốn xác nhận lại 2 bên 1 nếu như công ty hay là của em há', '', 'nè', '', 'trễ bảo chị trễ 200000 tiền thay pin á thì là cái vấn đề là từ họ đúng không', '', 'nhưng nếu mà bên em nói 2021000 thì cái', '', 'kỳ ráng mà hồi trước mà', '', 'chị trễ để mà được hay bên trọn đời đó nói là hết dịch vụ', '', 'thì làm lại lại 1 câu chuyện khác', '', 'vậy bây giờ em với chị', '', 'nói chuyện với nhau 1 cách vậy nhe chị chị hỏi để xác nhận lại', '', 'chị còn xác nhận thông tin coi như cuộc gọi này chúng ta có sự à ghi - nội bộ', '', 'vốn tài sẽ', '', 'nói chuyện lại với nhau thì em cứ làm việc lại với bên kia còn 200000 nó không có nhiều với chị nó không có nhiều', '', 'nhưng', '', 'mình làm với', '', 'khách hàng thẻ ngay từ đầu em nói', '', 'chứ còn ngay từ đầu em đã nói là dịch vụ trọn đời thì nó sẽ trọn đời chứ em không đã nói', '', 'từ 52021 tới nay là hết là chị không đồng ý', '', 'đó tại vì người ta', '', 'khách hàng người ta cũng đi làm chứ tụi em đừng có nghĩ đặng thất hẹn là người ta có thể vài lúc nào cũng được nên', '', 'thôi chứ chị mua á chị cứ', '', 'cứ đánh đánh liều chị mua khó nhưng mà để xem thử là tụi em sẽ phản ứng như thế nào cho những 5 tiếp theo', '', 'thì em cứ nói đi chị bảo hành mấy chị vẫn bảo hành chứ không phải là không', '', 'đó thì em làm việc việc giải quyết bên kia em chuyển về công ty để các bạn kiểm tra về vấn đề các bạn tư vấn tại vì nhân viên cửa hàng đóng như thế nào thì em không biết được', '', 'em kiểm tra thì thấy', '', 'mình đã hết thời gian bảo hành thì em báo cho mình gọi hotline ảnh thôi chị nguyên có đây nhưng mà nó bảo', '', 'bảo hành kỳ hết nhưng mà cái thay pin là trọn đời đúng không em tại vì trường hợp này', '', 'thì chị đang còn thay pin thôi mà tại vì máy của chị không thể hứa được bởi vì nó ở trong tủ mình nói trong cái cái cái cái cái cái hợp thì không thể nào mà nó hư được', '', 'chỉ trừ trường hợp chị thường xuyên chị sử dụng thì nó mất hư thôi', '', 'bởi vì cái thời điểm mà nó hết pin đó là chị', '', 'chị không có sử dụng nhiều chị khi nào mà chị đi dạy chị mới mang nữa thôi', '', 'là cũng không đổ nước nhiều hiện tại anh hứa hay không thì em chưa biết em thấy các bạn đang có phản hồi về tình trạng của máy và trầy cấn trầy cấn ô xy hóa vay võ á chị', '', 'trầy cấn ok hứa thì có sao đâu', '', 'thì miễn là mấy chạy là được em bỏ tiền vô nó chạy là được bây giờ em xác nhận bên đó hỏi là khi mà bảo payoo thì máy nó có chạy không họ có phải làm thêm cái gì không dạ vâng công ty mới trao đổi đây là cái vấn đề nhân viên tư vấn cho mình theo biên trọn đời hay không thì ở đây em chưa có kiểm tra được', '', 'tại vì em liên hệ cho mình liên hệ thống nhất bây giờ bây giờ chị mới nói chuyện với em nè em cứ hỏi lại chắc chắn đi em hỏi lại chắc chắn', '', 'vậy bây giờ nếu như mà họ họ bắt buộc chị phải trễ 200000 là em làm cho chị rõ vấn đề nha 1 là họ yêu cầu chị để cái tiền đó là trễ tiền bill hay như thế nào trong khi gói dịch vụ đó là', '', 'vay bên trọn đời', '', 'thứ 2 nếu bé trình mà thay pin đó máy của chị ô xy hóa cấn đó là nó sẽ không hoạt động nữa hay sao và họ có phải', '', 'thêm chi phí gì hay không mà họ', '', 'yêu cầu chị phải trả tiền', '', 'vài thứ 3 nếu như em nói đến 52023 nè chị đã hết', '', 'cái dịch vụ bảo hành', '', 'ủa điện thoại', '', 'nhưng mà tụi em đã nói với chị', '', 'là chúng ta thẻ có thay bên trọn đời', '', 'thì em cứ làm cho chị vay cái vấn đề đó xong em phản hồi lại với chị cũng được không vấn đề gì trễ bữa 2 bữa dạ vâng', '', 'ở đây chị cũng là 1 khách hàng cũng là 1 người mua hàng thôi', '', 'nên là chị cũng hy vọng là em sẽ giúp chị làm rõ cái vấn đề nếu như mà tụi em giải quyết ổn thỏa chị cũng trễ hc không có vấn đề gì cả', '', 'còn không thì chị sẽ hỏi các bạn mà cùng mua á chị còn thời điểm đó thì', '', 'các bạn sẽ là như thế nào có phải giống như chị không', '', 'vậy thì đây là cắt tụi em làm dịch vụ là cách tụi em phản hồi khách hàng như vậy là không được rồi', '', 'đúng không bị trường hợp như vậy tụi em tụi em không có có có đúng là đúng theo siêu', '', 'sale trách nhiệm hồi trước tụi em nói với khách hàng rồi', '', 'vậy đâu thì hiện tại nếu như mà', '', 'à dạ rồi vậy mình đã gửi bảo đang nghe đây chị vẫn đang nghe', '', 'ừ dạ rồi vậy hiện tại em xin phép trao đổi luôn là ở đây em giải thích cho mình từng vấn đề theo thông tin bây giờ chị yêu cầu bên em kiểm tra và đóng để nhân viên tư vấn thanh nghiêm trọng rồi chắc chắn phải kiểm tra lại thì anh cho hỏi mình là hiện tại là đồng hồ của mình mình mua cố gắng 5 năm 2021', '', 'thời gian bảo hành 1 năm là tới ngày 17 tháng tư năm 2022 là thời gian đang cập nhật trên hệ thống bên em liên hệ cho mình để em thông báo là đồng hồ minh là nay hay mai hôm 2 3 thì tranh thủ mình đã hết thời gian bảo hành rồi còn vấn đề chị báo nhân viên lúc chị mua hàng nhân viên tư vấn cho mình là hiện tại bảo hành pin trọn đời thì để bên em kiểm tra lại thông tin này qua bên phía bên công ty em là lúc mà mua hàng công ty khó khăn trễ tránh này hay không thì em báo lại cho mình còn hiện tại cái thông tin mình yêu cầu chị nói với em chị không cần bảo hành ừ chị chỉ cần thay cái bill cho cái đồng hồ nó chạy lại được thôi em hiểu ý chị không', '', 'cho nên là hôm trước chị có vô chị phải nói với shop là hay biên chứ đồng hồ của chị chứ không hề nói là bảo hành', '', 'cho đến 2 cái vấn đề đó nó khác em không còn', '', 'bởi vì bên em nói với chị là bảo chừng cái lỗi sẽ thay pin trọn đời cho nên là mấy chị hết pin chị đem qua chị thấy biên lai', '', 'nhờ em gửi qua bên hẹn 2 lần', '', 'thì lần thứ nhất chị mua về máy bị lỗi cho nên nay chị mới bảo là gửi vào cho hạn xem lại', '', 'lần thứ 2 tụi em cũng không có', '', 'hết bill thì bây giờ chị nhờ em gởi lại trong hẹn thì bên fpt để đồng ý với chị như vậy chị làm như vậy thôi chị thấy chị không có vấn đề gì trễ còn vấn đề tụi em nói với chị hết bảo hành', '', 'thì', '', 'không chạy chương trình kia nữa thì cái đó là vấn đề của tụi em', '', 'nên là em cứ làm việc lại với bên kia đi em xác nhận lại xem thử hôm bữa đó là chị yêu cầu là thay pin hay là bảo hành bởi vì chị không hề nói từ bảo hành', '', 'chị chị nói là thay giúp đi em cũng không có home credit để bảo hành đó chị em chỉ nói là máy của chị đã hết thời gian bảo hành thôi ạ chứ em không có nói vấn đề là thấy biên gì hết rồi', '', 'mà bây giờ thay pin á thì chương trình là trọn đời mà tại sao lại trễ tới 200000 chị đang thắc mắc vậy chị đã nói với em là 200000 nó không có cao', '', 'nhưng mà cái mà chị đang không có hài lòng đối chính là cái dịch vụ của tụi em đã đưa ra đó là', '', 'hứa với khách hàng rồi mà bây giờ tụi em lật ngược lại vấn đề là sao', '', 'chỗ đó là như thế nào', '', 'em nói với chị chỗ đó thôi từ đây mới chia sẻ để bên em kiểm tra lại với công ty á chị nguyên chưa chưa có nói gì tới cái vấn đề là mình', '', 'đấy', '', 'ừ', '', 'chị cũng không không có vay tụi em đâu bởi vì tụi em cũng trung giang thôi nhưng mà tụi em cứ hỏi với công ty bên kia để chắc chắn đi rồi phản hồi lại với chị', '', 'còn cái việc', '', 'trễ hay không đó là lúc đó chị sẽ làm việc lại sau nha', '', 'trường hợp chị cảm ơn nghe có thông tin sớm hơn thì mình cứ yên tâm dạ rồi cám ơn ừ đấy tụi em cứ làm rõ với bên kia đi', '', 'nếu mà bên kia người ta', '', 'người ta lật ngược vấn đề thì đó là lỗi của họ chứ không phải của tụi em', '', 'chị vẫn biết tụi em kiên giang không phải là', '', 'lỗi công ty kia nhé vâng có việc kinh tế nó cũng khó khăn thì ai cũng vậy thôi', '', 'em hiểu nha để bên em kiểm tra thêm rồi có thất bại luôn cho mình nên chị cứ yên tâm dạ', '', '', 'chào ừ ừ rồi chị cám ơn em trai', '', 'ờ ờ ờ'], 'language': 'vi', 'app_code': 'FRT-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FRT-GreetByeThank, Ec8b04bc3-c285-4841-9d9c-bcaa294593f3) (Ec8b04bc3-c285-4841-9d9c-bcaa294593f3)"
+        }
     },
     {
         "fileName": "'0987533759.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002661466598510742,
+        "time_load_info": 0.0027620792388916016,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -1626,7 +913,7 @@
     {
         "fileName": "0987306988.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028781890869140625,
+        "time_load_info": 0.0030832290649414062,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -2094,7 +1381,7 @@
     {
         "fileName": "0983834579.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025162696838378906,
+        "time_load_info": 0.0032732486724853516,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -2404,7 +1691,7 @@
     {
         "fileName": "0983624525.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026819705963134766,
+        "time_load_info": 0.0029401779174804688,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -2875,7 +2162,7 @@
     {
         "fileName": "'0982608711.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003972053527832031,
+        "time_load_info": 0.0028493404388427734,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -3318,7 +2605,7 @@
     {
         "fileName": "'0976833508.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003891468048095703,
+        "time_load_info": 0.003343820571899414,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -3761,7 +3048,7 @@
     {
         "fileName": "0976627542.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004006624221801758,
+        "time_load_info": 0.003446340560913086,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4204,7 +3491,7 @@
     {
         "fileName": "0974678796.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025348663330078125,
+        "time_load_info": 0.0035064220428466797,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -4642,7 +3929,7 @@
     {
         "fileName": "0967168282.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004567384719848633,
+        "time_load_info": 0.0027213096618652344,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5039,7 +4326,7 @@
     {
         "fileName": "0965845896.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002924203872680664,
+        "time_load_info": 0.003432035446166992,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -5734,7 +5021,7 @@
     {
         "fileName": "0965817021.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002504587173461914,
+        "time_load_info": 0.0033295154571533203,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -6348,7 +5635,7 @@
     {
         "fileName": "0965637637.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0038254261016845703,
+        "time_load_info": 0.0034554004669189453,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -6961,7 +6248,7 @@
     {
         "fileName": "'0964810880.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0031991004943847656,
+        "time_load_info": 0.0034186840057373047,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -7591,7 +6878,7 @@
     {
         "fileName": "'0961452324.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027751922607421875,
+        "time_load_info": 0.0031824111938476562,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -8034,7 +7321,7 @@
     {
         "fileName": "'0948552112.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025818347930908203,
+        "time_load_info": 0.002620220184326172,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8474,7 +7761,7 @@
     {
         "fileName": "0948552112.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0038988590240478516,
+        "time_load_info": 0.0031654834747314453,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -8914,7 +8201,7 @@
     {
         "fileName": "0932713789.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004316806793212891,
+        "time_load_info": 0.0034940242767333984,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -9285,7 +8572,7 @@
     {
         "fileName": "0918770649.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0037145614624023438,
+        "time_load_info": 0.002941131591796875,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -9878,7 +9165,7 @@
     {
         "fileName": "'0918281590.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027511119842529297,
+        "time_load_info": 0.0032896995544433594,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -10275,7 +9562,7 @@
     {
         "fileName": "0916520752.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002648591995239258,
+        "time_load_info": 0.003551959991455078,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -10938,7 +10225,7 @@
     {
         "fileName": "0914353431.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004485607147216797,
+        "time_load_info": 0.0026273727416992188,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -11361,7 +10648,7 @@
     {
         "fileName": "0911571449.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003745555877685547,
+        "time_load_info": 0.0030395984649658203,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -11855,7 +11142,7 @@
     {
         "fileName": "0908697398.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0039064884185791016,
+        "time_load_info": 0.0032358169555664062,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -12436,7 +11723,7 @@
     {
         "fileName": "'0908582102.wav",
         "agentChannel": 2,
-        "time_load_info": 0.007292985916137695,
+        "time_load_info": 0.002955913543701172,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13014,7 +12301,7 @@
     {
         "fileName": "'0906782428.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0032083988189697266,
+        "time_load_info": 0.00388336181640625,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13455,7 +12742,7 @@
     {
         "fileName": "0905467633.wav",
         "agentChannel": 2,
-        "time_load_info": 0.004010915756225586,
+        "time_load_info": 0.0041615962982177734,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -13929,7 +13216,7 @@
     {
         "fileName": "'0903207716.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00423884391784668,
+        "time_load_info": 0.0030565261840820312,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -14808,7 +14095,7 @@
     {
         "fileName": "'0902448915.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002757549285888672,
+        "time_load_info": 0.002805471420288086,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15170,7 +14457,7 @@
     {
         "fileName": "0867903679.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0032889842987060547,
+        "time_load_info": 0.0044362545013427734,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -15482,7 +14769,7 @@
     {
         "fileName": "0866285863.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0031015872955322266,
+        "time_load_info": 0.003900289535522461,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -15976,7 +15263,7 @@
     {
         "fileName": "'0833033796.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030393600463867188,
+        "time_load_info": 0.0033881664276123047,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -16246,7 +15533,7 @@
     {
         "fileName": "0826300993.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028107166290283203,
+        "time_load_info": 0.003833770751953125,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -16371,7 +15658,7 @@
     {
         "fileName": "0812644176.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030014514923095703,
+        "time_load_info": 0.0037474632263183594,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -17014,7 +16301,7 @@
     {
         "fileName": "'0793639753.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0026895999908447266,
+        "time_load_info": 0.0027246475219726562,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -17937,7 +17224,7 @@
     {
         "fileName": "0792202742.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003733396530151367,
+        "time_load_info": 0.003106832504272461,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -18493,7 +17780,7 @@
     {
         "fileName": "'0788844724.wav",
         "agentChannel": 2,
-        "time_load_info": 0.005376577377319336,
+        "time_load_info": 0.0029811859130859375,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -19204,7 +18491,7 @@
     {
         "fileName": "0763061174.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003344297409057617,
+        "time_load_info": 0.0042836666107177734,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -19877,7 +19164,7 @@
     {
         "fileName": "0707635220.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0027201175689697266,
+        "time_load_info": 0.00423884391784668,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -20485,7 +19772,7 @@
     {
         "fileName": "'0582643601.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0028073787689208984,
+        "time_load_info": 0.0025653839111328125,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -20755,7 +20042,7 @@
     {
         "fileName": "0559686312.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003912925720214844,
+        "time_load_info": 0.0026323795318603516,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -21152,7 +20439,7 @@
     {
         "fileName": "0392550943.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003670215606689453,
+        "time_load_info": 0.0026869773864746094,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -21682,7 +20969,7 @@
     {
         "fileName": "'0377842451.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003814697265625,
+        "time_load_info": 0.005118370056152344,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -21927,7 +21214,7 @@
     {
         "fileName": "0376882496.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0033380985260009766,
+        "time_load_info": 0.0031642913818359375,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -22421,7 +21708,7 @@
     {
         "fileName": "0375235135.wav",
         "agentChannel": 2,
-        "time_load_info": 0.00299835205078125,
+        "time_load_info": 0.0031692981719970703,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -23143,7 +22430,7 @@
     {
         "fileName": "0356733399.wav",
         "agentChannel": 2,
-        "time_load_info": 0.003720521926879883,
+        "time_load_info": 0.0029306411743164062,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -23511,7 +22798,7 @@
     {
         "fileName": "0348475410.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0034530162811279297,
+        "time_load_info": 0.003286600112915039,
         "agentIntroduce": {
             "evaluate": "no",
             "evaluate_channel": {
@@ -23923,7 +23210,7 @@
     {
         "fileName": "0333568486.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0025022029876708984,
+        "time_load_info": 0.0030095577239990234,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -24417,7 +23704,7 @@
     {
         "fileName": "0333047931.wav",
         "agentChannel": 2,
-        "time_load_info": 0.0030257701873779297,
+        "time_load_info": 0.002511262893676758,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {
@@ -24789,7 +24076,7 @@
     {
         "fileName": "0332265885.wav",
         "agentChannel": 2,
-        "time_load_info": 0.002694845199584961,
+        "time_load_info": 0.002660989761352539,
         "agentIntroduce": {
             "evaluate": "yes",
             "evaluate_channel": {

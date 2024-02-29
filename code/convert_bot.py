@@ -2,7 +2,7 @@ from ast import Not
 from calendar import c
 import json
 
-file_path = "E:\\poc_frt_flc\\data_bot\\"
+file_path = "/home/dungca/Desktop/poc_frt_flc/data_bot/"
 
 BOT_NAME = input("Enter json file name to convert, without .json: ")
 
